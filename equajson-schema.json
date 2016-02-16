@@ -1,0 +1,162 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+        "copying": {
+            "additionalProperties": false,
+            "description": "Information on licensing and copyright.",
+            "properties": {
+                "authors": {
+                    "description": "List of the people who wrote the CmdOyster, not necessarily the command itself.",
+                    "items": {
+                        "description": "Full name of person.",
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "license-name": {
+                    "description": "Usually a free software license, such as GPL, BSD, or MIT.",
+                    "type": "string"
+                },
+                "license-url": {
+                    "description": "Link to the text of the license, usually HTTP.",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "year": {
+                    "description": "Year the CmdOyster was first written.",
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "authors",
+                "license-name",
+                "year"
+            ],
+            "type": "object"
+        },
+        "description": {
+            "additionalProperties": false,
+            "description": "Textual description of the equation.",
+            "properties": {
+                "terse": {
+                    "description": "Description text that is 80 characters or less.",
+                    "maxLength": 80,
+                    "type": "string"
+                },
+                "verbose": {
+                    "description": "The full text of the description. Don't add hard linebreaks; let the output formatter decide how to do that. Required field.",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "verbose"
+            ],
+            "type": "object"
+        },
+        "markup": {
+            "description": "Textual representation of the equation in various markup languages.",
+            "items": {
+                "additionalProperties": false,
+                "description": "The markup object.",
+                "properties": {
+                    "markup": {
+                        "description": "The markup text for the equation.",
+                        "type": "string"
+                    },
+                    "urls": {
+                        "additionalItems": false,
+                        "description": "Links to the markup text.",
+                        "items": {
+                            "description": "Actual URL, usually HTTP.",
+                            "format": "uri",
+                            "type": "string"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "markup"
+                ],
+                "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+        },
+        "related-equations": {
+            "description": "UUIDs of other equations that are related to this one.",
+            "items": {
+                "additionalProperties": false,
+                "properties": {
+                    "uuid": {
+                        "description": "Universally unique identifier of related command.",
+                        "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "uuid"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "relevant-urls": {
+            "description": "List of URLs that discuss the equation and its properties.",
+            "items": {
+                "additionalProperties": false,
+                "minItems": 1,
+                "properties": {
+                    "date-known-good": {
+                        "format": "date",
+                        "type": "string"
+                    },
+                    "url": {
+                        "format": "uri",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "url"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "unicode-pretty-print": {
+            "additionalProperties": false,
+            "description": "Human-readable representation of the equations with Unicode text.",
+            "properties": {
+                "multiline" : {
+                    "additionalItems": false,
+                    "description": "An array of strings that show the equation two-dimensionally. Uses an array instead of a multiline string for portability reasons.",
+                    "items": {
+                        "description": "Horizontal slice of the equation.",
+                        "type": "string"
+                    },
+                    "minItems": 1,
+                    "type": "array"
+                },
+                "one-line" : {
+                    "description": "Textual representation of the equation on a single line. May contain many nested parentheses.",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "multiline",
+                "one-line"
+            ],
+            "type": "object"
+        },
+        "uuid": {
+            "description": "Universally Unique Identifier for this CmdOyster.",
+            "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$",
+            "type": "string"
+        }
+    },
+    "required": [
+        "description",
+        "unicode-pretty-print",
+        "uuid"
+    ],
+    "type": "object"
+}
