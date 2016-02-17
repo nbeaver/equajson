@@ -1,0 +1,58 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Area of a regular polygon.",
+        "verbose": "The total are of a regular convex polygon."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$A = \\frac{1}{4} n l^2 \\cot{\\frac{\\pi}{n}}$"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Regular_polygon#Regular_convex_polygons"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "     1         ⎛π⎞",
+            "A =  ― n l² cot⎜―⎟",
+            "     4         ⎝n⎠"
+        ],
+        "one-line": "A = (1/4) n l² cot(π/n)",
+        "parameters": {
+            "A": {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "area"
+            },
+            "n": {
+                "always-an-integer": true,
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "number of sides"
+            },
+            "l": {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "length of side"
+            },
+            "π": {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "diametric circle constant"
+            }
+        }
+    },
+    "uuid": "c49199c3-9220-4f2a-8d91-452012d240da"
+}
