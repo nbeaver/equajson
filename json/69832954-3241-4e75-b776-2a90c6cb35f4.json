@@ -1,0 +1,93 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "plane wave",
+        "verbose": "Plane wave solution to the Schrödinger equation, propagating in the positive x direction."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\psi = e^{i(k x - \\omega t)}"
+            },
+            {
+                "markup": "\\psi = \\exp(i(k x - \\omega t))"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Plane_wave"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "ψ = exp(i(kx − ωt)"
+        ],
+        "one-line": "ψ = exp(i(kx − ωt)",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "wavefunction",
+                "symbol": "ψ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Wave_function"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "exponential function",
+                "symbol": "exp"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "√-1",
+                "symbol": "i",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Imaginary_unit"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "wavenumber",
+                "symbol": "k",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Wavenumber"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "position on x-axis",
+                "symbol": "x"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "angular frequency",
+                "symbol": "ω",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Angular_frequency"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "time",
+                "symbol": "t"
+            }
+        ]
+    },
+    "uuid": "69832954-3241-4e75-b776-2a90c6cb35f4"
+}
