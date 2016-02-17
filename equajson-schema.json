@@ -7,7 +7,7 @@
             "description": "Information on licensing and copyright.",
             "properties": {
                 "authors": {
-                    "description": "List of the people who wrote the CmdOyster, not necessarily the command itself.",
+                    "description": "List of the people who wrote the JSON, not the equation itself.",
                     "items": {
                         "description": "Full name of person.",
                         "type": "string"
@@ -24,7 +24,7 @@
                     "type": "string"
                 },
                 "year": {
-                    "description": "Year the CmdOyster was first written.",
+                    "description": "Year the JSON was first written.",
                     "type": "integer"
                 }
             },
@@ -149,7 +149,7 @@
             "type": "object"
         },
         "uuid": {
-            "description": "Universally Unique Identifier for this CmdOyster.",
+            "description": "Universally Unique Identifier for this equation.",
             "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$",
             "type": "string"
         }
