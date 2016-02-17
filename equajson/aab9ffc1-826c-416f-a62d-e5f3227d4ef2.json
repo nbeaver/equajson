@@ -11,7 +11,7 @@
         "terse": "Quadratic formula",
         "verbose": "Quadratic formula, the two solutions to the quadractic equation."
     },
-    "markup": {
+    "markup-languages": {
         "AsciiMathML": [
             {
                 "markup": "(-b +- sqrt(b^2 - 4a c)) / (2a)",
@@ -37,7 +37,7 @@
             }
         ]
     },
-    "relevant-links": {
+    "relevant-urls": {
         {
             "date-known-good": "2016-02-14",
             "url": "http://mathworld.wolfram.com/QuadraticFormula.html"
@@ -61,22 +61,22 @@
         "one-line": "x = (−b ± √b²-4ac)/(2a)",
         "parameters": {
             "a" : {
-                "description": "Quadratic coefficient",
+                "label": "Quadratic coefficient",
                 "dimensionless": true,
                 "fixed-constant": false
             },
             "b" : {
-                "description": "Linear coefficient",
+                "label": "Linear coefficient",
                 "dimensionless": true,
                 "fixed-constant": false
             },
             "c" : {
-                "description": "Constant coefficient",
+                "label": "Constant coefficient",
                 "dimensionless": true,
                 "fixed-constant": false
             },
             "x" : {
-                "description": "Variable",
+                "label": "Variable",
                 "dimensionless": true,
                 "fixed-constant": false
             }
