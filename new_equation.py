@@ -15,6 +15,10 @@ def get_year():
     now = datetime.datetime.now()
     return now.year
 
+def get_iso_date():
+    now = datetime.datetime.now()
+    return now.strftime('%Y-%m-%d')
+
 def get_username():
     try:
         # POSIX only
@@ -51,6 +55,7 @@ equajson = \
     },
     "relevant-urls": [
         {
+            "date-known-good": get_iso_date()
             "url": "<FIXME>"
         }
     ],
