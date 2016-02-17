@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "(f * g)(t) = \\int \\limits_{-\\infty}^{\\infty} \\! f(u) g(x-u) \\, \\mathrm{d} u"
+                "markup": "$(f * g)(t) = \\int \\limits_{-\\infty}^{\\infty} \\! f(u) g(x-u) \\, \\mathrm{d} u$"
             }
         ]
     },

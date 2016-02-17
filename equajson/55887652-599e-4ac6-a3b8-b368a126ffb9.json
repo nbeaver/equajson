@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "c^2 = a^2 + b^2 - 2 a b \\cos{\\theta}"
+                "markup": "$c^2 = a^2 + b^2 - 2 a b \\cos{\\theta}$"
             }
         ]
     },
