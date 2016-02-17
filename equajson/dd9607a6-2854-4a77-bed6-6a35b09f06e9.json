@@ -78,7 +78,7 @@
                 ]
             },
             "M" : {
-                "label": "central mass or mass of other body in binary system.",
+                "label": "central mass or mass of other body in binary system",
                 "dimensionless": false,
                 "fixed-constant": false
             },

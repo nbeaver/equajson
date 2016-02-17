@@ -61,22 +61,22 @@
         "one-line": "x = (−b ± √b²-4ac)/(2a)",
         "parameters": {
             "a" : {
-                "label": "Quadratic coefficient",
+                "label": "quadratic coefficient",
                 "dimensionless": true,
                 "fixed-constant": false
             },
             "b" : {
-                "label": "Linear coefficient",
+                "label": "linear coefficient",
                 "dimensionless": true,
                 "fixed-constant": false
             },
             "c" : {
-                "label": "Constant coefficient",
+                "label": "constant coefficient",
                 "dimensionless": true,
                 "fixed-constant": false
             },
             "x" : {
-                "label": "Variable",
+                "label": "variable",
                 "dimensionless": true,
                 "fixed-constant": false
             }
