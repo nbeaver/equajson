@@ -64,15 +64,6 @@
                 ]
             },
             {
-                "label": "diametric circle constant",
-                "dimensionless": true,
-                "fixed-constant": true,
-                "symbol": "π",
-                "urls": [
-                    "https://en.wikipedia.org/wiki/Pi"
-                ]
-            },
-            {
                 "label": "gravitational constant",
                 "dimensionless": false,
                 "fixed-constant": true,
@@ -92,6 +83,15 @@
                 "dimensionless": false,
                 "fixed-constant": false,
                 "symbol": "m"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "3.14159…",
+                "symbol": "π",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Pi"
+                ]
             }
         ]
     },

@@ -54,6 +54,15 @@
                 "fixed-constant": false,
                 "label": "average decay rate in interval",
                 "symbol": "N"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "3.14159…",
+                "symbol": "π",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Pi"
+                ]
             }
         ]
     },

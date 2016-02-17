@@ -53,8 +53,11 @@
             {
                 "dimensionless": true,
                 "fixed-constant": true,
-                "label": "diametric circle constant",
-                "symbol": "π"
+                "label": "3.14159…",
+                "symbol": "π",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Pi"
+                ]
             }
         ]
     },
