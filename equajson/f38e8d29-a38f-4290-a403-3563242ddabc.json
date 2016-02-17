@@ -1,0 +1,77 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Normal distribution",
+        "verbose": "Definition of the continuous probability density function for the normal Gaussian proability distribution. Informally, the bell curve."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "<FIXME>"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "<FIXME>"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "          1      ⎛  (x−μ)²⎞",
+            "P(x) = ―――――― exp⎜− ――――――⎟",
+            "       σ√(2π)    ⎝    2σ² ⎠"
+        ],
+        "one-line": "P(x) = 1/(σ√(2π)) exp(−(x−μ)²/(2σ²))",
+        "parameters": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "probability",
+                "symbol": "P"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "independent variable",
+                "symbol": "x"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "mean",
+                "symbol": "μ"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "standard deviation",
+                "symbol": "σ"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "exponential function",
+                "symbol": "exp"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "3.14159…",
+                "symbol": "π",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Pi"
+                ]
+            }
+        ]
+    },
+    "uuid": "f38e8d29-a38f-4290-a403-3563242ddabc"
+}
