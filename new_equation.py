@@ -66,7 +66,7 @@ equajson = \
             "<FIXME>",
         ],
         "one-line": "<FIXME>",
-        "parameters": [
+        "terms": [
             {
                 "label": "<FIXME>",
                 "dimensionless": "<FIXME>",
