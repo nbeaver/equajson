@@ -1,0 +1,44 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Small angle approximation",
+        "verbose": "Small angle approximation for cosine. Based on leading terms of the Taylor or Maclaurin series expansion for the trigonometric function."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\cos x \\approx 1 - \\frac{x^2}{2}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Small-angle_approximation"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "              x²",
+            "cos(x) ≈ 1 − ‒‒‒",
+            "              2 "
+        ],
+        "one-line": "cos(x) ≈ 1 − x²/2",
+        "parameters": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "angle",
+                "symbol": "x"
+            }
+        ]
+    },
+    "uuid": "07e29680-34c3-4441-952a-c73dd92f5ca5"
+}
