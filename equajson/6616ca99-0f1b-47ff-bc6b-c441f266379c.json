@@ -1,0 +1,104 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Laplacian in spherical coordinates",
+        "verbose": "The Laplace differential operator in Euclidean space for a function expressed in spherical coordinates, also called the Laplacian. Equal to the divergence of the gradiant."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\nabla^2 f = \\frac{1}{r} \\frac{\\partial}{\\partial r} \\left(r \\frac{\\partial f}{\\partial r} \\right) + \\frac{1}{r^2 \\sin \\theta} \\frac{\\partial}{\\partial \\theta} \\left( \\sin \\theta \\frac{\\partial f}{\\partial \\theta} \\right) + \\frac{1}{r^2 \\sin^2\\theta} \\frac{\\partial^2 f}{\\partial \\varphi^2}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Laplace_operator"
+        },
+        {
+            "date-known-good": "2016-02-17",
+            "url": "http://mathworld.wolfram.com/Laplacian.html"
+        },
+        {
+            "date-known-good": "2016-02-17",
+            "url": "http://www.math.toronto.edu/courses/apm346h1/20129/L22.html"
+        },
+        {
+            "date-known-good": "2016-02-17",
+            "url": "http://planetmath.org/derivationofthelaplacianfromrectangulartosphericalcoordinates"
+        },
+        {
+            "date-known-good": "2016-02-17",
+            "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/lapl.html"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "      1 ∂  ⎛  ∂ƒ⎞      1   ∂  ⎛     ∂ƒ⎞     1    ∂²ƒ",
+            "∇²ƒ = ― ―― ⎜r ――⎟ + ―――――― ―― ⎜sinθ ――⎟+ ――――――― ―――",
+            "      r ∂r ⎝  ∂r⎠   r²sinθ ∂θ ⎝     ∂θ⎠  r²sin²θ ∂φ²"
+        ],
+        "one-line": "∇²ƒ = (1/r) (∂/∂r)(r ∂ƒ/∂r) + (1/r²sinθ)(∂/∂θ)(sinθ ∂ƒ/∂θ) + (1/r²sin²θ)(∂²ƒ/∂φ²)",
+        "parameters": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "Laplacian",
+                "symbol": "∇²",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Laplace_operator"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "function in spherical coordinates",
+                "symbol": "ƒ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "radius",
+                "symbol": "r"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "partial derivative",
+                "symbol": "∂",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/%E2%88%82"
+                ]
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "zenith angle, spans π radian",
+                "symbol": "θ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Spherical_coordinate_system",
+                    "https://en.wikipedia.org/wiki/Zenith"
+                ]
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "azimuthal angle, spans 2π radian",
+                "symbol": "φ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Spherical_coordinate_system",
+                    "https://en.wikipedia.org/wiki/Azimuth"
+                ]
+            }
+        ]
+    },
+    "uuid": "6616ca99-0f1b-47ff-bc6b-c441f266379c"
+}
