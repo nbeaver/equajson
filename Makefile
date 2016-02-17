@@ -1,3 +1,3 @@
 all:
-	jsonlint equajson-schema.json
-	jsonschema equajson-schema.json
+	jsonlint schema.json
+	jsonschema schema.json
