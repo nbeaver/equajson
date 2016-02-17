@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 from __future__ import print_function
 
 import datetime
@@ -92,7 +92,7 @@ equajson = \
 
 root = sys.path[0]
 new_filename = new_uuid + '.json'
-new_filepath = os.path.join(root, 'equajson', new_filename)
+new_filepath = os.path.join(root, 'json', new_filename)
 with open(new_filepath, 'w') as new_file:
     json.dump(equajson, new_file, indent=4, separators=(',', ': '), sort_keys=True)
     print('Created new equation:\n{}'.format(new_filepath))
