@@ -55,7 +55,7 @@ equajson = \
     },
     "relevant-urls": [
         {
-            "date-known-good": get_iso_date()
+            "date-known-good": get_iso_date(),
             "url": "<FIXME>"
         }
     ],
