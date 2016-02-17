@@ -46,7 +46,7 @@
         "one-line": "T²/a³ = 4π²/( G(M + m) )",
         "parameters": {
             "T" : {
-                "description": "Duration of orbital period",
+                "label": "duration of orbital period",
                 "dimensionless": false,
                 "fixed-constant": false,
                 "urls": [
@@ -54,7 +54,7 @@
                 ]
             },
             "a" : {
-                "description": "Semi-major axis distance",
+                "label": "semi-major axis distance",
                 "dimensionless": false,
                 "fixed-constant": false,
                 "urls": [
@@ -62,7 +62,7 @@
                 ]
             },
             "π" : {
-                "description": "Diametric circle constant",
+                "label": "diametric circle constant",
                 "dimensionless": true,
                 "fixed-constant": true,
                 "urls": [
@@ -70,7 +70,7 @@
                 ]
             },
             "G" : {
-                "description": "Gravitational constant",
+                "label": "gravitational constant",
                 "dimensionless": false,
                 "fixed-constant": true,
                 "urls": [
@@ -78,12 +78,12 @@
                 ]
             },
             "M" : {
-                "description": "Central mass or mass of other body in binary system.",
+                "label": "central mass or mass of other body in binary system.",
                 "dimensionless": false,
                 "fixed-constant": false
             },
             "m" : {
-                "description": "Orbiting mass",
+                "label": "orbiting mass",
                 "dimensionless": false,
                 "fixed-constant": false
             }
