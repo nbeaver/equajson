@@ -21,6 +21,14 @@
             }
         ]
     },
+    "related-equations": [
+        {
+            "uuid": "0b5bd0c2-5fef-4834-8cd4-976510116098"
+        },
+        {
+            "uuid": "b7fc55c1-b398-47af-868d-0aa812c68b4c"
+        }
+    ],
     "relevant-urls": [
         {
             "date-known-good": "2016-02-17",
