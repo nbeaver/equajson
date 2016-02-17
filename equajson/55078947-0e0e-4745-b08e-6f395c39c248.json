@@ -1,0 +1,68 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "volume of conical frustum",
+        "verbose": "Volume of a right, circular, conical frustum. The shape of the frustum is a cone with the tip cut off."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "V = \\frac{\\pi h}{3} (R_1^2 + R_1 R_2 + R_2^2)"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Frustum"
+        },
+        {
+            "url": "http://mathworld.wolfram.com/ConicalFrustum.html"
+        },
+        {
+            "url": "http://jwilson.coe.uga.edu/emt725/Frustum/Frustum.cone.html"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "    π h                    ",
+            "V = ――― (R₁² + R₁ R₂ + R₂²)",
+            "     3                     "
+        ],
+        "one-line": "V = (πh/3)(R₁² + R₁ R₂ + R₂²)",
+        "parameters": {
+            "V": {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "volume of frustum"
+            },
+            "π": {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "Diametric circle constant."
+            },
+            "h": {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "height of frustum"
+            },
+            "R₁": {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "radius of base"
+            },
+            "R₂": {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "radius of cap"
+            }
+        }
+    },
+    "uuid": "55078947-0e0e-4745-b08e-6f395c39c248"
+}

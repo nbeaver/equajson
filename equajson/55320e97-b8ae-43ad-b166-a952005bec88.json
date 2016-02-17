@@ -1,0 +1,47 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Binomial approximation",
+        "verbose": "Binomial approximation; based on the linear approximation. Used in many derivations."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$(1+x)^n \\approx 1 + n x$"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Binomial_approximation"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "(1+x)ⁿ ≈ 1 + nx"
+        ],
+        "one-line": "(1+x)ⁿ ≈ 1 + nx",
+        "parameters": {
+            "x": {
+                "always-an-integer": false,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "A real number close to 0."
+            },
+            "n": {
+                "always-an-integer": false,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "Power to raise the expression to."
+            }
+        }
+    },
+    "uuid": "55320e97-b8ae-43ad-b166-a952005bec88"
+}
