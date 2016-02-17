@@ -1,0 +1,62 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Law of Cosines",
+        "verbose": "Law of cosines for a triangle with known sides and enclosed angle. Valid for Euclidean geometry only."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "c^2 = a^2 + b^2 - 2 a b \\cos{\\theta}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "url": "https://en.wikipedia.org/wiki/Law_of_cosines"
+        },
+        {
+            "url": "http://mathworld.wolfram.com/LawofCosines.html"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "c² = a² + b² − 2 a b cos(θ)"
+        ],
+        "one-line": "c² = a² + b² − 2 a b cos(θ)",
+        "parameters": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "side opposite θ",
+                "symbol": "c"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "side enclosing θ",
+                "symbol": "a"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "other side enclosing θ",
+                "symbol": "b"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "angle opposite side c",
+                "symbol": "θ"
+            }
+        ]
+    },
+    "uuid": "55887652-599e-4ac6-a3b8-b368a126ffb9"
+}
