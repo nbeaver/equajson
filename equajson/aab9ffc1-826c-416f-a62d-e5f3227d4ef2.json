@@ -37,7 +37,7 @@
             }
         ]
     },
-    "relevant-urls": {
+    "relevant-urls": [
         {
             "date-known-good": "2016-02-14",
             "url": "http://mathworld.wolfram.com/QuadraticFormula.html"
@@ -50,7 +50,7 @@
             "date-known-good": "2016-02-14",
             "url": "https://en.wikipedia.org/wiki/Quadratic_formula"
         }
-    },
+    ],
     "unicode-pretty-print": {
         "multiline": [
             "            ______  ",
@@ -80,6 +80,7 @@
                 "dimensionless": true,
                 "fixed-constant": false
             }
+        }
     },
     "uuid": "aab9ffc1-826c-416f-a62d-e5f3227d4ef2"
 }
