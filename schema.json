@@ -55,7 +55,6 @@
             "type": "object"
         },
         "markup-languages": {
-            "description": "Representation of the equation in various markup languages.",
             "additionalProperties": {
                 "additionalItems": false,
                 "description": "List of representations for a particular markup language, such as LaTeX.",
@@ -84,6 +83,7 @@
                 },
                 "type": "array"
             },
+            "description": "Representation of the equation in various markup languages.",
             "type": "object"
         },
         "related-equations": {
@@ -131,7 +131,7 @@
             "additionalProperties": false,
             "description": "Human-readable representation of the equations with Unicode text.",
             "properties": {
-                "multiline" : {
+                "multiline": {
                     "additionalItems": false,
                     "description": "An array of strings that show the equation two-dimensionally. Uses an array instead of a multiline string for portability reasons.",
                     "items": {
@@ -141,12 +141,11 @@
                     "minItems": 1,
                     "type": "array"
                 },
-                "one-line" : {
+                "one-line": {
                     "description": "Textual representation of the equation on a single line. May contain many nested parentheses.",
                     "type": "string"
                 },
-                "terms" : {
-                    "description": "Descriptions and properties of the constants, variables, functions, and other components of the equation. Must be an array to preserve order.",
+                "terms": {
                     "additionalItems": {
                         "additionalProperties": false,
                         "description": "The term itself.",
@@ -154,10 +153,6 @@
                             "always-an-integer": {
                                 "description": "True if the quantity must be an integer or subset thereof such as a natural number.",
                                 "type": "boolean"
-                            },
-                            "label": {
-                                "description": "Short description of the quantity, suitable for an 'where x is the ...' type statement.",
-                                "type": "string"
                             },
                             "dimensionless": {
                                 "description": "True if the quantity is dimensionless.",
@@ -167,11 +162,15 @@
                                 "description": "True if the quantity has a fixed numeric value, such as π, √2, or the speed of light.",
                                 "type": "boolean"
                             },
+                            "label": {
+                                "description": "Short description of the quantity, suitable for an 'where x is the ...' type statement.",
+                                "type": "string"
+                            },
                             "symbol": {
                                 "description": "The symbol for the quantity.",
                                 "type": "string"
                             },
-                            "urls":{
+                            "urls": {
                                 "additionalItems": false,
                                 "description": "List of URLs directly about the quantity.",
                                 "items": {
@@ -188,6 +187,7 @@
                         ],
                         "type": "object"
                     },
+                    "description": "Descriptions and properties of the constants, variables, functions, and other components of the equation. Must be an array to preserve order.",
                     "minItems": 1,
                     "type": "array"
                 }
