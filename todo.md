@@ -1,5 +1,5 @@
 
-equajson-schema.json
-====================
+schema.json
+===========
 
 -   [ ] Example values in SI units.
