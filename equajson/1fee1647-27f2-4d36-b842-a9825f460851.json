@@ -1,0 +1,48 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Linear approximation",
+        "verbose": "The linear (affine) approxmation for a twice differentiable function of one variable."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "f(x) \\approx f(a) + f'(a)(x-a)"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Linear_approximation"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "f(x) ≈ f(a) + f'(a)(x-a)"
+        ],
+        "one-line": "f(x) ≈ f(a) + f'(a)(x-a)",
+        "parameters": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "independent variable",
+                "symbol": "x"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "point of tangency",
+                "symbol": "a"
+            }
+        ]
+    },
+    "uuid": "1fee1647-27f2-4d36-b842-a9825f460851"
+}
