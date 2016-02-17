@@ -11,7 +11,7 @@
         "terse": "Angstrom",
         "verbose": "Ångström. Symbol for the angstrom unit of length."
     },
-    "markup": {
+    "markup-languages": {
         "HTML": [
             {
                 "markup": "&Aring;",
@@ -48,16 +48,16 @@
                 ]
             }
         ],
-        "Mathematica": {
+        "Mathematica": [
             {
                 "markup": "\\[Angstrom]",
                 "urls": [
                     "http://reference.wolfram.com/language/ref/character/Angstrom.html"
                 ]
             }
-        }
+        ]
     },
-    "relevant-links": {
+    "relevant-urls": [
         {
             "date-known-good": "2016-02-16",
             "url": "http://unicode.org/cldr/utility/character.jsp?a=%E2%84%AB&B1=Show"
@@ -66,7 +66,7 @@
             "date-known-good": "2016-02-16",
             "url": "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m"
         }
-    },
+    ],
     "unicode-pretty-print": {
         "multiline": [
             "Å"
