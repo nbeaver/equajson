@@ -7,7 +7,6 @@ timestamps:
 	mkdir timestamps
 
 timestamps/%.timestamp : %.json
-	jsonlint $<
 	../validate_equajson.py $< ../equajson-schema.json
 	touch $@ # update the timestamp only if validation succeeds
 
