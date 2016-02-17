@@ -54,34 +54,37 @@
             ],
             "type": "object"
         },
-        "markup": {
-            "description": "Textual representation of the equation in various markup languages.",
-            "items": {
-                "additionalProperties": false,
-                "description": "The markup object.",
-                "properties": {
-                    "markup": {
-                        "description": "The markup text for the equation.",
-                        "type": "string"
-                    },
-                    "urls": {
-                        "additionalItems": false,
-                        "description": "Links to the markup text.",
-                        "items": {
-                            "description": "Actual URL, usually HTTP.",
-                            "format": "uri",
+        "markup-languages": {
+            "description": "Representation of the equation in various markup languages.",
+            "additionalProperties": {
+                "additionalItems": false,
+                "description": "List of representations for a particular markup language, such as LaTeX.",
+                "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "markup": {
+                            "description": "The markup text for the equation.",
                             "type": "string"
                         },
-                        "type": "array"
-                    }
+                        "urls": {
+                            "additionalItems": false,
+                            "description": "Links to the markup text.",
+                            "items": {
+                                "description": "Actual URL, usually HTTP.",
+                                "format": "uri",
+                                "type": "string"
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "required": [
+                        "markup"
+                    ],
+                    "type": "object"
                 },
-                "required": [
-                    "markup"
-                ],
-                "type": "object"
+                "type": "array"
             },
-            "minItems": 1,
-            "type": "array"
+            "type": "object"
         },
         "related-equations": {
             "description": "UUIDs of other equations that are related to this one.",
