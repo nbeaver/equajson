@@ -20,7 +20,7 @@ def pretty_print(equation):
 
 def main(query):
     here = sys.path[0]
-    json_dir = os.path.join(here, 'equajson')
+    json_dir = os.path.join(here, 'json')
 
     for filename in os.listdir(json_dir):
         if not filename.endswith('.json'):
@@ -36,11 +36,12 @@ def main(query):
             if query.lower() in description.lower():
                 pretty_print(equation)
                 print('-'*80)
+        # TODO: exit with error if no results are found.
 
 
 if __name__ == '__main__':
     num_args = len(sys.argv) - 1
     if num_args != 1:
-        sys.stderr.write("Usage: python "+sys.argv[0]+" query"+'\n')
+        sys.stderr.write("Usage: python "+sys.argv[0]+" 'search string'"+'\n')
         sys.exit(1)
     main(sys.argv[1])
