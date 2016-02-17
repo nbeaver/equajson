@@ -1,0 +1,61 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Radioactive decay events",
+        "verbose": "Probability of observing a given number of radioactive decay events. Applicable to any discrete stochastic process with a Poisson distibution."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$P(n) = \\frac{N^n exp(-N) }{n!}$"
+            },
+            {
+                "markup": "$P(n) = \\frac{N^n e^{-N} }{n!}$"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Poisson_distribution"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "       Nⁿ exp(-N)",
+            "P(n) = ――――――――――",
+            "           n!    "
+        ],
+        "one-line": "P(n) = (Nⁿ exp(-N))/(n!)",
+        "parameters": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "probability of n decays",
+                "symbol": "P(n)"
+            },
+            {
+                "always-an-integer": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "number of decays in interval",
+                "symbol": "n"
+            },
+            {
+                "always-an-integer": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "average decay rate in interval",
+                "symbol": "N"
+            }
+        ]
+    },
+    "uuid": "af05915f-a857-4f7d-a4fb-2d35517141bc"
+}
