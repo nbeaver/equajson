@@ -1,0 +1,90 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Schrödinger equation",
+        "verbose": "Time-independent Schrödinger equation, single non-relativistic particle in an electric field. (Also Anglicized as Schrodinger or Schroedinger equation.)"
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$E \\Psi(r) = \\left( -\\frac{\\hbar^2}{2\\mu} \\nabla^2 + V(r) \\right) \\Psi(r)$"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "http://scienceworld.wolfram.com/physics/SchroedingerEquation.html"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "         ⎛   ℏ²          ⎞     ",
+            "E Ψ(r) = ⎜‒ ‒‒‒ ∇² + V(r)⎟ Ψ(r)",
+            "         ⎝  2μ           ⎠     "
+        ],
+        "one-line": "E Ψ(r) = (‒ (ℏ²/2μ) ∇² + V(r)) Ψ(r)",
+        "parameters": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "energy",
+                "symbol": "E"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "wave function",
+                "symbol": "Ψ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "radius",
+                "symbol": "r"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "reduced Planck constant",
+                "symbol": "ℏ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Planck_constant",
+                    "http://scienceworld.wolfram.com/physics/h-Bar.html"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "reduced mass",
+                "symbol": "μ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Reduced_mass#Non-relativistic_quantum_mechanics"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "Laplacian",
+                "symbol": "∇²",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Laplace_operator"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "potential energy function",
+                "symbol": "V"
+            }
+        ]
+    },
+    "uuid": "b7fc55c1-b398-47af-868d-0aa812c68b4c"
+}
