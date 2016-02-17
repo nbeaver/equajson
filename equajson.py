@@ -10,9 +10,9 @@ def pretty_print(equation):
     equation_text = eqn_dict["multiline"]
     for line in equation_text:
         print(line)
-    if "parameters" in eqn_dict:
+    if "terms" in eqn_dict:
         print("where:")
-        for param_dict in eqn_dict["parameters"]:
+        for param_dict in eqn_dict["terms"]:
             symbol = param_dict["symbol"]
             label = param_dict["label"]
             print(symbol,'=',label)

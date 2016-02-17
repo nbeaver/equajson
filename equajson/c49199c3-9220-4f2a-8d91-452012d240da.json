@@ -30,7 +30,7 @@
             "     4         ⎝n⎠"
         ],
         "one-line": "A = (1/4) n l² cot(π/n)",
-        "parameters": [
+        "terms": [
             {
                 "dimensionless": false,
                 "fixed-constant": false,

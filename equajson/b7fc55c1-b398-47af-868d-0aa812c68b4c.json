@@ -31,7 +31,7 @@
             "         ⎝  2μ           ⎠     "
         ],
         "one-line": "E Ψ(r) = (‒ (ℏ²/2μ) ∇² + V(r)) Ψ(r)",
-        "parameters": [
+        "terms": [
             {
                 "dimensionless": false,
                 "fixed-constant": false,

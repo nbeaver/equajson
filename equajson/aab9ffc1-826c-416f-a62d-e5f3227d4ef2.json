@@ -79,7 +79,7 @@
             "            2a      "
         ],
         "one-line": "x = (−b ± √b²-4ac)/(2a)",
-        "parameters": [
+        "terms": [
             {
                 "label": "quadratic coefficient",
                 "dimensionless": true,

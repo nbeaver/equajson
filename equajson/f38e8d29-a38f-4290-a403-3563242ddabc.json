@@ -31,7 +31,7 @@
             "       σ√(2π)    ⎝    2σ² ⎠"
         ],
         "one-line": "P(x) = 1/(σ√(2π)) exp(−(x−μ)²/(2σ²))",
-        "parameters": [
+        "terms": [
             {
                 "dimensionless": true,
                 "fixed-constant": false,

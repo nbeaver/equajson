@@ -31,7 +31,7 @@
             "c² = a² + b² − 2 a b cos(θ)"
         ],
         "one-line": "c² = a² + b² − 2 a b cos(θ)",
-        "parameters": [
+        "terms": [
             {
                 "dimensionless": false,
                 "fixed-constant": false,

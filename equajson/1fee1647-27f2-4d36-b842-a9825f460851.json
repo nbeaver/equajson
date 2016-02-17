@@ -29,7 +29,7 @@
             "f(x) ≈ f(a) + f'(a)(x-a)"
         ],
         "one-line": "f(x) ≈ f(a) + f'(a)(x-a)",
-        "parameters": [
+        "terms": [
             {
                 "dimensionless": true,
                 "fixed-constant": false,

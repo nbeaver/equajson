@@ -31,7 +31,7 @@
             "         logₙ m"
         ],
         "one-line": "logₘ x = (logₙ x)/(logₙ m)",
-        "parameters": [
+        "terms": [
             {
                 "dimensionless": true,
                 "fixed-constant": false,

@@ -28,7 +28,7 @@
             "(1+x)ⁿ ≈ 1 + nx"
         ],
         "one-line": "(1+x)ⁿ ≈ 1 + nx",
-        "parameters": [
+        "terms": [
             {
                 "always-an-integer": false,
                 "dimensionless": true,

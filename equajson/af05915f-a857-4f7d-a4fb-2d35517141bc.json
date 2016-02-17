@@ -34,7 +34,7 @@
             "           n!    "
         ],
         "one-line": "P(n) = (Nⁿ exp(-N))/(n!)",
-        "parameters": [
+        "terms": [
             {
                 "dimensionless": true,
                 "fixed-constant": false,

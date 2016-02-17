@@ -31,7 +31,7 @@
             "              2 "
         ],
         "one-line": "cos(x) ≈ 1 − x²/2",
-        "parameters": [
+        "terms": [
             {
                 "dimensionless": false,
                 "fixed-constant": false,

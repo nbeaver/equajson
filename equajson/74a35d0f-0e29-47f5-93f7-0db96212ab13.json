@@ -35,7 +35,7 @@
             "        mₑc            "
         ],
         "one-line": "λ′− λ = (h/mₑc)(1 − cos θ)",
-        "parameters": [
+        "terms": [
             {
                 "dimensionless": false,
                 "fixed-constant": false,

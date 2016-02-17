@@ -145,11 +145,11 @@
                     "description": "Textual representation of the equation on a single line. May contain many nested parentheses.",
                     "type": "string"
                 },
-                "parameters" : {
-                    "description": "Descriptions and properties of the constants and variables in the equation. Must be an array to preserve order.",
+                "terms" : {
+                    "description": "Descriptions and properties of the constants, variables, functions, and other components of the equation. Must be an array to preserve order.",
                     "additionalItems": {
                         "additionalProperties": false,
-                        "description": "The parameter.",
+                        "description": "The term itself.",
                         "properties": {
                             "always-an-integer": {
                                 "description": "True if the quantity must be an integer or subset thereof such as a natural number.",

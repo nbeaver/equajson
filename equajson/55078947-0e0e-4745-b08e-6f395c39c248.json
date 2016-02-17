@@ -36,7 +36,7 @@
             "     3                     "
         ],
         "one-line": "V = (πh/3)(R₁² + R₁ R₂ + R₂²)",
-        "parameters": [
+        "terms": [
             {
                 "dimensionless": false,
                 "fixed-constant": false,
