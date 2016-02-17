@@ -1,0 +1,74 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Scherrer equation",
+        "verbose": "Scherrer equation for estimating average size of crystallites from peak broadening of powder X-ray diffraction patterns."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$\\tau = \\frac{K \\lambda}{\\beta \\cos \\theta}$"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Scherrer_equation"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "     K λ ",
+            "τ = ―――――",
+            "    βcosθ"
+        ],
+        "one-line": "τ = (K λ)/(βcosθ)",
+        "parameters": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "mean size of crystalline domains",
+                "symbol": "τ"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "shape factor",
+                "symbol": "K"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "X-ray wavelength",
+                "symbol": "λ"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "broadening at full-width half-maximum of peak intensity (radians)",
+                "symbol": "β"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "shape factor",
+                "symbol": "K"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "Bragg angle of peak",
+                "symbol": "θ"
+            }
+        ]
+    },
+    "uuid": "4fa2131e-bd2e-4afe-a036-62c4b7020c49"
+}
