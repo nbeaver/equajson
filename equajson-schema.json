@@ -143,6 +143,39 @@
                 "one-line" : {
                     "description": "Textual representation of the equation on a single line. May contain many nested parentheses.",
                     "type": "string"
+                },
+                "parameters" : {
+                    "description": "Descriptions and properties of the constants and variables in the equation.",
+                    "additionalProperties": {
+                        "additionalProperties": false,
+                        "description": "The parameter.",
+                        "properties": {
+                            "label": {
+                                "description": "Short description of the quantity, suitable for an 'where x is the ...' type statement.",
+                                "type": "string"
+                            },
+                            "dimensionless": {
+                                "description": "True if the quantity is dimensionless.",
+                                "type": "boolean"
+                            },
+                            "fixed-constant": {
+                                "description": "True if the quantity has a fixed numeric value, such as π, √2, or the speed of light.",
+                                "type": "boolean"
+                            },
+                            "urls":{
+                                "additionalItems": false,
+                                "description": "List of URLs directly about the quantity.",
+                                "items": {
+                                    "description": "The URL, usually HTTP.",
+                                    "format": "uri",
+                                    "type": "string"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "type": "object"
                 }
             },
             "required": [
