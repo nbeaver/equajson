@@ -1,0 +1,63 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "wavenumber",
+        "verbose": "Wavenumber, the spatial frequency of a non-relativistic quantum-mechanical matter wave."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ k = \\frac{\\sqrt{2mE}}{\\hbar} $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Wavenumber"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "     ___",
+            "    √2mE",
+            "k = ――――",
+            "     ℏ  "
+        ],
+        "one-line": "k = √(2mE)/ℏ",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "wavenumber",
+                "symbol": "k"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "mass",
+                "symbol": "m"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "energy",
+                "symbol": "E"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "reduced Planck's constant",
+                "symbol": "ℏ"
+            }
+        ]
+    },
+    "uuid": "0b5bd0c2-5fef-4834-8cd4-976510116098"
+}
