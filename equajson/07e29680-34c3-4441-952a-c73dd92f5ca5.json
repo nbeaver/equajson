@@ -35,6 +35,12 @@
             {
                 "dimensionless": false,
                 "fixed-constant": false,
+                "label": "cosine function",
+                "symbol": "cos"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
                 "label": "angle",
                 "symbol": "x"
             }
