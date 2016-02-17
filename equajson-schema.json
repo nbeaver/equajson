@@ -150,6 +150,10 @@
                         "additionalProperties": false,
                         "description": "The parameter.",
                         "properties": {
+                            "always-an-integer": {
+                                "description": "True if the quantity must be an integer or subset thereof such as a natural number.",
+                                "type": "boolean"
+                            },
                             "label": {
                                 "description": "Short description of the quantity, suitable for an 'where x is the ...' type statement.",
                                 "type": "string"
