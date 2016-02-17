@@ -1,0 +1,87 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Compton scattering",
+        "verbose": "Inelastic Compton scattering of a single electron with a single photon."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$\lambda' - \lambda = \frac{h}{m_e c} ( 1 - \cos \theta )$"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Compton_scattering"
+        },
+        {
+            "date-known-good": "2016-02-17",
+            "url": "http://hyperphysics.phy-astr.gsu.edu/Hbase/quantum/comptint.html"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "         h             ",
+            "λ′− λ = ――― (1 − cos θ)",
+            "        mₑc            "
+        ],
+        "one-line": "λ′− λ = (h/mₑc)(1 − cos θ)",
+        "parameters": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "wavelength of photon after scattering",
+                "symbol": "λ′"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "wavelength of photon before scattering",
+                "symbol": "λ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "Planck constant",
+                "symbol": "h",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Planck_constant"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "ress mast of electron",
+                "symbol": "mₑ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Electron_rest_mass"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "speed of light in a vacuum",
+                "symbol": "c",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Speed_of_light"
+                ]
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "angle of scattered photon relative to initial direction",
+                "symbol": "θ"
+            }
+        ]
+    },
+    "uuid": "74a35d0f-0e29-47f5-93f7-0db96212ab13"
+}
