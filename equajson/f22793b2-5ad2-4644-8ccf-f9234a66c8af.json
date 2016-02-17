@@ -1,0 +1,58 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "change of base",
+        "verbose": "Identity to change the base of a logarithm."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\log_b x = \\frac{\\log_d x}{\\log_d b}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/List_of_logarithmic_identities#Changing_the_base"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "         logₙ x",
+            "logₘ x = ――――――",
+            "         logₙ m"
+        ],
+        "one-line": "logₘ x = (logₙ x)/(logₙ m)",
+        "parameters": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "argument",
+                "symbol": "x"
+            },
+            {
+                "always-an-integer": false,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "old base",
+                "symbol": "m"
+            },
+            {
+                "always-an-integer": false,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "new base",
+                "symbol": "n"
+            }
+        ]
+    },
+    "uuid": "f22793b2-5ad2-4644-8ccf-f9234a66c8af"
+}
