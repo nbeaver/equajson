@@ -36,33 +36,38 @@
             "     3                     "
         ],
         "one-line": "V = (πh/3)(R₁² + R₁ R₂ + R₂²)",
-        "parameters": {
-            "V": {
+        "parameters": [
+            {
                 "dimensionless": false,
                 "fixed-constant": false,
-                "label": "volume of frustum"
+                "label": "volume of frustum",
+                "symbol": "V"
             },
-            "π": {
+            {
                 "dimensionless": true,
                 "fixed-constant": true,
-                "label": "Diametric circle constant."
+                "label": "Diametric circle constant.",
+                "symbol": "π"
             },
-            "h": {
+            {
                 "dimensionless": false,
                 "fixed-constant": false,
-                "label": "height of frustum"
+                "label": "height of frustum",
+                "symbol": "h"
             },
-            "R₁": {
+            {
                 "dimensionless": false,
                 "fixed-constant": false,
-                "label": "radius of base"
+                "label": "radius of base",
+                "symbol": "R₁"
             },
-            "R₂": {
+            {
                 "dimensionless": false,
                 "fixed-constant": false,
-                "label": "radius of cap"
+                "label": "radius of cap",
+                "symbol": "R₂"
             }
-        }
+        ]
     },
     "uuid": "55078947-0e0e-4745-b08e-6f395c39c248"
 }

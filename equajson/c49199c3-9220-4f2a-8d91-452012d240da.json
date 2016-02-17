@@ -30,29 +30,33 @@
             "     4         ⎝n⎠"
         ],
         "one-line": "A = (1/4) n l² cot(π/n)",
-        "parameters": {
-            "A": {
+        "parameters": [
+            {
                 "dimensionless": false,
                 "fixed-constant": false,
-                "label": "area"
+                "label": "area",
+                "symbol": "A"
             },
-            "n": {
+            {
                 "always-an-integer": true,
                 "dimensionless": false,
                 "fixed-constant": false,
-                "label": "number of sides"
+                "label": "number of sides",
+                "symbol": "n"
             },
-            "l": {
+            {
                 "dimensionless": false,
                 "fixed-constant": false,
-                "label": "length of side"
+                "label": "length of side",
+                "symbol": "l"
             },
-            "π": {
+            {
                 "dimensionless": true,
                 "fixed-constant": true,
-                "label": "diametric circle constant"
+                "label": "diametric circle constant",
+                "symbol": "π"
             }
-        }
+        ]
     },
     "uuid": "c49199c3-9220-4f2a-8d91-452012d240da"
 }

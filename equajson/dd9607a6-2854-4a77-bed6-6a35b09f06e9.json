@@ -44,50 +44,56 @@
             "a³    G (M + m)"
         ],
         "one-line": "T²/a³ = 4π²/( G(M + m) )",
-        "parameters": {
-            "T" : {
+        "parameters": [
+            {
                 "label": "duration of orbital period",
                 "dimensionless": false,
                 "fixed-constant": false,
+                "symbol": "T",
                 "urls": [
                     "https://en.wikipedia.org/wiki/Orbital_period"
                 ]
             },
-            "a" : {
+            {
                 "label": "semi-major axis distance",
                 "dimensionless": false,
                 "fixed-constant": false,
+                "symbol": "a",
                 "urls": [
                     "https://en.wikipedia.org/wiki/Semi-major_axis"
                 ]
             },
-            "π" : {
+            {
                 "label": "diametric circle constant",
                 "dimensionless": true,
                 "fixed-constant": true,
+                "symbol": "π",
                 "urls": [
                     "https://en.wikipedia.org/wiki/Pi"
                 ]
             },
-            "G" : {
+            {
                 "label": "gravitational constant",
                 "dimensionless": false,
                 "fixed-constant": true,
+                "symbol": "G",
                 "urls": [
                     "https://en.wikipedia.org/wiki/Gravitational_constant"
                 ]
             },
-            "M" : {
+            {
                 "label": "central mass or mass of other body in binary system",
                 "dimensionless": false,
-                "fixed-constant": false
+                "fixed-constant": false,
+                "symbol": "M"
             },
-            "m" : {
+            {
                 "label": "orbiting mass",
                 "dimensionless": false,
-                "fixed-constant": false
+                "fixed-constant": false,
+                "symbol": "m"
             }
-        }
+        ]
     },
     "uuid": "aab9ffc1-826c-416f-a62d-e5f3227d4ef2"
 }

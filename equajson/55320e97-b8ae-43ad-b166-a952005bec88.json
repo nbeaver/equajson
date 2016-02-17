@@ -28,20 +28,22 @@
             "(1+x)ⁿ ≈ 1 + nx"
         ],
         "one-line": "(1+x)ⁿ ≈ 1 + nx",
-        "parameters": {
-            "x": {
+        "parameters": [
+            {
                 "always-an-integer": false,
                 "dimensionless": true,
                 "fixed-constant": false,
-                "label": "A real number close to 0."
+                "label": "A real number close to 0.",
+                "symbol": "x"
             },
-            "n": {
+            {
                 "always-an-integer": false,
                 "dimensionless": true,
                 "fixed-constant": false,
-                "label": "Power to raise the expression to."
+                "label": "Power to raise the expression to.",
+                "symbol": "n"
             }
-        }
+        ]
     },
     "uuid": "55320e97-b8ae-43ad-b166-a952005bec88"
 }

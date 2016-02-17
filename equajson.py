@@ -12,9 +12,10 @@ def pretty_print(equation):
         print(line)
     if "parameters" in eqn_dict:
         print("where:")
-        for param, param_dict in eqn_dict["parameters"].iteritems():
+        for param_dict in eqn_dict["parameters"]:
+            symbol = param_dict["symbol"]
             label = param_dict["label"]
-            print(param,'=',label)
+            print(symbol,'=',label)
 
 
 def main(query):

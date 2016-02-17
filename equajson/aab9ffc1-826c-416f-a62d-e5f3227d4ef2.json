@@ -79,28 +79,32 @@
             "            2a      "
         ],
         "one-line": "x = (−b ± √b²-4ac)/(2a)",
-        "parameters": {
-            "a" : {
+        "parameters": [
+            {
                 "label": "quadratic coefficient",
                 "dimensionless": true,
-                "fixed-constant": false
+                "fixed-constant": false,
+                "symbol": "a"
             },
-            "b" : {
+            {
                 "label": "linear coefficient",
                 "dimensionless": true,
-                "fixed-constant": false
+                "fixed-constant": false,
+                "symbol": "b"
             },
-            "c" : {
+            {
                 "label": "constant coefficient",
                 "dimensionless": true,
-                "fixed-constant": false
+                "fixed-constant": false,
+                "symbol": "c"
             },
-            "x" : {
+            {
                 "label": "variable",
                 "dimensionless": true,
-                "fixed-constant": false
+                "fixed-constant": false,
+                "symbol": "x"
             }
-        }
+        ]
     },
     "uuid": "aab9ffc1-826c-416f-a62d-e5f3227d4ef2"
 }

@@ -145,8 +145,8 @@
                     "type": "string"
                 },
                 "parameters" : {
-                    "description": "Descriptions and properties of the constants and variables in the equation.",
-                    "additionalProperties": {
+                    "description": "Descriptions and properties of the constants and variables in the equation. Must be an array to preserve order.",
+                    "additionalItems": {
                         "additionalProperties": false,
                         "description": "The parameter.",
                         "properties": {
@@ -166,6 +166,10 @@
                                 "description": "True if the quantity has a fixed numeric value, such as π, √2, or the speed of light.",
                                 "type": "boolean"
                             },
+                            "symbol": {
+                                "description": "The symbol for the quantity.",
+                                "type": "string"
+                            },
                             "urls":{
                                 "additionalItems": false,
                                 "description": "List of URLs directly about the quantity.",
@@ -179,7 +183,8 @@
                         },
                         "type": "object"
                     },
-                    "type": "object"
+                    "minItems": 1,
+                    "type": "array"
                 }
             },
             "required": [
