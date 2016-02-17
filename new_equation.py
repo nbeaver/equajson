@@ -61,24 +61,26 @@ equajson = \
             "<FIXME>",
         ],
         "one-line": "<FIXME>",
-        "parameters": {
-            "<FIXME>" : {
+        "parameters": [
+            {
                 "label": "<FIXME>",
                 "dimensionless": "<FIXME>",
                 "fixed-constant": "<FIXME>",
+                "symbol": "<FIXME>",
                 "urls": [
                     "<FIXME>"
                 ]
             },
-            "<FIXME>" : {
+            {
                 "label": "<FIXME>",
                 "dimensionless": "<FIXME>",
                 "fixed-constant": "<FIXME>",
+                "symbol": "<FIXME>",
                 "urls": [
                     "<FIXME>"
                 ]
             }
-        }
+        ]
     },
     "uuid": new_uuid
 }
