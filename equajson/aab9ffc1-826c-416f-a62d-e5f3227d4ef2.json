@@ -34,6 +34,26 @@
                 "urls": [
                     "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
                 ]
+            },
+            {
+                "markup" : "x={-b ± sqrt {b^2 – 4ac}} over 2a",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                ]
+            },
+            {
+                "markup" : "x={-b plusminus sqrt {b^2 – 4 ac}} over {2 a}",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                ]
+            }
+        ],
+        "troff/eqn": [
+            {
+                "markup" : "x = {-b +- sqrt{b sup 2 – 4ac}} over 2a",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
+                ]
             }
         ]
     },
