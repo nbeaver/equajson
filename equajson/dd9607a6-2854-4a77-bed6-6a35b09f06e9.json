@@ -11,7 +11,7 @@
         "terse": "Kepler's Third Law",
         "verbose": "Kepler's Third Law. Relates orbital radius to orbital period; valid for two-body systems and approximately valid for systems with a massive central body."
     },
-    "markup": {
+    "markup-languages": {
         "AsciiMathML": [
             {
                 "markup": "T^2 / a^3 = (4 pi^2) / (G (M + m))"
