@@ -1,0 +1,62 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Bayes' theorem",
+        "verbose": "Bayes' theorem of conditional probability."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ P(A|B) = \\frac{P(B | A) \\, P(A)}{P(B)} $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Bayes%27_theorem"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "         P(B|A) P(A)",
+            "P(A|B) = ―――――――――――",
+            "            P(B)    "
+        ],
+        "one-line": "P(A|B) = (P(B|A) P(A)) / (P(B))",
+        "terms": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "posterior probability of A given B is true",
+                "symbol": "P(A|B)"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "conditional probability of B given A is true",
+                "symbol": "P(B|A)"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "prior probability that A is true",
+                "symbol": "P(A)"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "probability B is true",
+                "symbol": "P(B)"
+            }
+        ]
+    },
+    "uuid": "0d3bf94c-bd2b-46ca-8516-51b43a8ab407"
+}
