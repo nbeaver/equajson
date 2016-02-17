@@ -23,7 +23,7 @@
             }
         ]
     },
-    "relevant-links": {
+    "relevant-urls": [
         {
             "date-known-good": "2016-02-14",
             "url": "http://mathworld.wolfram.com/QuadraticFormula.html"
@@ -36,7 +36,7 @@
             "date-known-good": "2016-02-14",
             "url": "https://en.wikipedia.org/wiki/Quadratic_formula"
         }
-    },
+    ],
     "unicode-pretty-print": {
         "multiline": [
             "T²       4 π²  ",
