@@ -33,14 +33,14 @@
                 "always-an-integer": false,
                 "dimensionless": true,
                 "fixed-constant": false,
-                "label": "A real number close to 0.",
+                "label": "small number (close to 0)",
                 "symbol": "x"
             },
             {
                 "always-an-integer": false,
                 "dimensionless": true,
                 "fixed-constant": false,
-                "label": "Power to raise the expression to.",
+                "label": "exponent",
                 "symbol": "n"
             }
         ]
