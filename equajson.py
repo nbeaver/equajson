@@ -35,7 +35,7 @@ def main(query):
             description = equation["description"]["verbose"]
             if query.lower() in description.lower():
                 pretty_print(equation)
-                print()
+                print('-'*80)
 
 
 if __name__ == '__main__':
