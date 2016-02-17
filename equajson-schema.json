@@ -182,6 +182,10 @@
                                 "type": "array"
                             }
                         },
+                        "required": [
+                            "label",
+                            "symbol"
+                        ],
                         "type": "object"
                     },
                     "minItems": 1,
