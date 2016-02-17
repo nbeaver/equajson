@@ -49,14 +49,14 @@ equajson = \
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "<FIXME>"
+                "markup": "<FIXME>",
             }
         ]
     },
     "relevant-urls": [
         {
             "date-known-good": get_iso_date(),
-            "url": "<FIXME>"
+            "url": "<FIXME>",
         }
     ],
     "unicode-pretty-print": {
@@ -73,7 +73,7 @@ equajson = \
                 "fixed-constant": "<FIXME>",
                 "symbol": "<FIXME>",
                 "urls": [
-                    "<FIXME>"
+                    "<FIXME>",
                 ]
             },
             {
@@ -82,12 +82,12 @@ equajson = \
                 "fixed-constant": "<FIXME>",
                 "symbol": "<FIXME>",
                 "urls": [
-                    "<FIXME>"
+                    "<FIXME>",
                 ]
             }
         ]
     },
-    "uuid": new_uuid
+    "uuid": new_uuid,
 }
 
 root = sys.path[0]
