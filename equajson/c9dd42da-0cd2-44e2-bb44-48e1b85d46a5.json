@@ -1,0 +1,68 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Convolution",
+        "verbose": "Definition of the convolution of two functions over the real numbers."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "(f * g)(t) = \\int \\limits_{-\\infty}^{\\infty} \\! f(u) g(x-u) \\, \\mathrm{d} u"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Convolution"
+        },
+        {
+            "date-known-good": "2016-02-17",
+            "url": "http://mathworld.wolfram.com/Convolution.html"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "              +∞               ",
+            "             ⌠                 ",
+            "(f * g)(x) = ⎮ f(u) g(x − u) du",
+            "             ⌡                 ",
+            "             −∞                "
+        ],
+        "one-line": "(f * g)(x) = −∞∫+∞ f(u) g(x − u) du",
+        "parameters": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "function under transform",
+                "symbol": "f"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "weighting function",
+                "symbol": "g"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "independent variable",
+                "symbol": "x"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "dummy variable",
+                "symbol": "u"
+            }
+        ]
+    },
+    "uuid": "c9dd42da-0cd2-44e2-bb44-48e1b85d46a5"
+}
