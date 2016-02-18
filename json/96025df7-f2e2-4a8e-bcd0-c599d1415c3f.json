@@ -1,0 +1,65 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Poisson's equation",
+        "verbose": "Poisson's equation for electrostatics."
+    },
+    "markup-languages": {
+        "LaTX": [
+            {
+                "markup": "\\nabla^2 \\varphi = - \\frac{\\rho}{\\varepsilon_0}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Poisson%27s_equation"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "         ρ ",
+            "∇²φ = − ―――",
+            "         ε₀"
+        ],
+        "one-line": "∇²φ = − ρ/ε₀",
+        "terms": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "Laplacian",
+                "symbol": "∇²",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Laplace_operator"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "electric potential",
+                "symbol": "φ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "charge density",
+                "symbol": "ρ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "vacuum permittivity",
+                "symbol": "ε₀"
+            }
+        ]
+    },
+    "uuid": "96025df7-f2e2-4a8e-bcd0-c599d1415c3f"
+}
