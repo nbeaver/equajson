@@ -196,7 +196,7 @@
                                             "type": "string"
                                         },
                                         "value": {
-                                            "description": "The actual value. Could be integer, floating point, or boolean."
+                                            "description": "The actual value. Probably an integer or float, but could be a boolean."
                                         }
                                     },
                                     "required": [
