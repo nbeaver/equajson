@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\nabla \\times \\mathbf{E} = - \\frac{\\partial \\mathbf{B}}{\\partial t}"
+                "markup": "$ \\nabla \\times \\mathbf{E} = - \\frac{\\partial \\mathbf{B}}{\\partial t} $"
             }
         ]
     },

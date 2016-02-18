@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\vec{B}(\\vec{r}) = \\frac{\\mu_0}{4\\pi} \\int_C \\frac{ I d \\vec{l} \\times |\\vec{r} - \\vec{l}|} { | \\vec{r} - \\vec{l}|^3}"
+                "markup": "$ \\vec{B}(\\vec{r}) = \\frac{\\mu_0}{4\\pi} \\int_C \\frac{ I d \\vec{l} \\times |\\vec{r} - \\vec{l}|} { | \\vec{r} - \\vec{l}|^3} $"
             }
         ]
     },

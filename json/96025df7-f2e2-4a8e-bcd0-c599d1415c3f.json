@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTX": [
             {
-                "markup": "\\nabla^2 \\varphi = - \\frac{\\rho}{\\varepsilon_0}"
+                "markup": "$ \\nabla^2 \\varphi = - \\frac{\\rho}{\\varepsilon_0} $"
             }
         ]
     },

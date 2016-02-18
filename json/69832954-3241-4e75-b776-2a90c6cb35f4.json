@@ -14,10 +14,10 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\psi = e^{i(k x - \\omega t)}"
+                "markup": "$ \\psi = e^{i(k x - \\omega t)} $"
             },
             {
-                "markup": "\\psi = \\exp(i(k x - \\omega t))"
+                "markup": "$ \\psi = \\exp(i(k x - \\omega t)) $"
             }
         ]
     },

@@ -19,7 +19,7 @@
         ],
         "LaTeX": [
             {
-                "markup": "$\\frac{T^2}{a^3} = \\frac{4 \\pi^2}{G (M + m)}$"
+                "markup": "$ \\frac{T^2}{a^3} = \\frac{4 \\pi^2}{G (M + m)} $"
             }
         ]
     },

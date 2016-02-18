@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\log_b x = \\frac{\\log_d x}{\\log_d b}"
+                "markup": "$ \\log_b x = \\frac{\\log_d x}{\\log_d b} $"
             }
         ]
     },
