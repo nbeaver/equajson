@@ -9,7 +9,7 @@
     },
     "description": {
         "terse": "Poisson's equation",
-        "verbose": "Poisson's equation for electrostatics."
+        "verbose": "Poisson's equation for electrostatic potential."
     },
     "markup-languages": {
         "LaTX": [
@@ -22,6 +22,10 @@
         {
             "date-known-good": "2016-02-17",
             "url": "https://en.wikipedia.org/wiki/Poisson%27s_equation"
+        },
+        {
+            "date-known-good": "2016-02-17",
+            "url": "http://mathworld.wolfram.com/PoissonsEquation.html"
         }
     ],
     "unicode-pretty-print": {
