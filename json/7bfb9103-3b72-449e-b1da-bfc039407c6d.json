@@ -1,0 +1,71 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Maxwell-Faraday equation",
+        "verbose": "Maxwell-Faraday equation, differential form."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\nabla \\times \\mathbf{E} = - \\frac{\\partial \\mathbf{B}}{\\partial t}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "        ∂B",
+            "∇⨯E = − ――",
+            "        ∂t"
+        ],
+        "one-line": "∇⨯E = − ∂B/∂t",
+        "terms": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "curl",
+                "symbol": "∇⨯",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Curl_%28mathematics%29"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "electric field vector",
+                "symbol": "E",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Electric_field"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "magnetic field vector",
+                "symbol": "B",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Magnetic_field"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "time",
+                "symbol": "t"
+            }
+        ]
+    },
+    "uuid": "7bfb9103-3b72-449e-b1da-bfc039407c6d"
+}
