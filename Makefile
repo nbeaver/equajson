@@ -1,3 +1,7 @@
-all:
-	jsonlint schema.json
-	jsonschema schema.json
+all: readme.html todo.html
+
+readme.html : readme.rst
+	rst2html readme.rst readme.html
+
+todo.html : todo.md
+	markdown todo.md > todo.html
