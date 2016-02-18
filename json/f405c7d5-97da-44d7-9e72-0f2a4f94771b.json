@@ -9,7 +9,7 @@
     },
     "description": {
         "terse": "Biot-Savart law",
-        "verbose": "<FIXME>"
+        "verbose": "Biot-Savart law for magnetostatic fields."
     },
     "markup-languages": {
         "LaTeX": [
@@ -26,7 +26,7 @@
     ],
     "unicode-pretty-print": {
         "multiline": [
-            "       μ₀ ⌠  I dl ⨯ (r-l) ̂",
+            "       μ₀ ⌠  I dl ⨯ (r-l) ",
             "B(r) = ―― ⎮  ―――――――――――― ",
             "       4π ⌡C    |r-l|³    "
         ],
@@ -35,7 +35,7 @@
             {
                 "dimensionless": false,
                 "fixed-constant": false,
-                "label": "magnetic field at r",
+                "label": "magnetic field",
                 "symbol": "B"
             },
             {
