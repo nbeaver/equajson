@@ -51,6 +51,12 @@
                 "symbol": "l"
             },
             {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "cotangent function",
+                "symbol": "cot"
+            },
+            {
                 "dimensionless": true,
                 "fixed-constant": true,
                 "label": "3.14159…",
