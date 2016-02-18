@@ -1,6 +1,10 @@
-======================
-Quickly find equations 
-======================
+=====================================================
+Equajson: equations and metadata stored in JSON files
+=====================================================
+
+--------------------------------
+Examples of searching equations.
+--------------------------------
 
 
 The normal distribution::
@@ -76,3 +80,19 @@ Some approximations::
     n = exponent
     --------------------------------------------------------------------------------
 
+------------
+Dependencies
+------------
+
+- Searching only:
+
+  - python
+
+- Documentation:
+
+  - docutils
+  - markdown
+
+- JSON validation
+
+  - python-jsonschema
