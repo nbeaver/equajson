@@ -191,6 +191,10 @@
                                             "description": "Explain choice of value.",
                                             "type": "string"
                                         },
+                                        "doi": {
+                                            "description": "Digital object identifier for when the value comes from a published article.",
+                                            "type": "string"
+                                        },
                                         "units": {
                                             "description": "Units, preferably SI.",
                                             "type": "string"
