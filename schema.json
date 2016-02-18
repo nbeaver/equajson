@@ -62,20 +62,19 @@
                     "additionalProperties": false,
                     "properties": {
                         "dependencies": {
-                            "description": "Dependencies for the markup to work, such as LaTeX packages.",
                             "additionalItems": {
                                 "additionalProperties": false,
                                 "description": "Dependency object.",
                                 "properties": {
-                                    "name": {
-                                        "description": "Name of dependency.",
-                                        "type": "string"
-                                    },
                                     "invocation": {
                                         "description": "How include the dependency, e.g. a '\\usepackage{}' statement.",
                                         "type": "string"
                                     },
-                                    "url":{
+                                    "name": {
+                                        "description": "Name of dependency.",
+                                        "type": "string"
+                                    },
+                                    "url": {
                                         "description": "URL providing info about dependency, usually HTTP.",
                                         "format": "uri",
                                         "type": "string"
@@ -83,6 +82,7 @@
                                 },
                                 "type": "object"
                             },
+                            "description": "Dependencies for the markup to work, such as LaTeX packages.",
                             "type": "array"
                         },
                         "markup": {
