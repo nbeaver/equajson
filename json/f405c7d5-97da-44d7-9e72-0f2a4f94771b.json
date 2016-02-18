@@ -1,0 +1,86 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Biot-Savart law",
+        "verbose": "<FIXME>"
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\vec{B}(\\vec{r}) = \\frac{\\mu_0}{4\\pi} \\int_C \\frac{ I d \\vec{l} \\times |\\vec{r} - \\vec{l}|} { | \\vec{r} - \\vec{l}|^3}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Biot%E2%80%93Savart_law"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "       μ₀ ⌠  I dl ⨯ (r-l) ̂",
+            "B(r) = ―― ⎮  ―――――――――――― ",
+            "       4π ⌡C    |r-l|³    "
+        ],
+        "one-line": "B(r) = μ₀/4π ∫C (I dl ⨯ (r-l))/(|r-l|³)",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "magnetic field at r",
+                "symbol": "B"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "point where field is calculated",
+                "symbol": "r"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "vacuum permeability",
+                "symbol": "μ₀",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Vacuum_permeability"
+                ]
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "3.14159…",
+                "symbol": "π",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Pi"
+                ]
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "path of electrical current for line integral",
+                "symbol": "C"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "electrical current",
+                "symbol": "I"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "point on path where current is flowing",
+                "symbol": "l"
+            }
+        ]
+    },
+    "uuid": "f405c7d5-97da-44d7-9e72-0f2a4f94771b"
+}
