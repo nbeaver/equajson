@@ -192,11 +192,11 @@
                                             "type": "string"
                                         },
                                         "doi": {
-                                            "description": "Digital object identifier for when the value comes from a published article.",
+                                            "description": "Digital object identifier for values from a published journal article.",
                                             "type": "string"
                                         },
                                         "units": {
-                                            "description": "Units, preferably SI.",
+                                            "description": "Units as used in the original reference.",
                                             "type": "string"
                                         },
                                         "value": {
