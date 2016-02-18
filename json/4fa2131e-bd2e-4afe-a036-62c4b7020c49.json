@@ -34,36 +34,87 @@
         "terms": [
             {
                 "dimensionless": false,
+                "example-values": [
+                    {
+                        "comment": "(1 1 1) peak of FCC silver nanoparticles",
+                        "doi": "10.4236/anp.2015.41001",
+                        "units": "nm",
+                        "value": 16.8
+                    },
+                    {
+                        "comment": "(2 0 0) peak of FCC silver nanoparticles",
+                        "doi": "10.4236/anp.2015.41001",
+                        "units": "nm",
+                        "value": 14.0
+                    }
+                ],
                 "fixed-constant": false,
-                "label": "mean size of crystalline domains",
+                "label": "apparent mean size of crystallites",
                 "symbol": "τ"
             },
             {
                 "dimensionless": true,
+                "example-values": [
+                    {
+                        "comment": "Reasonable first approximation for most crystallite shapes and space groups.",
+                        "doi": "10.1107/S0021889878012844",
+                        "value": 0.90
+                    }
+                ],
                 "fixed-constant": false,
-                "label": "shape factor",
+                "label": "shape factor (Scherrer constant)",
                 "symbol": "K"
             },
             {
                 "dimensionless": false,
+                "example-values": [
+                    {
+                        "comment": "Kα1 fluorescence peak of Cu.",
+                        "doi": "10.4236/anp.2015.41001",
+                        "units": "nm",
+                        "value": 0.1541
+                    }
+                ],
                 "fixed-constant": false,
                 "label": "X-ray wavelength",
                 "symbol": "λ"
             },
             {
                 "dimensionless": true,
+                "example-values": [
+                    {
+                        "comment": "(1 1 1) peak of FCC silver nanoparticles",
+                        "doi": "10.4236/anp.2015.41001",
+                        "units": "radian",
+                        "value": 0.0087
+                    },
+                    {
+                        "comment": "(2 0 0) peak of FCC silver nanoparticles",
+                        "doi": "10.4236/anp.2015.41001",
+                        "units": "radian",
+                        "value": 0.0106
+                    }
+                ],
                 "fixed-constant": false,
                 "label": "broadening at full-width half-maximum of peak intensity (radians)",
                 "symbol": "β"
             },
             {
                 "dimensionless": true,
-                "fixed-constant": false,
-                "label": "shape factor",
-                "symbol": "K"
-            },
-            {
-                "dimensionless": true,
+                "example-values": [
+                    {
+                        "comment": "(1 1 1) peak of FCC silver nanoparticles",
+                        "doi": "10.4236/anp.2015.41001",
+                        "units": "degrees",
+                        "value": 19.02
+                    },
+                    {
+                        "comment": "(2 0 0) peak of FCC silver nanoparticles",
+                        "doi": "10.4236/anp.2015.41001",
+                        "units": "degrees",
+                        "value": 22.07
+                    }
+                ],
                 "fixed-constant": false,
                 "label": "Bragg angle of peak",
                 "symbol": "θ"
