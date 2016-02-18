@@ -199,6 +199,9 @@
                                             "description": "The actual value. Could be integer, floating point, or boolean."
                                         }
                                     },
+                                    "required": [
+                                        "value"
+                                    ],
                                     "type": "object"
                                 },
                                 "description": "Examples of values the term may take on.",
