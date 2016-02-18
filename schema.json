@@ -182,6 +182,28 @@
                                 "description": "True if the quantity is dimensionless.",
                                 "type": "boolean"
                             },
+                            "example-values": {
+                                "additionalItems": {
+                                    "additionalProperties": false,
+                                    "description": "The value object.",
+                                    "properties": {
+                                        "comment": {
+                                            "description": "Explain choice of value.",
+                                            "type": "string"
+                                        },
+                                        "units": {
+                                            "description": "Units, preferably SI.",
+                                            "type": "string"
+                                        },
+                                        "value": {
+                                            "description": "The actual value. Could be integer, floating point, or boolean."
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "description": "Examples of values the term may take on.",
+                                "type": "array"
+                            },
                             "fixed-constant": {
                                 "description": "True if the quantity has a fixed numeric value, such as π, √2, or the speed of light.",
                                 "type": "boolean"
