@@ -40,9 +40,9 @@ Laplacian::
 
     $ equajson.py lapla
     Laplacian in spherical coordinates
-          1 ∂  ⎛  ∂ƒ⎞      1   ∂  ⎛     ∂ƒ⎞     1    ∂²ƒ
-    ∇²ƒ = ― ―― ⎜r ――⎟ + ―――――― ―― ⎜sinθ ――⎟+ ――――――― ―――
-          r ∂r ⎝  ∂r⎠   r²sinθ ∂θ ⎝     ∂θ⎠  r²sin²θ ∂φ²
+          1 ∂  ⎛  ∂ƒ⎞      1   ∂  ⎛     ∂ƒ⎞      1    ∂²ƒ
+    ∇²ƒ = ― ―― ⎜r ――⎟ + ―――――― ―― ⎜sinθ ――⎟ + ――――――― ―――
+          r ∂r ⎝  ∂r⎠   r²sinθ ∂θ ⎝     ∂θ⎠   r²sin²θ ∂φ²
     where:
     ∇² = Laplacian
     ƒ = function in spherical coordinates
