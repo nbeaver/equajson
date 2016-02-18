@@ -1,0 +1,62 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "chord length",
+        "verbose": "Length of a chord on a circle."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ l = 2 R \\sin \\frac{\\theta}{2} $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Chord_%28geometry%29"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "           ⎛θ⎞",
+            "l = 2 R sin⎜―⎟",
+            "           ⎝2⎠"
+        ],
+        "one-line": "l = 2 R sin(θ/2)",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "length of chord",
+                "symbol": "l"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "radius of circle",
+                "symbol": "R"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "angle spanned by chord",
+                "symbol": "θ"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "sine function",
+                "symbol": "sin"
+            }
+        ]
+    },
+    "uuid": "599a4eb6-60c1-43b1-ae4d-5724bd1ea58e"
+}
