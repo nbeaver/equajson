@@ -1,0 +1,91 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Bragg's Law",
+        "verbose": "Bragg's Law, the condition for diffraction to yield constructive intereference in a crystalline system."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ 2 d \\sin \\theta = n \\lambda $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-18",
+            "url": "https://en.wikipedia.org/wiki/Bragg%27s_law"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "2 d sin(θ) = n λ"
+        ],
+        "one-line": "2 d sin(θ) = n λ",
+        "terms": [
+            {
+                "dimensionless": false,
+                "example-values": [
+                    {
+                        "comment": "(1 1 1) plane of silver nanoparticles",
+                        "doi": "10.4236/anp.2015.41001",
+                        "units": "Å",
+                        "value": 2.3638
+                    }
+                ],
+                "fixed-constant": false,
+                "label": "distance between diffraction planes",
+                "symbol": "d"
+            },
+            {
+                "dimensionless": true,
+                "example-values": [
+                    {
+                        "comment": "(1 1 1) plane of silver nanoparticles",
+                        "doi": "10.4236/anp.2015.41001",
+                        "units": "degrees",
+                        "value": 19.02
+                    }
+                ],
+                "fixed-constant": false,
+                "label": "scattering angle",
+                "symbol": "θ"
+            },
+            {
+                "always-an-integer": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "periodicity multiplier",
+                "symbol": "n"
+            },
+            {
+                "dimensionless": false,
+                "example-values": [
+                    {
+                        "comment": "Kα₁ fluorescence peak of Cu.",
+                        "doi": "10.4236/anp.2015.41001",
+                        "units": "Å",
+                        "value": 1.5148
+                    }
+                ],
+                "fixed-constant": false,
+                "label": "wavelength of scattered radiation",
+                "symbol": "λ"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "sine function",
+                "symbol": "sin"
+            }
+        ]
+    },
+    "uuid": "c589bd80-bff1-4eab-81ec-7705b9708840"
+}
