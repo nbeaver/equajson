@@ -61,6 +61,30 @@
                 "items": {
                     "additionalProperties": false,
                     "properties": {
+                        "dependencies": {
+                            "description": "Dependencies for the markup to work, such as LaTeX packages.",
+                            "additionalItems": {
+                                "additionalProperties": false,
+                                "description": "Dependency object.",
+                                "properties": {
+                                    "name": {
+                                        "description": "Name of dependency.",
+                                        "type": "string"
+                                    },
+                                    "invocation": {
+                                        "description": "How include the dependency, e.g. a '\\usepackage{}' statement.",
+                                        "type": "string"
+                                    },
+                                    "url":{
+                                        "description": "URL providing info about dependency, usually HTTP.",
+                                        "format": "uri",
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "type": "array"
+                        },
                         "markup": {
                             "description": "The markup text for the equation.",
                             "type": "string"
