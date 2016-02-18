@@ -9,7 +9,7 @@
     },
     "description": {
         "terse": "Linear approximation",
-        "verbose": "The linear (affine) approxmation for a twice differentiable function of one variable."
+        "verbose": "The linear (affine) approximation for a twice differentiable function of one variable."
     },
     "markup-languages": {
         "LaTeX": [
