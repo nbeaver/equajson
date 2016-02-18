@@ -1,6 +1,6 @@
-=================
-Equations in JSON
-=================
+======================
+Quickly find equations 
+======================
 
 
 The normal distribution::
