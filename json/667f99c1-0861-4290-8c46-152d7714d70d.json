@@ -1,0 +1,62 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Faraday's law",
+        "verbose": "Faraday's law of induction."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$\\mathcal{E} = - \\frac{\\partial \\Phi}{\\partial t}$"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://en.wikipedia.org/wiki/Lenz%27s_law"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "      ∂Φ",
+            "ℰ = − ――",
+            "      ∂t"
+        ],
+        "one-line": "ℰ = − ∂Φ/∂t",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "electromotive force",
+                "symbol": "ℰ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Electromotive_force"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "magnetic flux",
+                "symbol": "Φ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Magnetic_flux"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "time",
+                "symbol": "t"
+            }
+        ]
+    },
+    "uuid": "667f99c1-0861-4290-8c46-152d7714d70d"
+}
