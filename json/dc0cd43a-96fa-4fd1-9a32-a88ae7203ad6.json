@@ -17,14 +17,14 @@
                 "markup": "$ { n \\choose k} = \\frac{n!}{k! \\, (n-k)!} $"
             },
             {
-                "markup": "$ \\binom{n}{k} = \\frac{n!}{k! \\, (n-k)!} $",
                 "dependencies": [
                     {
                         "invocation": "\\usepackage{amsmath}",
                         "name": "amsmath",
                         "url": "http://ctan.org/pkg/amsmath"
                     }
-                ]
+                ],
+                "markup": "$ \\binom{n}{k} = \\frac{n!}{k! \\, (n-k)!} $"
             }
         ]
     },
@@ -56,7 +56,7 @@
                 "label": "number of elements chosen",
                 "symbol": "k"
             }
-       ]
+        ]
     },
     "uuid": "dc0cd43a-96fa-4fd1-9a32-a88ae7203ad6"
 }

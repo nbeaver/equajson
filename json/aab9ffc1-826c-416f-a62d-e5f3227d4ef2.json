@@ -30,19 +30,19 @@
         ],
         "LibreOffice Math": [
             {
-                "markup" : "x = { -b +- sqrt {b^2 - 4ac} } over 2a",
+                "markup": "x = { -b +- sqrt {b^2 - 4ac} } over 2a",
                 "urls": [
                     "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
                 ]
             },
             {
-                "markup" : "x={-b ± sqrt {b^2 – 4ac}} over 2a",
+                "markup": "x={-b ± sqrt {b^2 – 4ac}} over 2a",
                 "urls": [
                     "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
                 ]
             },
             {
-                "markup" : "x={-b plusminus sqrt {b^2 – 4 ac}} over {2 a}",
+                "markup": "x={-b plusminus sqrt {b^2 – 4 ac}} over {2 a}",
                 "urls": [
                     "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
                 ]
@@ -50,7 +50,7 @@
         ],
         "troff/eqn": [
             {
-                "markup" : "x = {-b +- sqrt{b sup 2 – 4ac}} over 2a",
+                "markup": "x = {-b +- sqrt{b sup 2 – 4ac}} over 2a",
                 "urls": [
                     "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
                 ]
@@ -81,27 +81,27 @@
         "one-line": "x = (−b ± √b²-4ac)/(2a)",
         "terms": [
             {
-                "label": "quadratic coefficient",
                 "dimensionless": true,
                 "fixed-constant": false,
+                "label": "quadratic coefficient",
                 "symbol": "a"
             },
             {
-                "label": "linear coefficient",
                 "dimensionless": true,
                 "fixed-constant": false,
+                "label": "linear coefficient",
                 "symbol": "b"
             },
             {
-                "label": "constant coefficient",
                 "dimensionless": true,
                 "fixed-constant": false,
+                "label": "constant coefficient",
                 "symbol": "c"
             },
             {
-                "label": "variable",
                 "dimensionless": true,
                 "fixed-constant": false,
+                "label": "variable",
                 "symbol": "x"
             }
         ]

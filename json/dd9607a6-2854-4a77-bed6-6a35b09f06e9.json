@@ -46,42 +46,42 @@
         "one-line": "T²/a³ = 4π²/( G(M + m) )",
         "terms": [
             {
-                "label": "duration of orbital period",
                 "dimensionless": false,
                 "fixed-constant": false,
+                "label": "duration of orbital period",
                 "symbol": "T",
                 "urls": [
                     "https://en.wikipedia.org/wiki/Orbital_period"
                 ]
             },
             {
-                "label": "semi-major axis distance",
                 "dimensionless": false,
                 "fixed-constant": false,
+                "label": "semi-major axis distance",
                 "symbol": "a",
                 "urls": [
                     "https://en.wikipedia.org/wiki/Semi-major_axis"
                 ]
             },
             {
-                "label": "gravitational constant",
                 "dimensionless": false,
                 "fixed-constant": true,
+                "label": "gravitational constant",
                 "symbol": "G",
                 "urls": [
                     "https://en.wikipedia.org/wiki/Gravitational_constant"
                 ]
             },
             {
-                "label": "central mass or mass of other body in binary system",
                 "dimensionless": false,
                 "fixed-constant": false,
+                "label": "central mass or mass of other body in binary system",
                 "symbol": "M"
             },
             {
-                "label": "orbiting mass",
                 "dimensionless": false,
                 "fixed-constant": false,
+                "label": "orbiting mass",
                 "symbol": "m"
             },
             {
