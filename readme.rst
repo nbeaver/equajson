@@ -38,7 +38,7 @@ Schödinger equation::
 
 Laplacian::
 
-    $ equajson.py lapla
+    $ python equajson.py lapla
     Laplacian in spherical coordinates
           1 ∂  ⎛  ∂ƒ⎞      1   ∂  ⎛     ∂ƒ⎞      1    ∂²ƒ
     ∇²ƒ = ― ―― ⎜r ――⎟ + ―――――― ―― ⎜sinθ ――⎟ + ――――――― ―――
@@ -55,6 +55,12 @@ Laplacian::
 Some approximations::
 
     $ python equajson.py approximation
+    Linear approximation
+    f(x) ≈ f(a) + f'(a)(x-a)
+    where:
+    x = independent variable
+    a = point of tangency
+    --------------------------------------------------------------------------------
     Small angle approximation
                   x²
     cos(x) ≈ 1 − ‒‒‒
