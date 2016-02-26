@@ -96,3 +96,14 @@ Dependencies
 - JSON validation
 
   - python-jsonschema
+
+----------------
+Related projects
+----------------
+
+- `PhysIndex<http://www.physindex.com/>`_
+- `LaTeXSearch<http://latexsearch.com/>`_
+- `The Physics Hypertextbook: Frequently Used Equations<http://physics.info/equations/>`_
+- `Search On Math<http://searchonmath.com/>`_
+- `EquationSheet.com<http://www.equationsheet.com/>`_
+- `Symbolab<https://www.symbolab.com/>`_
