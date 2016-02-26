@@ -62,7 +62,8 @@
                     "additionalProperties": false,
                     "properties": {
                         "dependencies": {
-                            "additionalItems": {
+                            "additionalItems": false,
+                            "items": {
                                 "additionalProperties": false,
                                 "description": "Dependency object.",
                                 "properties": {
@@ -170,7 +171,7 @@
                     "type": "string"
                 },
                 "terms": {
-                    "additionalItems": {
+                    "items": {
                         "additionalProperties": false,
                         "description": "The term itself.",
                         "properties": {
@@ -183,7 +184,7 @@
                                 "type": "boolean"
                             },
                             "example-values": {
-                                "additionalItems": {
+                                "items": {
                                     "additionalProperties": false,
                                     "description": "The value object.",
                                     "properties": {
