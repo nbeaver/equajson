@@ -201,7 +201,8 @@
                                             "type": "string"
                                         },
                                         "value": {
-                                            "description": "The actual value. Probably an integer or float, but could be a boolean."
+                                            "description": "The actual value.",
+                                            "type": ["number", "boolean"]
                                         }
                                     },
                                     "required": [
