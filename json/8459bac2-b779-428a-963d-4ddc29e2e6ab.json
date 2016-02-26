@@ -1,0 +1,62 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Euler-Lagrange equation",
+        "verbose": "Euler-Lagrange equations of motion"
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "<FIXME>"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-26",
+            "url": "https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "∂L    d  ∂L     ",
+            "――― − ―― ――― = 0",
+            "∂rₖ   dt ∂ṙₖ    "
+        ],
+        "one-line": "∂L/∂rₖ − d/dt ∂L/∂ṙₖ = 0",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "Lagrangian",
+                "symbol": "L"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "generalized coordinate",
+                "symbol": "rₖ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "generalized velocity",
+                "symbol": "ṙₖ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "time",
+                "symbol": "t"
+            }
+        ]
+    },
+    "uuid": "8459bac2-b779-428a-963d-4ddc29e2e6ab"
+}
