@@ -1,0 +1,62 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "multiplicity of a paramagnet",
+        "verbose": "Multiplicity of microstates for a two-state paramagnet."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\Omega = \\frac{N!}{N_\\uparrow! \\, N_\\downarrow!}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-26",
+            "url": "https://physics.stackexchange.com/questions/131520/calculating-height-and-evaluating-the-vicinity-of-a-peak-in-a-multiplicity-funct"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "       N!  ",
+            "Ω = ―――――――",
+            "    N↑! N↓!"
+        ],
+        "one-line": "Ω = N!/(N↑! N↓!)",
+        "terms": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "multiplicity",
+                "symbol": "Ω"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "number of dipoles",
+                "symbol": "N"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "number of dipoles pointing up",
+                "symbol": "N↑"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "number of dipoles pointing down",
+                "symbol": "N↓"
+            }
+        ]
+    },
+    "uuid": "2880b2b1-bd4d-40fb-8b73-f1b54302c864"
+}

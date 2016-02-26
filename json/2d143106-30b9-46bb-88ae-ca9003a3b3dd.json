@@ -1,0 +1,66 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Lorentz force",
+        "verbose": "Electromagnetic Lorentz force on a discrete point charge."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-26",
+            "url": "https://en.wikipedia.org/wiki/Lorentz_force"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "F = q(E + v ⨯ B)"
+        ],
+        "one-line": "F = q(E + v ⨯ B)",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "force on q",
+                "symbol": "F"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "charge of particle",
+                "symbol": "q"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "electric field on q",
+                "symbol": "E"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "velocity of q",
+                "symbol": "v"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "magntic field on q",
+                "symbol": "B"
+            }
+        ]
+    },
+    "uuid": "2d143106-30b9-46bb-88ae-ca9003a3b3dd"
+}
