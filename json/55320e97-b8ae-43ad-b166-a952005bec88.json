@@ -33,7 +33,7 @@
                 "always-an-integer": false,
                 "dimensionless": true,
                 "fixed-constant": false,
-                "label": "small number (close to 0)",
+                "label": "small real number (|x| ≪ 1)",
                 "symbol": "x"
             },
             {
