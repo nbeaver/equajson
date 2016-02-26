@@ -1,0 +1,59 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Stirling's approximation",
+        "verbose": "Stirling's approximation formula for factorials; more accurate for larger integers."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ n! \\approx n^n e^{-n} \\sqrt{2 \\pi n} $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-25",
+            "url": "https://en.wikipedia.org/wiki/Stirling%27s_approximation"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "n! ≈ nⁿ e⁻ⁿ √(2πn)"
+        ],
+        "one-line": "n! ≈ nⁿ e⁻ⁿ √(2πn)",
+        "terms": [
+            {
+                "always-an-integer": true,
+                "always-positive": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "integer of interest",
+                "symbol": "n"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "2.71828…",
+                "symbol": "e"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "3.14159…",
+                "symbol": "π",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Pi"
+                ]
+            }
+        ]
+    },
+    "uuid": "be6cf75f-ece3-41f3-89e0-978448ea03c4"
+}
