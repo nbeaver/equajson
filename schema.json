@@ -173,7 +173,7 @@
                 "terms": {
                     "items": {
                         "additionalProperties": false,
-                        "description": "The term itself.",
+                        "description": "The term object.",
                         "properties": {
                             "always-an-integer": {
                                 "description": "True if the quantity must be an integer or subset thereof such as a natural number.",
