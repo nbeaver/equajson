@@ -1,0 +1,66 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "dot product",
+        "verbose": "Dot product, inner product, scalar product for vectors."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ \\vec{a} \\cdot \\vec{b} = \\| \\vec{a} \\| \\| \\vec{b} \\| \\cos ( \\theta ) $ "
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-25",
+            "url": "https://en.wikipedia.org/wiki/Dot_product"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "a·b = ‖a‖ ‖b‖ cos(θ)"
+        ],
+        "one-line": "a·b = ‖a‖ ‖b‖ cos(θ)",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "first vector",
+                "symbol": "a"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "second vector",
+                "symbol": "b"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "norm of a",
+                "symbol": "‖a‖"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "norm of b",
+                "symbol": "‖b‖"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "angle between a and b",
+                "symbol": "θ"
+            }
+        ]
+    },
+    "uuid": "d70820d6-066b-4399-b3fc-c2ebe6d4d41d"
+}
