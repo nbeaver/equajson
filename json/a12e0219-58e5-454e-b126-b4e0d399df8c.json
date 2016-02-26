@@ -1,0 +1,70 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "arc length",
+        "verbose": "Arc length of a planar, continuously differentiable function."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ s = \\int_b^a \\! \\sqrt{1 + \\left(\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)^2} \\, \\mathrm{d}x $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-25",
+            "url": "https://en.wikipedia.org/wiki/Arc_length"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "     b           ½  ",
+            "    ⌠ ⎛    ⎛dy⎞²⎞   ",
+            "s = ⎮ ⎜1 + ⎜――⎟ ⎟ dx",
+            "    ⌡ ⎝    ⎝dx⎠ ⎠   ",
+            "     a              "
+        ],
+        "one-line": "s = a∫b √( 1 + (dy/dx)² ) dx",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "arc length",
+                "symbol": "s"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "lower limit",
+                "symbol": "a"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "upper limit",
+                "symbol": "b"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "function of x",
+                "symbol": "y"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "independent variable",
+                "symbol": "x"
+            }
+        ]
+    },
+    "uuid": "a12e0219-58e5-454e-b126-b4e0d399df8c"
+}
