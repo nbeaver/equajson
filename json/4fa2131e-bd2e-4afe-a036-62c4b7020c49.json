@@ -69,7 +69,7 @@
                 "dimensionless": false,
                 "example-values": [
                     {
-                        "comment": "Kα1 fluorescence peak of Cu.",
+                        "comment": "Kα₁ fluorescence peak of Cu.",
                         "doi": "10.4236/anp.2015.41001",
                         "units": "nm",
                         "value": 0.1541
