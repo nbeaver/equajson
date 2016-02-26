@@ -1,0 +1,62 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Multiplicity of Einstein solid",
+        "verbose": "Multiplicity of microstates for an Einsten solid with independent oscillators."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ \\Omega = \\frac{(q + N - 1)!}{q! \\, (N-1)!} $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-26",
+            "url": "https://en.wikipedia.org/wiki/Einstein_solid"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "    (q + N − 1)!",
+            "Ω = ――――――――――――",
+            "     q!(N ― 1)! "
+        ],
+        "one-line": "Ω = (q + N − 1)!/(q!(N ― 1)!)",
+        "terms": [
+            {
+                "always-an-integer": true,
+                "always-positive": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "multiplicity of microstates",
+                "symbol": "Ω"
+            },
+            {
+                "always-an-integer": true,
+                "always-positive": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "number of energy quanta",
+                "symbol": "q"
+            },
+            {
+                "always-an-integer": true,
+                "always-positive": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "number of oscillators",
+                "symbol": "N"
+            }
+        ]
+    },
+    "uuid": "804060a0-cd50-417a-af1d-72cb17752996"
+}
