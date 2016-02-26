@@ -1,0 +1,63 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "<FIXME>",
+        "verbose": "<FIXME>"
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "<FIXME>"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-25",
+            "url": "<FIXME>"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "_____    ̅_   _",
+            "A ∪ B ≡ ̅ A ∩ B",
+            "_____    ̅_   _",
+            "A ∩ B ≡ ̅ A ∪ B"
+        ],
+        "one-line": "(A ∪ B)ᶜ ≡ Aᶜ ∩ Bᶜ, (A ∩ B)ᶜ ≡ Aᶜ ∪ Bᶜ",
+        "terms": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "first set",
+                "symbol": "A"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "second set",
+                "symbol": "B"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "union",
+                "symbol": "∪"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "intersection",
+                "symbol": "∩"
+            }
+        ]
+    },
+    "uuid": "c76180d9-e326-48de-a76f-9e6339d55ac8"
+}
