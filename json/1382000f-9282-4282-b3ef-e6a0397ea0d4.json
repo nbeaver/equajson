@@ -1,0 +1,68 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Drag force",
+        "verbose": "Drag force experienced by an incompressible body in a uniform fluid."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "F = \\frac{1}{2} \\rho v^2 C A"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-26",
+            "url": "https://en.wikipedia.org/wiki/Drag_equation"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "     1         ",
+            "F =  ― ρ v² C A",
+            "     2         "
+        ],
+        "one-line": "F = 1/2 ρ v² C A",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "drag force",
+                "symbol": "F"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "density of fluid",
+                "symbol": "ρ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "velocity of body in fluid",
+                "symbol": "v"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "drag coefficient",
+                "symbol": "C"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "area of profile in direction of motion",
+                "symbol": "A"
+            }
+        ]
+    },
+    "uuid": "1382000f-9282-4282-b3ef-e6a0397ea0d4"
+}
