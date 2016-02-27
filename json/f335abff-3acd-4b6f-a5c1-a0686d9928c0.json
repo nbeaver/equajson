@@ -49,6 +49,13 @@
                 "fixed-constant": true,
                 "label": "Boltzmann constant",
                 "symbol": "k",
+                "example-values": [
+                    {
+                        "comment": "SI units",
+                        "units": "J/K",
+                        "value": 1.38064852e-23
+                    }
+                ],
                 "urls": [
                     "https://en.wikipedia.org/wiki/Boltzmann_constant"
                 ]

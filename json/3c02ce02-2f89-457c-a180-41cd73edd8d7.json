@@ -53,6 +53,13 @@
             },
             {
                 "dimensionless": false,
+                "example-values": [
+                    {
+                        "comment": "SI units",
+                        "units": "W m⁻² K⁻⁴",
+                        "value": 5.670367e-5
+                    }
+                ],
                 "fixed-constant": true,
                 "label": "Stefan-Boltzmann constant",
                 "symbol": "σ",
