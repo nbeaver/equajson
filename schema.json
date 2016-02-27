@@ -183,6 +183,10 @@
                                 "description": "True if the quantity is always positive.",
                                 "type": "boolean"
                             },
+                            "bound-variable": {
+                                "description": "True if the quantity is a bound variable, such as an index in an infinite series or a variable of integration in a definite integral.",
+                                "type": "boolean"
+                            },
                             "dimensionless": {
                                 "description": "True if the quantity is dimensionless.",
                                 "type": "boolean"
@@ -252,8 +256,7 @@
                 }
             },
             "required": [
-                "multiline",
-                "one-line"
+                "multiline"
             ],
             "type": "object"
         },
