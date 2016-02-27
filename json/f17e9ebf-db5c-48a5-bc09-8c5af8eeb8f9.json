@@ -1,0 +1,86 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Newton's law of cooling",
+        "verbose": "Newton's Law of cooling or warming for thermal conduction of a single body and a thermal reservoir."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ \\frac{\\mathrm{d}T}{\\mathrm{d}t} = - \\frac{h A}{m c_p} \\Delta T $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-26",
+            "url": "https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "dT     h A    ",
+            "―― = − ―――― ΔT",
+            "dt     m cₚ   "
+        ],
+        "one-line": "dT/dt = −(h A)/(m cₚ) ΔT",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "temperature of object",
+                "symbol": "T"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "time",
+                "symbol": "t"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "heat transfer coefficient",
+                "symbol": "h",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Heat_transfer_coefficient"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "surface area of object capable of heat transfer to environment",
+                "symbol": "A"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "mass of object",
+                "symbol": "m"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "specific heat capacity",
+                "symbol": "cₚ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Heat_capacity#Specific_heat_capacity"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "temperature difference between object and environment",
+                "symbol": "ΔT"
+            }
+        ]
+    },
+    "uuid": "f17e9ebf-db5c-48a5-bc09-8c5af8eeb8f9"
+}
