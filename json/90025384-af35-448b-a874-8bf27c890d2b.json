@@ -1,0 +1,84 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Fourier series",
+        "verbose": "Fourier series"
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ f(x) = \\frac{1}{2} a_0 + \\sum_{n=1}^{\\infty} a_n \\cos(n x) + \\sum_{n=1}^{\\infty} b_n \\sin(n x) $"
+            }
+        ]
+    },
+    "related-equations": [
+        {
+            "uuid": "d989a31c-7351-4005-8e92-6e87d849eeb4"
+        },
+        {
+            "uuid": "2d38b383-8059-4df4-8416-a6a4e604db0a"
+        }
+    ],
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-27",
+            "url": "http://mathworld.wolfram.com/FourierSeries.html"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "       1      ∞              ∞           ",
+            "f(x) = ― a₀ + Σ aₙ cos(nx) + Σ bₙ sin(nx)",
+            "       2     ⁿ⁼¹            ⁿ⁼¹          "
+        ],
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "periodic function",
+                "symbol": "f"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "independent variable",
+                "symbol": "x"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "constant coefficient for f",
+                "symbol": "a₀"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "even coefficients for f",
+                "symbol": "aₙ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "odd coefficients for f",
+                "symbol": "bₙ"
+            },
+            {
+                "always-an-integer": true,
+                "always-positive": true,
+                "bound-variable": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "index of summation",
+                "symbol": "n"
+            }
+        ]
+    },
+    "uuid": "90025384-af35-448b-a874-8bf27c890d2b"
+}

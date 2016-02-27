@@ -1,0 +1,88 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "complex Fourier series",
+        "verbose": "Fourier series formulated using complex coefficients."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ f(x) = \\sum_{n = -\\infty}^{n=+\\infty} e^{i n x} \\left( \\frac{1}{2\\pi} \\int_{-\\pi}^{\\pi} \\!  f(u) e^{-i n u} \\, \\mathrm{d} u \\right) $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-27",
+            "url": "http://mathworld.wolfram.com/FourierSeries.html"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "       n=+∞          ⎛ 1   π                   ⎞",
+            "f(x) =  Σ exp(i n x) ⎜――  ∫ f(u) exp(-i n u) du⎟",
+            "       n=−∞          ⎝2π  -π                   ⎠"
+        ],
+        "terms": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "periodic function",
+                "symbol": "f"
+            },
+            {
+                "bound-variable": false,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "index of summation",
+                "symbol": "x"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "exponential function",
+                "symbol": "exp"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "√-1",
+                "symbol": "i",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Imaginary_unit"
+                ]
+            },
+            {
+                "bound-variable": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "index of summation",
+                "symbol": "n"
+            },
+            {
+                "bound-variable": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "variable of integration",
+                "symbol": "u"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "3.14159…",
+                "symbol": "π",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Pi"
+                ]
+            }
+        ]
+    },
+    "uuid": "b0ef3391-498a-4ab1-b6c3-ab3373c10bd1"
+}

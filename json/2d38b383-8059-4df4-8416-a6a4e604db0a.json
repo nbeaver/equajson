@@ -1,0 +1,73 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "odd Fourier coefficients",
+        "verbose": "Fourier coefficients for odd componenents of a Fourier series."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ b_n = \\frac{1}{\\pi} \\int_{-\\pi}^\\pi \\! f(u) \\sin(n u) \\, \\mathrm{d} u $"
+            }
+        ]
+    },
+    "related-equations": [
+        {
+            "uuid": "d989a31c-7351-4005-8e92-6e87d849eeb4"
+        },
+        {
+            "uuid": "90025384-af35-448b-a874-8bf27c890d2b"
+        }
+    ],
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-27",
+            "url": "https://en.wikipedia.org/wiki/Fourier_series"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "     1   π               ",
+            "bₙ = ―  ∫ f(u) sin(nu) du",
+            "     π  -π               "
+        ],
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "odd coefficient",
+                "symbol": "bₙ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "periodic function",
+                "symbol": "f"
+            },
+            {
+                "bound-variable": true,
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "variable of integration (over a period of sine)",
+                "symbol": "u"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "3.14159…",
+                "symbol": "π",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Pi"
+                ]
+            }
+        ]
+    },
+    "uuid": "2d38b383-8059-4df4-8416-a6a4e604db0a"
+}
