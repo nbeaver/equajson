@@ -1,0 +1,64 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Taylor series",
+        "verbose": "Taylor series expansion as the sum of polynomials. Superset of Maclaurin series."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!} (x-a)^n $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-26",
+            "url": "https://en.wikipedia.org/wiki/Taylor_series"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "       ∞  f⁽ⁿ⁾(a)         ",
+            "f(x) = Σ  ――――――― (x - a)ⁿ",
+            "      ⁿ⁼⁰    n!           "
+        ],
+        "one-line": "f(x) = Σ_{n=0}^∞ f⁽ⁿ⁾(a)/n! (x-a)ⁿ",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "function",
+                "symbol": "f"
+            },
+            {
+                "always-an-integer":true,
+                "always-positive":true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "index",
+                "symbol": "n"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "center point",
+                "symbol": "a"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "independent variable",
+                "symbol": "x"
+            }
+        ]
+    },
+    "uuid": "710ea1ae-fba2-4de0-8040-104cffe85e71"
+}
