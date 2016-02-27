@@ -1,0 +1,77 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Stefan-Boltzmann constant",
+        "verbose": "Stefan-Boltzmann constant for a black body."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\sigma = \\frac{2\\pi^5k^4}{15c^2h^3}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-26",
+            "url": "https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_constant"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "     2π⁵k³",
+            "σ = ――――――",
+            "    15c²h³"
+        ],
+        "one-line": "σ = (2π⁵k³)/(15c²h³)",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "Stefan-Boltzmann constant",
+                "symbol": "σ"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": true,
+                "label": "3.14159…",
+                "symbol": "π"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "Boltzmann constant",
+                "symbol": "k",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Boltzmann_constant"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "speed of light in vacuum",
+                "symbol": "c",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Speed_of_light"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "Planck's constant",
+                "symbol": "h",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Planck_constant"
+                ]
+            }
+        ]
+    },
+    "uuid": "f335abff-3acd-4b6f-a5c1-a0686d9928c0"
+}

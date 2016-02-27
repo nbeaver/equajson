@@ -1,0 +1,72 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Stefan-Boltzmann Law",
+        "verbose": "Stefan-Boltzmann Law for power radiated by a black body."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ P = A \\varepsilon \\sigma T^4 $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-26",
+            "url": "https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "P = A ε σ T⁴"
+        ],
+        "one-line": "P = A ε σ T⁴",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "power radiated",
+                "symbol": "P"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "surface area of radiating body",
+                "symbol": "A"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "emissivity",
+                "symbol": "ε",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Emissivity"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "Stefan-Boltzmann constant",
+                "symbol": "σ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_constant"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "temperature of radiating body",
+                "symbol": "T"
+            }
+        ]
+    },
+    "uuid": "3c02ce02-2f89-457c-a180-41cd73edd8d7"
+}
