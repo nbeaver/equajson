@@ -114,3 +114,5 @@ Related projects
 - `Search On Math <http://searchonmath.com/>`_
 - `EquationSheet.com <http://www.equationsheet.com/>`_
 - `Symbolab <https://www.symbolab.com/>`_
+
+.. Advantages over wikipedia: control over parametrization, offline availability, variety of markup languages
