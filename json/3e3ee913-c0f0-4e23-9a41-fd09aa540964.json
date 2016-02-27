@@ -1,0 +1,75 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Planck's law",
+        "verbose": "Planck's law for spectral radiance of a black body in terms of wavelength."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ B = \\frac{2 h c^2} {\\lambda^5} \\frac{1} {e^{ \\frac{h c} {\\lambda k T} } - 1 } $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-02-26",
+            "url": "https://en.wikipedia.org/wiki/Planck%27s_law"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "    2hc²          1        ",
+            "B = ――――  ―――――――――――――――――",
+            "     λ⁵      hc /(λ k T)   ",
+            "            e           − 1"
+        ],
+        "one-line": "",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "spectral radiance per unit wavelength",
+                "symbol": "B"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "Planck's constant",
+                "symbol": "h",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Planck_constant"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "speed of light in vacuum",
+                "symbol": "c",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Speed_of_light"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "wavelength of emitted radiation",
+                "symbol": "λ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "temperature of radiating body",
+                "symbol": "T"
+            }
+        ]
+    },
+    "uuid": "3e3ee913-c0f0-4e23-9a41-fd09aa540964"
+}
