@@ -58,7 +58,14 @@ Laplacian::
 
 Some approximations::
 
-    $ python equajson.py approximation
+    $ equajson.py approximation
+    Stirling's approximation
+    n! ≈ nⁿ e⁻ⁿ √(2πn)
+    where:
+    n = integer of interest
+    e = 2.71828…
+    π = 3.14159…
+    --------------------------------------------------------------------------------
     Linear approximation
     f(x) ≈ f(a) + f'(a)(x-a)
     where:
@@ -76,7 +83,7 @@ Some approximations::
     Binomial approximation
     (1+x)ⁿ ≈ 1 + nx
     where:
-    x = small number (close to 0)
+    x = small real number (|x| ≪ 1)
     n = exponent
     --------------------------------------------------------------------------------
 
