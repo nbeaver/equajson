@@ -52,6 +52,14 @@
                 "symbol": "f"
             },
             {
+                "always-an-integer": true,
+                "bound-variable": false,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "integer in 0, 1, 2, 3, …",
+                "symbol": "n"
+            },
+            {
                 "bound-variable": true,
                 "dimensionless": false,
                 "fixed-constant": false,
