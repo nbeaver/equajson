@@ -51,13 +51,13 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "dimensionless": true,
                 "fixed-constant": false,
                 "label": "exponential function",
                 "symbol": "exp"
             },
             {
-                "dimensionless": false,
+                "dimensionless": true,
                 "fixed-constant": true,
                 "label": "√-1",
                 "symbol": "i",
