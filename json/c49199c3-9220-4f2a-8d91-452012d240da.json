@@ -9,7 +9,7 @@
     },
     "description": {
         "terse": "Area of a regular polygon.",
-        "verbose": "The total are of a regular convex polygon."
+        "verbose": "The total area of a regular convex polygon."
     },
     "markup-languages": {
         "LaTeX": [
