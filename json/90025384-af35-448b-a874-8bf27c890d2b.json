@@ -34,9 +34,9 @@
     ],
     "unicode-pretty-print": {
         "multiline": [
-            "       1      ∞              ∞           ",
-            "f(x) = ― a₀ + Σ aₙ cos(nx) + Σ bₙ sin(nx)",
-            "       2     ⁿ⁼¹            ⁿ⁼¹          "
+            "       1      ∞ ⎛                       ⎞",
+            "f(x) = ― a₀ + Σ ⎜aₙ cos(nx) + bₙ sin(nx)⎟",
+            "       2     ⁿ⁼¹⎝                       ⎠"
         ],
         "terms": [
             {
