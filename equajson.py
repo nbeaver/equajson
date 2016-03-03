@@ -35,6 +35,7 @@ def main(query):
             description = equation["description"]["verbose"]
             if query.lower() in description.lower():
                 pretty_print(equation)
+                print(filepath)
                 print('-'*80)
         # TODO: exit with error if no results are found.
 
