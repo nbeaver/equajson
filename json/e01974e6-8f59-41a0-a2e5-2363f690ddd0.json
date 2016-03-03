@@ -1,0 +1,79 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Gudermannian",
+        "verbose": "The Gudermannian function, gd."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ \\mathrm{gd}(x) = \\int_0^x \\frac{\\mathrm{d} u}{ \\cosh u} $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-03-03",
+            "url": "http://dlmf.nist.gov/4.23#viii"
+        },
+        {
+            "date-known-good": "2016-03-03",
+            "url": "https://en.wikipedia.org/wiki/Gudermannian_function"
+        },
+        {
+            "date-known-good": "2016-03-03",
+            "url": "http://mathworld.wolfram.com/Gudermannian.html"
+        },
+        {
+            "date-known-good": "2016-03-03",
+            "url": "http://thinkingmachineblog.net/gudermannian-function/"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "          x        ",
+            "        ⌠   1      ",
+            "gd(x) = ⎮ ―――――― du",
+            "        ⌡ cosh u   ",
+            "         0         "
+        ],
+        "one-line": "gd x = 0∫x (1/cosh(u)) du",
+        "terms": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "Gudermannian function",
+                "symbol": "gd"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "independent variable",
+                "symbol": "x"
+            },
+            {
+                "bound-variable": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "variable of integration",
+                "symbol": "u"
+            },
+            {
+                "fixed-constant": false,
+                "label": "hyperbolic cosine function",
+                "symbol": "cosh",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Hyperbolic_function#Cosh"
+                ]
+            }
+        ]
+    },
+    "uuid": "e01974e6-8f59-41a0-a2e5-2363f690ddd0"
+}
