@@ -30,6 +30,10 @@
         {
             "date-known-good": "2016-02-27",
             "url": "http://mathworld.wolfram.com/FourierSeries.html"
+        },
+        {
+            "date-known-good": "2016-03-03",
+            "url": "http://dlmf.nist.gov/1.8"
         }
     ],
     "unicode-pretty-print": {
