@@ -57,6 +57,7 @@
                 "symbol": "x"
             },
             {
+                "bound-variable": true,
                 "dimensionless": false,
                 "fixed-constant": false,
                 "label": "dummy variable",
