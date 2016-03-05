@@ -1,0 +1,68 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "photoelectron wavenumber",
+        "verbose": "Photoelectron momentum index (wavenumber), usually for X-rays."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\sqrt{\\frac{2m_e (E-E_0)}{\\hbar^2}}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-03-05",
+            "url": "https://en.wikipedia.org/wiki/Wavenumber"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "    ⎛2 mₑ(E - E₀)⎞½",
+            "k = ⎜――――――――――――⎟ ",
+            "    ⎝     ℏ²     ⎠ "
+        ],
+        "one-line": "k = √(2mₑ(E - E₀)/ℏ²)",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "wavenumber",
+                "symbol": "k"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "electron mass",
+                "symbol": "mₑ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "energy of X-ray",
+                "symbol": "E"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "energy of absorption edge",
+                "symbol": "E₀"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "reduced Planck constant",
+                "symbol": "ℏ"
+            }
+        ]
+    },
+    "uuid": "74391487-5c03-4875-a534-9d0499b44714"
+}

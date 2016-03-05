@@ -1,0 +1,103 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "EXAFS equation",
+        "verbose": "Extended X-ray Absorption Fine Structure (EXAFS) for x-ray absorption spectra."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\chi(k) = \\frac{m}{4\\pi h^2 k} \\sum_j \\frac{N_j}{R_j^2} t_j(2k) e^{-2R_j/\\lambda} \\sin[2 k R_j + 2 \\delta_j (k)] e^{-2k^2 \\sigma_j^2}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-03-05",
+            "url": "http://dx.doi.org/10.1103/PhysRevB.10.3027"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "                fⱼ(k)     ⎛−2Rⱼ⎞                                     ",
+            "χ(k) = S₀² Σⱼ Nⱼ―――――  exp⎜――――⎟ sin[2kRⱼ + 2δⱼ(k) + Φⱼ] exp(−2k²σⱼ²)",
+            "                k Rⱼ²     ⎝λ(k)⎠                                     "
+        ],
+        "terms": [
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "normalized oscillatory XAFS interference term",
+                "symbol": "χ(k)"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "amplitude reduction factor",
+                "symbol": "S₀"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "degeneracy of atoms in jth coordination shell (number of equivalent scatterers)",
+                "symbol": "Nⱼ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "backscattering amplitude (atomic form factor) for jth atomic species",
+                "symbol": "fⱼ(k)"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "photoelectron momentum index",
+                "symbol": "k"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "average radial distance to atoms in the jth coordination shell",
+                "symbol": "Rⱼ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "mean free path of photoelectron (not a wavelength)",
+                "symbol": "λ(k)"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "central-atom partial-wave phase shift of the final state",
+                "symbol": "δⱼ"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "backscattering phase factor for jth shell",
+                "symbol": "Φⱼ"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "Root mean square radial distance fluctuations about Rⱼ for jth shell atoms.",
+                "symbol": "σⱼ"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "Debye-Waller factor",
+                "symbol": "exp(−2k²σⱼ²)"
+            }
+        ]
+    },
+    "uuid": "0cf584a1-7ca4-4602-9931-e942698304c2"
+}
