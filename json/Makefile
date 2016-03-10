@@ -7,7 +7,7 @@ timestamps:
 	mkdir timestamps
 
 timestamps/%.timestamp : %.json
-	python validate_equajson.py $< ../schema.json
+	python ../validate_equajson.py $< ../schema.json
 	touch $@ # update the timestamp only if validation succeeds
 
 clean:
