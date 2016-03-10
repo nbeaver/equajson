@@ -175,21 +175,36 @@
                         "additionalProperties": false,
                         "description": "The term object.",
                         "properties": {
-                            "always-an-integer": {
-                                "description": "True if the quantity must be an integer or subset thereof such as a natural number.",
-                                "type": "boolean"
-                            },
-                            "always-positive": {
-                                "description": "True if the quantity is always positive.",
-                                "type": "boolean"
-                            },
-                            "bound-variable": {
-                                "description": "True if the quantity is a bound variable, such as an index in an infinite series or a variable of integration in a definite integral.",
-                                "type": "boolean"
-                            },
-                            "always-dimensionless": {
-                                "description": "True if the quantity is always dimensionless, such as radians or degrees.",
-                                "type": "boolean"
+                            "classification": {
+                                "description": "Mathematical classification and properties of this term.",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "always-an-integer": {
+                                        "description": "True if the quantity must be an integer or subset thereof such as a natural number.",
+                                        "type": "boolean"
+                                    },
+                                    "always-positive": {
+                                        "description": "True if the quantity is always positive.",
+                                        "type": "boolean"
+                                    },
+                                    "always-dimensionless": {
+                                        "description": "True if the quantity is always dimensionless, such as radians or degrees.",
+                                        "type": "boolean"
+                                    },
+                                    "bound-variable": {
+                                        "description": "True if the quantity is a bound variable, such as an index in an infinite series or a variable of integration in a definite integral.",
+                                        "type": "boolean"
+                                    },
+                                    "fixed-constant": {
+                                        "description": "True if the quantity has a fixed numeric value, such as π, √2, or the speed of light.",
+                                        "type": "boolean"
+                                    },
+                                    "special-function": {
+                                        "description": "True if the function is a known function with a fixed definition.",
+                                        "type": "boolean"
+                                    }
+                                },
+                                "type": "object"
                             },
                             "example-values": {
                                 "items": {
@@ -221,17 +236,9 @@
                                 "description": "Examples of values the term may take on.",
                                 "type": "array"
                             },
-                            "fixed-constant": {
-                                "description": "True if the quantity has a fixed numeric value, such as π, √2, or the speed of light.",
-                                "type": "boolean"
-                            },
                             "label": {
                                 "description": "Short description of the quantity, suitable for an 'where x is the ...' type statement.",
                                 "type": "string"
-                            },
-                            "special-function": {
-                                "description": "True if the function is a known function with a fixed definition.",
-                                "type": "boolean"
                             },
                             "symbol": {
                                 "description": "The symbol for the quantity.",
