@@ -26,7 +26,11 @@
     "relevant-urls": [
         {
             "date-known-good": "2016-02-17",
-            "url": "<FIXME>"
+            "url": "https://en.wikipedia.org/wiki/Normal_distribution"
+        },
+        {
+            "date-known-good": "2016-02-17",
+            "url": "https://www.encyclopediaofmath.org/index.php/Normal_distribution"
         }
     ],
     "unicode-pretty-print": {
@@ -65,6 +69,7 @@
                 "dimensionless": true,
                 "fixed-constant": false,
                 "label": "exponential function",
+                "special-function": true,
                 "symbol": "exp"
             },
             {

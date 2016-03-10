@@ -56,6 +56,15 @@
                 "symbol": "x"
             },
             {
+                "always-an-integer": true,
+                "always-positive": true,
+                "bound-variable": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "index of summation",
+                "symbol": "n"
+            },
+            {
                 "dimensionless": false,
                 "fixed-constant": false,
                 "label": "constant coefficient for f",
@@ -74,13 +83,18 @@
                 "symbol": "bₙ"
             },
             {
-                "always-an-integer": true,
-                "always-positive": true,
-                "bound-variable": true,
                 "dimensionless": true,
                 "fixed-constant": false,
-                "label": "index of summation",
-                "symbol": "n"
+                "label": "cosine function",
+                "special-function": true,
+                "symbol": "cos"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "sine function",
+                "special-function": true,
+                "symbol": "sine"
             }
         ]
     },

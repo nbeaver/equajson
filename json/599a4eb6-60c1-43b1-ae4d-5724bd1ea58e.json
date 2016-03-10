@@ -54,6 +54,7 @@
                 "dimensionless": true,
                 "fixed-constant": false,
                 "label": "sine function",
+                "special-function": true,
                 "symbol": "sin"
             }
         ]

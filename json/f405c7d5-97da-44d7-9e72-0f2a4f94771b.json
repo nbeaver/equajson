@@ -75,6 +75,12 @@
                 "symbol": "I"
             },
             {
+                "fixed-constant": false,
+                "label": "cross product",
+                "special-function": true,
+                "symbol": "⨯"
+            },
+            {
                 "dimensionless": true,
                 "fixed-constant": false,
                 "label": "point on path where current is flowing",

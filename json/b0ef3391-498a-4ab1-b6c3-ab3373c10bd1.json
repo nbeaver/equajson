@@ -47,7 +47,8 @@
             {
                 "dimensionless": true,
                 "fixed-constant": false,
-                "label": "exponential function",
+                "label": "natural exponential function",
+                "special-function": true,
                 "symbol": "exp"
             },
             {

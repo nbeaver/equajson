@@ -73,10 +73,24 @@
                 "symbol": "Rⱼ"
             },
             {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "natural exponential function (e^x)",
+                "special-function" : true,
+                "symbol": "exp"
+            },
+            {
                 "dimensionless": false,
                 "fixed-constant": false,
                 "label": "mean free path of photoelectron (not a wavelength)",
                 "symbol": "λ(k)"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "sine function",
+                "special-function" : true,
+                "symbol": "sin"
             },
             {
                 "dimensionless": true,

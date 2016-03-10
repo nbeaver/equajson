@@ -101,6 +101,13 @@
             },
             {
                 "dimensionless": true,
+                "fixed-constant": false,
+                "label": "cosine function",
+                "special-function": true,
+                "symbol": "cos"
+            },
+            {
+                "dimensionless": true,
                 "example-values": [
                     {
                         "comment": "(1 1 1) peak of FCC silver nanoparticles",

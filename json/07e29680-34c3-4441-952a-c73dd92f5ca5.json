@@ -36,6 +36,7 @@
                 "dimensionless": false,
                 "fixed-constant": false,
                 "label": "cosine function",
+                "special-function": true,
                 "symbol": "cos"
             },
             {

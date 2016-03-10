@@ -52,6 +52,13 @@
                 "symbol": "f"
             },
             {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "sine function",
+                "special-function": true,
+                "symbol": "sin"
+            },
+            {
                 "always-an-integer": true,
                 "always-positive": true,
                 "bound-variable": false,

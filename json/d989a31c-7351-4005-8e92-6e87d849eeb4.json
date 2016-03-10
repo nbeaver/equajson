@@ -52,19 +52,26 @@
                 "symbol": "f"
             },
             {
+                "bound-variable": true,
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "variable of integration (over a period of cosine)",
+                "symbol": "u"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "cosine function",
+                "special-function": true,
+                "symbol": "cos"
+            },
+            {
                 "always-an-integer": true,
                 "bound-variable": false,
                 "dimensionless": true,
                 "fixed-constant": false,
                 "label": "integer in 0, 1, 2, 3, …",
                 "symbol": "n"
-            },
-            {
-                "bound-variable": true,
-                "dimensionless": false,
-                "fixed-constant": false,
-                "label": "variable of integration (over a period of cosine)",
-                "symbol": "u"
             },
             {
                 "dimensionless": true,

@@ -78,6 +78,13 @@
             {
                 "dimensionless": true,
                 "fixed-constant": false,
+                "label": "cosine function",
+                "special-function": true,
+                "symbol": "cos"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
                 "label": "angle of scattered photon relative to initial direction",
                 "symbol": "θ"
             }

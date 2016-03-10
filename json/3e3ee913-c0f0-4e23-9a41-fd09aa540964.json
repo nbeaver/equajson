@@ -26,10 +26,9 @@
     ],
     "unicode-pretty-print": {
         "multiline": [
-            "    2hc²          1        ",
-            "B = ――――  ―――――――――――――――――",
-            "     λ⁵      hc /(λ k T)   ",
-            "            e           − 1"
+            "    2hc²           1          ",
+            "B = ――――  ――――――――――――――――――――",
+            "     λ⁵   exp(hc /(λ k T)) − 1"
         ],
         "one-line": "",
         "terms": [
@@ -56,6 +55,12 @@
                 "urls": [
                     "https://en.wikipedia.org/wiki/Speed_of_light"
                 ]
+            },
+            {
+                "fixed-constant": false,
+                "label": "natural exponential function (e^x)",
+                "special-function": true,
+                "symbol": "exp"
             },
             {
                 "dimensionless": false,

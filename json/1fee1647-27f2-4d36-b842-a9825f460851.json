@@ -41,6 +41,12 @@
                 "fixed-constant": false,
                 "label": "point of tangency",
                 "symbol": "a"
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": false,
+                "label": "derivative of f at a.",
+                "symbol": "f'(a)"
             }
         ]
     },

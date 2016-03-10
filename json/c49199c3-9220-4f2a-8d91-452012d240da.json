@@ -54,6 +54,7 @@
                 "dimensionless": false,
                 "fixed-constant": false,
                 "label": "cotangent function",
+                "special-function": true,
                 "symbol": "cot"
             },
             {

@@ -55,6 +55,14 @@
                 "fixed-constant": false,
                 "label": "number of elements chosen",
                 "symbol": "k"
+            },
+            {
+                "always-an-integer": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "factorial function",
+                "special-function": true,
+                "symbol": "!"
             }
         ]
     },

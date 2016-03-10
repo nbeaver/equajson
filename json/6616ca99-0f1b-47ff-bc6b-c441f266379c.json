@@ -81,6 +81,13 @@
             {
                 "dimensionless": true,
                 "fixed-constant": false,
+                "label": "sine function",
+                "special-function": true,
+                "symbol": "sin"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
                 "label": "zenith angle, spans π radian",
                 "symbol": "θ",
                 "urls": [

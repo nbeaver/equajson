@@ -33,6 +33,13 @@
         "one-line": "logₘ x = (logₙ x)/(logₙ m)",
         "terms": [
             {
+                "always-an-integer": false,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "logarithm of x in base m",
+                "symbol": "logₘ"
+            },
+            {
                 "dimensionless": true,
                 "fixed-constant": false,
                 "label": "argument",
@@ -44,6 +51,13 @@
                 "fixed-constant": false,
                 "label": "old base",
                 "symbol": "m"
+            },
+            {
+                "always-an-integer": false,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "logarithm of x in base n",
+                "symbol": "logₙ"
             },
             {
                 "always-an-integer": false,

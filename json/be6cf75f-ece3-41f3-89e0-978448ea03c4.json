@@ -45,6 +45,14 @@
                 "symbol": "n"
             },
             {
+                "always-an-integer": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "factorial function",
+                "special-function": true,
+                "symbol": "!"
+            },
+            {
                 "dimensionless": true,
                 "fixed-constant": true,
                 "label": "2.71828…",

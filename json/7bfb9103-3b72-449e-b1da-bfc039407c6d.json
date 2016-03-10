@@ -37,6 +37,7 @@
                 "fixed-constant": false,
                 "label": "curl",
                 "symbol": "∇⨯",
+                "special-function": true,
                 "urls": [
                     "https://en.wikipedia.org/wiki/Curl_%28mathematics%29"
                 ]

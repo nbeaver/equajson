@@ -8,28 +8,28 @@
         "year": 2016
     },
     "description": {
-        "terse": "<FIXME>",
-        "verbose": "<FIXME>"
+        "terse": "De Morgan's Laws",
+        "verbose": "De Morgan's Laws of logic and boolean algebra."
     },
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "<FIXME>"
+                "markup": "$ \\overline{A \\cup B} = \\overline{A} \\cap \\overline{B}; \\overline{A \\cap B} = \\overline{A} \\cup \\overline{B} $"
             }
         ]
     },
     "relevant-urls": [
         {
             "date-known-good": "2016-02-25",
-            "url": "<FIXME>"
+            "url": "https://en.wikipedia.org/wiki/De_Morgan%27s_laws"
         }
     ],
     "unicode-pretty-print": {
         "multiline": [
-            "_____    ̅_   _",
-            "A ∪ B ≡ ̅ A ∩ B",
-            "_____    ̅_   _",
-            "A ∩ B ≡ ̅ A ∪ B"
+            "_____   _   _",
+            "A ∪ B ≡ A ∩ B",
+            "_____   _   _",
+            "A ∩ B ≡ A ∪ B"
         ],
         "one-line": "(A ∪ B)ᶜ ≡ Aᶜ ∩ Bᶜ, (A ∩ B)ᶜ ≡ Aᶜ ∪ Bᶜ",
         "terms": [
@@ -49,12 +49,14 @@
                 "dimensionless": true,
                 "fixed-constant": false,
                 "label": "union",
+                "special-function": true,
                 "symbol": "∪"
             },
             {
                 "dimensionless": true,
                 "fixed-constant": false,
                 "label": "intersection",
+                "special-function": true,
                 "symbol": "∩"
             }
         ]

@@ -53,7 +53,8 @@
             {
                 "dimensionless": true,
                 "fixed-constant": false,
-                "label": "exponential function",
+                "label": "natural exponential function (e^x)",
+                "special-function": true,
                 "symbol": "exp"
             },
             {

@@ -55,6 +55,12 @@
                 "symbol": "v"
             },
             {
+                "fixed-constant": false,
+                "label": "cross product",
+                "special-function": true,
+                "symbol": "⨯"
+            },
+            {
                 "dimensionless": false,
                 "fixed-constant": false,
                 "label": "magntic field on q",

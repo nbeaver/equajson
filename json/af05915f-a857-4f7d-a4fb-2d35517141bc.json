@@ -57,12 +57,18 @@
             },
             {
                 "dimensionless": true,
-                "fixed-constant": true,
-                "label": "3.14159…",
-                "symbol": "π",
-                "urls": [
-                    "https://en.wikipedia.org/wiki/Pi"
-                ]
+                "fixed-constant": false,
+                "label": "natural exponential function (e^x)",
+                "special-function": true,
+                "symbol": "exp"
+            },
+            {
+                "always-an-integer": true,
+                "dimensionless": true,
+                "fixed-constant": false,
+                "label": "factorial function",
+                "special-function": true,
+                "symbol": "!"
             }
         ]
     },

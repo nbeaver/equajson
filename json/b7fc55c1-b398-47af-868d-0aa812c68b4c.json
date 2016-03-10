@@ -50,6 +50,7 @@
                 "dimensionless": false,
                 "fixed-constant": false,
                 "label": "wave function",
+                "special-function": false,
                 "symbol": "Ψ"
             },
             {

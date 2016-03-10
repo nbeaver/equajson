@@ -50,6 +50,7 @@
                 "dimensionless": true,
                 "fixed-constant": false,
                 "label": "Gudermannian function",
+                "special-function": true,
                 "symbol": "gd"
             },
             {
@@ -69,6 +70,7 @@
                 "fixed-constant": false,
                 "label": "hyperbolic cosine function",
                 "symbol": "cosh",
+                "special-function": true,
                 "urls": [
                     "https://en.wikipedia.org/wiki/Hyperbolic_function#Cosh"
                 ]

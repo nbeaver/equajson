@@ -57,6 +57,13 @@
             {
                 "dimensionless": true,
                 "fixed-constant": false,
+                "label": "cosine function",
+                "special-function": true,
+                "symbol": "cos"
+            },
+            {
+                "dimensionless": true,
+                "fixed-constant": false,
                 "label": "angle between a and b",
                 "symbol": "θ"
             }

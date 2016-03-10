@@ -47,6 +47,7 @@
                 "dimensionless": true,
                 "fixed-constant": false,
                 "label": "error function",
+                "special-function": true,
                 "symbol": "erf"
             },
             {
@@ -66,6 +67,7 @@
                 "dimensionless": true,
                 "fixed-constant": false,
                 "label": "exponential function",
+                "special-function": true,
                 "symbol": "exp"
             },
             {
