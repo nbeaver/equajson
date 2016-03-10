@@ -39,27 +39,27 @@
             {
                 "always-an-integer": true,
                 "always-positive": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "integer of interest",
                 "symbol": "n"
             },
             {
                 "always-an-integer": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "factorial function",
                 "special-function": true,
                 "symbol": "!"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": true,
                 "label": "2.71828…",
                 "symbol": "e"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": true,
                 "label": "3.14159…",
                 "symbol": "π",

@@ -36,27 +36,27 @@
         "one-line": "P(n) = (Nⁿ exp(-N))/(n!)",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "probability of n decays",
                 "symbol": "P(n)"
             },
             {
                 "always-an-integer": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "number of decays in interval",
                 "symbol": "n"
             },
             {
                 "always-an-integer": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "average decay rate in interval",
                 "symbol": "N"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "natural exponential function (e^x)",
                 "special-function": true,
@@ -64,7 +64,7 @@
             },
             {
                 "always-an-integer": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "factorial function",
                 "special-function": true,

@@ -42,25 +42,25 @@
         "one-line": "k = √(2mE)/ℏ",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "wavenumber",
                 "symbol": "k"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "mass",
                 "symbol": "m"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "energy",
                 "symbol": "E"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": true,
                 "label": "reduced Planck's constant",
                 "symbol": "ℏ"

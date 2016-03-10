@@ -33,32 +33,32 @@
         "one-line": "Ω = N!/(N↑! N↓!)",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "multiplicity",
                 "symbol": "Ω"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "number of dipoles",
                 "symbol": "N"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "number of dipoles pointing up",
                 "symbol": "N↑"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "number of dipoles pointing down",
                 "symbol": "N↓"
             },
             {
                 "always-an-integer": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "factorial function",
                 "special-function": true,

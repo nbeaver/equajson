@@ -31,7 +31,7 @@
         "one-line": "2 d sin(θ) = n λ",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "example-values": [
                     {
                         "comment": "(1 1 1) plane of silver nanoparticles",
@@ -45,7 +45,7 @@
                 "symbol": "d"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "example-values": [
                     {
                         "comment": "(1 1 1) plane of silver nanoparticles",
@@ -60,13 +60,13 @@
             },
             {
                 "always-an-integer": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "periodicity multiplier",
                 "symbol": "n"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "example-values": [
                     {
                         "comment": "Kα₁ fluorescence peak of Cu.",
@@ -80,7 +80,7 @@
                 "symbol": "λ"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "sine function",
                 "special-function": true,

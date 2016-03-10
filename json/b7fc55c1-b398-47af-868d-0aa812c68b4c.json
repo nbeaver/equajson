@@ -41,26 +41,26 @@
         "one-line": "E Ψ(r) = (‒ (ℏ²/2μ) ∇² + V(r)) Ψ(r)",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "energy",
                 "symbol": "E"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "wave function",
                 "special-function": false,
                 "symbol": "Ψ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "radius",
                 "symbol": "r"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": true,
                 "label": "reduced Planck constant",
                 "symbol": "ℏ",
@@ -70,7 +70,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": true,
                 "label": "reduced mass",
                 "symbol": "μ",
@@ -79,7 +79,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "Laplacian",
                 "symbol": "∇²",
@@ -88,7 +88,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "potential energy function",
                 "symbol": "V"

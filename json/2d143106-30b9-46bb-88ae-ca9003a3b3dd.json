@@ -31,25 +31,25 @@
         "one-line": "F = q(E + v ⨯ B)",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "force on q",
                 "symbol": "F"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "charge of particle",
                 "symbol": "q"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "electric field on q",
                 "symbol": "E"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "velocity of q",
                 "symbol": "v"
@@ -61,7 +61,7 @@
                 "symbol": "⨯"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "magntic field on q",
                 "symbol": "B"

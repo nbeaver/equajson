@@ -31,19 +31,19 @@
         "one-line": "P = A ε σ T⁴",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "power radiated",
                 "symbol": "P"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "surface area of radiating body",
                 "symbol": "A"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "emissivity",
                 "symbol": "ε",
@@ -52,7 +52,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "example-values": [
                     {
                         "comment": "SI units",
@@ -68,7 +68,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "temperature of radiating body",
                 "symbol": "T"

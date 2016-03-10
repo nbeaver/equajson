@@ -187,8 +187,8 @@
                                 "description": "True if the quantity is a bound variable, such as an index in an infinite series or a variable of integration in a definite integral.",
                                 "type": "boolean"
                             },
-                            "dimensionless": {
-                                "description": "True if the quantity is dimensionless.",
+                            "always-dimensionless": {
+                                "description": "True if the quantity is always dimensionless, such as radians or degrees.",
                                 "type": "boolean"
                             },
                             "example-values": {

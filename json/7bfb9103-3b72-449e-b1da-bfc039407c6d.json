@@ -33,7 +33,7 @@
         "one-line": "∇⨯E = − ∂B/∂t",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "curl",
                 "symbol": "∇⨯",
@@ -43,7 +43,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "electric field vector",
                 "symbol": "E",
@@ -52,7 +52,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "magnetic field vector",
                 "symbol": "B",
@@ -61,7 +61,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "time",
                 "symbol": "t"

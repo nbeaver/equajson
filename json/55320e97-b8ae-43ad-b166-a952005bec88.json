@@ -31,14 +31,14 @@
         "terms": [
             {
                 "always-an-integer": false,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "small real number (|x| ≪ 1)",
                 "symbol": "x"
             },
             {
                 "always-an-integer": false,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "exponent",
                 "symbol": "n"

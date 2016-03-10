@@ -35,31 +35,31 @@
         "one-line": "s = a∫b √( 1 + (dy/dx)² ) dx",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "arc length",
                 "symbol": "s"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "lower limit",
                 "symbol": "a"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "upper limit",
                 "symbol": "b"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "function of x",
                 "symbol": "y"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "independent variable",
                 "symbol": "x"

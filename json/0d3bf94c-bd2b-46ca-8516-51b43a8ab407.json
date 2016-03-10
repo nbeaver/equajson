@@ -33,25 +33,25 @@
         "one-line": "P(A|B) = (P(B|A) P(A)) / (P(B))",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "posterior probability of A given B is true",
                 "symbol": "P(A|B)"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "conditional probability of B given A is true",
                 "symbol": "P(B|A)"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "prior probability that A is true",
                 "symbol": "P(A)"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "probability B is true",
                 "symbol": "P(B)"

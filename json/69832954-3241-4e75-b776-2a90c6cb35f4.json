@@ -42,7 +42,7 @@
         "one-line": "ψ = exp(i(kx − ωt)",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "wavefunction",
                 "symbol": "ψ",
@@ -51,14 +51,14 @@
                 ]
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "natural exponential function (e^x)",
                 "special-function": true,
                 "symbol": "exp"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": true,
                 "label": "√-1",
                 "symbol": "i",
@@ -67,7 +67,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "wavenumber",
                 "symbol": "k",
@@ -76,13 +76,13 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "position on x-axis",
                 "symbol": "x"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "angular frequency",
                 "symbol": "ω",
@@ -91,7 +91,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "time",
                 "symbol": "t"

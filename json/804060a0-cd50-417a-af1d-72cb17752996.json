@@ -35,7 +35,7 @@
             {
                 "always-an-integer": true,
                 "always-positive": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "multiplicity of microstates",
                 "symbol": "Ω"
@@ -43,7 +43,7 @@
             {
                 "always-an-integer": true,
                 "always-positive": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "number of energy quanta",
                 "symbol": "q"
@@ -51,14 +51,14 @@
             {
                 "always-an-integer": true,
                 "always-positive": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "number of oscillators",
                 "symbol": "N"
             },
             {
                 "always-an-integer": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "factorial function",
                 "special-function": true,

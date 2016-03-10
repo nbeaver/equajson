@@ -39,26 +39,26 @@
         "one-line": "(f * g)(x) = −∞∫+∞ f(u) g(x − u) du",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "function under transform",
                 "symbol": "f"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "weighting function",
                 "symbol": "g"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "independent variable",
                 "symbol": "x"
             },
             {
                 "bound-variable": true,
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "dummy variable",
                 "symbol": "u"

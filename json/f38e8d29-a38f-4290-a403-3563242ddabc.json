@@ -42,38 +42,38 @@
         "one-line": "P(x) = 1/(σ√(2π)) exp(−(x−μ)²/(2σ²))",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "probability",
                 "symbol": "P"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "independent variable",
                 "symbol": "x"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "mean",
                 "symbol": "μ"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "standard deviation",
                 "symbol": "σ"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "exponential function",
                 "special-function": true,
                 "symbol": "exp"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": true,
                 "label": "3.14159…",
                 "symbol": "π",

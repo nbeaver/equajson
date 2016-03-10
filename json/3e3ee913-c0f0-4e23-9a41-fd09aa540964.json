@@ -33,13 +33,13 @@
         "one-line": "",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "spectral radiance per unit wavelength",
                 "symbol": "B"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": true,
                 "label": "Planck's constant",
                 "symbol": "h",
@@ -48,7 +48,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": true,
                 "label": "speed of light in vacuum",
                 "symbol": "c",
@@ -63,13 +63,13 @@
                 "symbol": "exp"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "wavelength of emitted radiation",
                 "symbol": "λ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "temperature of radiating body",
                 "symbol": "T"

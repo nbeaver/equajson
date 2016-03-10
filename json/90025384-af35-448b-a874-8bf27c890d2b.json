@@ -44,13 +44,13 @@
         ],
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "periodic function",
                 "symbol": "f"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "independent variable",
                 "symbol": "x"
@@ -59,38 +59,38 @@
                 "always-an-integer": true,
                 "always-positive": true,
                 "bound-variable": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "index of summation",
                 "symbol": "n"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "constant coefficient for f",
                 "symbol": "a₀"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "even coefficients for f",
                 "symbol": "aₙ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "odd coefficients for f",
                 "symbol": "bₙ"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "cosine function",
                 "special-function": true,
                 "symbol": "cos"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "sine function",
                 "special-function": true,

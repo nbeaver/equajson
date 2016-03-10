@@ -33,7 +33,7 @@
         "one-line": "f(x) = Σ_{n=0}^∞ f⁽ⁿ⁾(a)/n! (x-a)ⁿ",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "function",
                 "symbol": "f"
@@ -41,33 +41,33 @@
             {
                 "always-an-integer": true,
                 "always-positive": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "index",
                 "symbol": "n"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "nth derivative of f",
                 "symbol": "f⁽ⁿ⁾"
             },
             {
                 "always-an-integer": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "factorial function",
                 "special-function": true,
                 "symbol": "!"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "center point",
                 "symbol": "a"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "independent variable",
                 "symbol": "x"

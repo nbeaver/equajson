@@ -32,27 +32,27 @@
         ],
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "periodic function",
                 "symbol": "f"
             },
             {
                 "bound-variable": false,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "index of summation",
                 "symbol": "x"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "natural exponential function",
                 "special-function": true,
                 "symbol": "exp"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": true,
                 "label": "√-1",
                 "symbol": "i",
@@ -62,20 +62,20 @@
             },
             {
                 "bound-variable": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "index of summation",
                 "symbol": "n"
             },
             {
                 "bound-variable": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "variable of integration",
                 "symbol": "u"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": true,
                 "label": "3.14159…",
                 "symbol": "π",

@@ -49,7 +49,7 @@
         "one-line": "∇²ƒ = (1/r) (∂/∂r)(r ∂ƒ/∂r) + (1/r²sinθ)(∂/∂θ)(sinθ ∂ƒ/∂θ) + (1/r²sin²θ)(∂²ƒ/∂φ²)",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "Laplacian",
                 "symbol": "∇²",
@@ -58,19 +58,19 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "function in spherical coordinates",
                 "symbol": "ƒ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "radius",
                 "symbol": "r"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "partial derivative",
                 "symbol": "∂",
@@ -79,14 +79,14 @@
                 ]
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "sine function",
                 "special-function": true,
                 "symbol": "sin"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "zenith angle, spans π radian",
                 "symbol": "θ",
@@ -96,7 +96,7 @@
                 ]
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "azimuthal angle, spans 2π radian",
                 "symbol": "φ",

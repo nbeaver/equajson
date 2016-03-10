@@ -34,26 +34,26 @@
         "one-line": "(A ∪ B)ᶜ ≡ Aᶜ ∩ Bᶜ, (A ∩ B)ᶜ ≡ Aᶜ ∪ Bᶜ",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "first set",
                 "symbol": "A"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "second set",
                 "symbol": "B"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "union",
                 "special-function": true,
                 "symbol": "∪"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "intersection",
                 "special-function": true,

@@ -33,19 +33,19 @@
         "one-line": "σ = (2π⁵k³)/(15c²h³)",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": true,
                 "label": "Stefan-Boltzmann constant",
                 "symbol": "σ"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": true,
                 "label": "3.14159…",
                 "symbol": "π"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": true,
                 "label": "Boltzmann constant",
                 "symbol": "k",
@@ -61,7 +61,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": true,
                 "label": "speed of light in vacuum",
                 "symbol": "c",
@@ -70,7 +70,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": true,
                 "label": "Planck's constant",
                 "symbol": "h",

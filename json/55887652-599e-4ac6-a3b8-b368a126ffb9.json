@@ -33,32 +33,32 @@
         "one-line": "c² = a² + b² − 2 a b cos(θ)",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "side opposite θ",
                 "symbol": "c"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "side enclosing θ",
                 "symbol": "a"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "other side enclosing θ",
                 "symbol": "b"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "cosine functions",
                 "special-function": true,
                 "symbol": "cos"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "angle opposite side c",
                 "symbol": "θ"

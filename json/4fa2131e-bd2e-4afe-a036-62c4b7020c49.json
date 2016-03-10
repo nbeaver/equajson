@@ -33,7 +33,7 @@
         "one-line": "τ = (K λ)/(βcosθ)",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "example-values": [
                     {
                         "comment": "(1 1 1) peak of FCC silver nanoparticles",
@@ -53,7 +53,7 @@
                 "symbol": "τ"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "example-values": [
                     {
                         "comment": "Reasonable first approximation for most crystallite shapes and space groups.",
@@ -66,7 +66,7 @@
                 "symbol": "K"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "example-values": [
                     {
                         "comment": "Kα₁ fluorescence peak of Cu.",
@@ -80,7 +80,7 @@
                 "symbol": "λ"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "example-values": [
                     {
                         "comment": "(1 1 1) peak of FCC silver nanoparticles",
@@ -100,14 +100,14 @@
                 "symbol": "β"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "cosine function",
                 "special-function": true,
                 "symbol": "cos"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "example-values": [
                     {
                         "comment": "(1 1 1) peak of FCC silver nanoparticles",

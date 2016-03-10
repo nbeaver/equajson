@@ -37,81 +37,81 @@
         ],
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "normalized oscillatory XAFS interference term",
                 "symbol": "χ(k)"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "amplitude reduction factor",
                 "symbol": "S₀"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "degeneracy of atoms in jth coordination shell (number of equivalent scatterers)",
                 "symbol": "Nⱼ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "backscattering amplitude (atomic form factor) for jth atomic species",
                 "symbol": "fⱼ(k)"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "photoelectron momentum index",
                 "symbol": "k"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "average radial distance to atoms in the jth coordination shell",
                 "symbol": "Rⱼ"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "natural exponential function (e^x)",
                 "special-function" : true,
                 "symbol": "exp"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "mean free path of photoelectron (not a wavelength)",
                 "symbol": "λ(k)"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "sine function",
                 "special-function" : true,
                 "symbol": "sin"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "central-atom partial-wave phase shift of the final state",
                 "symbol": "δⱼ"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "backscattering phase factor for jth shell",
                 "symbol": "Φⱼ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "Root mean square radial distance fluctuations about Rⱼ for jth shell atoms.",
                 "symbol": "σⱼ"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "Debye-Waller factor",
                 "symbol": "exp(−2k²σⱼ²)"

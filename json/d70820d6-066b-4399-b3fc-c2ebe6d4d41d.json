@@ -31,38 +31,38 @@
         "one-line": "a·b = ‖a‖ ‖b‖ cos(θ)",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "first vector",
                 "symbol": "a"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "second vector",
                 "symbol": "b"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "norm of a",
                 "symbol": "‖a‖"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "norm of b",
                 "symbol": "‖b‖"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "cosine function",
                 "special-function": true,
                 "symbol": "cos"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "angle between a and b",
                 "symbol": "θ"

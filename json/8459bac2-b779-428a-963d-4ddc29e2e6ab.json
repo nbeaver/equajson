@@ -33,25 +33,25 @@
         "one-line": "∂L/∂rₖ − d/dt ∂L/∂ṙₖ = 0",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "Lagrangian",
                 "symbol": "L"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "generalized coordinate",
                 "symbol": "rₖ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "generalized velocity",
                 "symbol": "ṙₖ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "time",
                 "symbol": "t"

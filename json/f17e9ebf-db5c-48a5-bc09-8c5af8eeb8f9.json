@@ -33,19 +33,19 @@
         "one-line": "dT/dt = −(h A)/(m cₚ) ΔT",
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "temperature of object",
                 "symbol": "T"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "time",
                 "symbol": "t"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "heat transfer coefficient",
                 "symbol": "h",
@@ -54,19 +54,19 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "surface area of object capable of heat transfer to environment",
                 "symbol": "A"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "mass of object",
                 "symbol": "m"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "specific heat capacity",
                 "symbol": "cₚ",
@@ -75,7 +75,7 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "temperature difference between object and environment",
                 "symbol": "ΔT"

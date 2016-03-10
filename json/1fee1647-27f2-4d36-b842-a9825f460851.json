@@ -31,19 +31,19 @@
         "one-line": "f(x) ≈ f(a) + f'(a)(x-a)",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "independent variable",
                 "symbol": "x"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "point of tangency",
                 "symbol": "a"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "derivative of f at a.",
                 "symbol": "f'(a)"

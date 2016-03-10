@@ -44,34 +44,34 @@
         "one-line": "erf(x) = (2/√π) 0∫x exp(−t²) dt",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "error function",
                 "special-function": true,
                 "symbol": "erf"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "independent variable",
                 "symbol": "x"
             },
             {
                 "bound-variable": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "dummy variable",
                 "symbol": "t"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "exponential function",
                 "special-function": true,
                 "symbol": "exp"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": true,
                 "label": "3.14159…",
                 "symbol": "π",

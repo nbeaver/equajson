@@ -40,19 +40,19 @@
         ],
         "terms": [
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "odd coefficient",
                 "symbol": "bₙ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "periodic function",
                 "symbol": "f"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "sine function",
                 "special-function": true,
@@ -62,20 +62,20 @@
                 "always-an-integer": true,
                 "always-positive": true,
                 "bound-variable": false,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "integer in 1, 2, 3, …",
                 "symbol": "n"
             },
             {
                 "bound-variable": true,
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "variable of integration (over a period of sine)",
                 "symbol": "u"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": true,
                 "label": "3.14159…",
                 "symbol": "π",

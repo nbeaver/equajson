@@ -47,21 +47,21 @@
         "one-line": "gd x = 0∫x (1/cosh(u)) du",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "Gudermannian function",
                 "special-function": true,
                 "symbol": "gd"
             },
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "independent variable",
                 "symbol": "x"
             },
             {
                 "bound-variable": true,
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "variable of integration",
                 "symbol": "u"

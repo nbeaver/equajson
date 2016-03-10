@@ -37,7 +37,7 @@
         "one-line": "∇²φ = − ρ/ε₀",
         "terms": [
             {
-                "dimensionless": true,
+                "always-dimensionless": true,
                 "fixed-constant": false,
                 "label": "Laplacian",
                 "special-function": true,
@@ -47,19 +47,19 @@
                 ]
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "electric potential",
                 "symbol": "φ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": false,
                 "label": "charge density",
                 "symbol": "ρ"
             },
             {
-                "dimensionless": false,
+                "always-dimensionless": false,
                 "fixed-constant": true,
                 "label": "vacuum permittivity",
                 "symbol": "ε₀"
