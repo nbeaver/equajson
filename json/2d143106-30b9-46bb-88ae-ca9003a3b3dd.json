@@ -32,6 +32,7 @@
         "terms": [
             {
                 "classification": {
+                    "always-scalar": false,
                     "always-dimensionless": false,
                     "fixed-constant": false
                 },
@@ -40,6 +41,7 @@
             },
             {
                 "classification": {
+                    "always-scalar": true,
                     "always-dimensionless": false,
                     "fixed-constant": false
                 },
@@ -48,6 +50,7 @@
             },
             {
                 "classification": {
+                    "always-scalar": false,
                     "always-dimensionless": false,
                     "fixed-constant": false
                 },
@@ -56,6 +59,7 @@
             },
             {
                 "classification": {
+                    "always-scalar": false,
                     "always-dimensionless": false,
                     "fixed-constant": false
                 },
@@ -72,6 +76,7 @@
             },
             {
                 "classification": {
+                    "always-scalar": false,
                     "always-dimensionless": false,
                     "fixed-constant": false
                 },

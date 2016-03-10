@@ -192,6 +192,10 @@
                                         "description": "True if the quantity is always positive.",
                                         "type": "boolean"
                                     },
+                                    "always-scalar": {
+                                        "description": "True if the quantity is always a scalar in this equation, i.e. not a vector, tensor, or other multi-value quantity.",
+                                        "type": "boolean"
+                                    },
                                     "bound-variable": {
                                         "description": "True if the quantity is a bound variable, such as an index in an infinite series or a variable of integration in a definite integral.",
                                         "type": "boolean"
