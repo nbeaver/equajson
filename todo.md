@@ -3,6 +3,7 @@ schema.json
 ===========
 
 -   [x] Example values in arbitrary units.
+-   [ ] Field for "always-scalar"
 
 equajson.py
 ===========
