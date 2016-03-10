@@ -63,6 +63,7 @@
                     "properties": {
                         "dependencies": {
                             "additionalItems": false,
+                            "description": "Dependencies for the markup to work, such as LaTeX packages.",
                             "items": {
                                 "additionalProperties": false,
                                 "description": "Dependency object.",
@@ -83,7 +84,6 @@
                                 },
                                 "type": "object"
                             },
-                            "description": "Dependencies for the markup to work, such as LaTeX packages.",
                             "type": "array"
                         },
                         "markup": {
@@ -171,24 +171,25 @@
                     "type": "string"
                 },
                 "terms": {
+                    "description": "Descriptions and properties of the constants, variables, functions, and other components of the equation. Must be an array to preserve order.",
                     "items": {
                         "additionalProperties": false,
                         "description": "The term object.",
                         "properties": {
                             "classification": {
-                                "description": "Mathematical classification and properties of this term.",
                                 "additionalProperties": false,
+                                "description": "Mathematical classification and properties of this term.",
                                 "properties": {
                                     "always-an-integer": {
                                         "description": "True if the quantity must be an integer or subset thereof such as a natural number.",
                                         "type": "boolean"
                                     },
-                                    "always-positive": {
-                                        "description": "True if the quantity is always positive.",
-                                        "type": "boolean"
-                                    },
                                     "always-dimensionless": {
                                         "description": "True if the quantity is always dimensionless, such as radians or degrees.",
+                                        "type": "boolean"
+                                    },
+                                    "always-positive": {
+                                        "description": "True if the quantity is always positive.",
                                         "type": "boolean"
                                     },
                                     "bound-variable": {
@@ -207,6 +208,7 @@
                                 "type": "object"
                             },
                             "example-values": {
+                                "description": "Examples of values the term may take on.",
                                 "items": {
                                     "additionalProperties": false,
                                     "description": "The value object.",
@@ -225,7 +227,10 @@
                                         },
                                         "value": {
                                             "description": "The actual value.",
-                                            "type": ["number", "boolean"]
+                                            "type": [
+                                                "number",
+                                                "boolean"
+                                            ]
                                         }
                                     },
                                     "required": [
@@ -233,7 +238,6 @@
                                     ],
                                     "type": "object"
                                 },
-                                "description": "Examples of values the term may take on.",
                                 "type": "array"
                             },
                             "label": {
@@ -261,7 +265,6 @@
                         ],
                         "type": "object"
                     },
-                    "description": "Descriptions and properties of the constants, variables, functions, and other components of the equation. Must be an array to preserve order.",
                     "minItems": 1,
                     "type": "array"
                 }
