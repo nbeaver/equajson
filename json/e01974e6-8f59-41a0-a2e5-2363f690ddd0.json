@@ -47,30 +47,38 @@
         "one-line": "gd x = 0∫x (1/cosh(u)) du",
         "terms": [
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "Gudermannian function",
-                "special-function": true,
                 "symbol": "gd"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "independent variable",
                 "symbol": "x"
             },
             {
-                "bound-variable": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "bound-variable": true,
+                    "fixed-constant": false
+                },
                 "label": "variable of integration",
                 "symbol": "u"
             },
             {
-                "fixed-constant": false,
+                "classification": {
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "hyperbolic cosine function",
                 "symbol": "cosh",
-                "special-function": true,
                 "urls": [
                     "https://en.wikipedia.org/wiki/Hyperbolic_function#Cosh"
                 ]

@@ -33,20 +33,26 @@
         "one-line": "B(r) = μ₀/4π ∫C (I dl ⨯ (r-l))/(|r-l|³)",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "magnetic field",
                 "symbol": "B"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "point where field is calculated",
                 "symbol": "r"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "vacuum permeability",
                 "symbol": "μ₀",
                 "urls": [
@@ -54,8 +60,10 @@
                 ]
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": true
+                },
                 "label": "3.14159…",
                 "symbol": "π",
                 "urls": [
@@ -63,26 +71,34 @@
                 ]
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "path of electrical current for line integral",
                 "symbol": "C"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "electrical current",
                 "symbol": "I"
             },
             {
-                "fixed-constant": false,
+                "classification": {
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "cross product",
-                "special-function": true,
                 "symbol": "⨯"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "point on path where current is flowing",
                 "symbol": "l"
             }

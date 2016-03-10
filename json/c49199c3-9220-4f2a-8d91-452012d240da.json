@@ -32,34 +32,44 @@
         "one-line": "A = (1/4) n l² cot(π/n)",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "area",
                 "symbol": "A"
             },
             {
-                "always-an-integer": true,
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "number of sides",
                 "symbol": "n"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "length of side",
                 "symbol": "l"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "cotangent function",
-                "special-function": true,
                 "symbol": "cot"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": true
+                },
                 "label": "3.14159…",
                 "symbol": "π",
                 "urls": [

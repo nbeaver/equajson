@@ -41,27 +41,35 @@
         "one-line": "E Ψ(r) = (‒ (ℏ²/2μ) ∇² + V(r)) Ψ(r)",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "energy",
                 "symbol": "E"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
                 "label": "wave function",
-                "special-function": false,
                 "symbol": "Ψ"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "radius",
                 "symbol": "r"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "reduced Planck constant",
                 "symbol": "ℏ",
                 "urls": [
@@ -70,8 +78,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "reduced mass",
                 "symbol": "μ",
                 "urls": [
@@ -79,8 +89,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "Laplacian",
                 "symbol": "∇²",
                 "urls": [
@@ -88,8 +100,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "potential energy function",
                 "symbol": "V"
             }

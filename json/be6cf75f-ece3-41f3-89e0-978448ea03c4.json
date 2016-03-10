@@ -20,7 +20,6 @@
         "MathML": [
             {
                 "markup": "<math xmlns='http://www.w3.org/1998/Math/MathML'><mrow><mrow><mi>n</mi><mo>!</mo></mrow><mo>&approx;</mo><mtext></mtext><mrow><msup><mi>n</mi><mi>n</mi></msup><mo>&InvisibleTimes;</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>n</mi></mrow></msup><mo>&InvisibleTimes;</mo><msqrt><mrow><mn>2</mn><mo>&InvisibleTimes;</mo><mi>&pi;</mi><mo>&InvisibleTimes;</mo><mi>n</mi></mrow></msqrt></mrow></mrow></math>"
-
             }
         ]
     },
@@ -37,30 +36,38 @@
         "one-line": "n! ≈ nⁿ e⁻ⁿ √(2πn)",
         "terms": [
             {
-                "always-an-integer": true,
-                "always-positive": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "always-positive": true,
+                    "fixed-constant": false
+                },
                 "label": "integer of interest",
                 "symbol": "n"
             },
             {
-                "always-an-integer": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "factorial function",
-                "special-function": true,
                 "symbol": "!"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": true
+                },
                 "label": "2.71828…",
                 "symbol": "e"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": true
+                },
                 "label": "3.14159…",
                 "symbol": "π",
                 "urls": [

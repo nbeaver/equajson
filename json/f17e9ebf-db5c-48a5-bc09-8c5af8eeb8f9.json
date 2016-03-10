@@ -33,20 +33,26 @@
         "one-line": "dT/dt = −(h A)/(m cₚ) ΔT",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "temperature of object",
                 "symbol": "T"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "time",
                 "symbol": "t"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "heat transfer coefficient",
                 "symbol": "h",
                 "urls": [
@@ -54,20 +60,26 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "surface area of object capable of heat transfer to environment",
                 "symbol": "A"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "mass of object",
                 "symbol": "m"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "specific heat capacity",
                 "symbol": "cₚ",
                 "urls": [
@@ -75,8 +87,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "temperature difference between object and environment",
                 "symbol": "ΔT"
             }

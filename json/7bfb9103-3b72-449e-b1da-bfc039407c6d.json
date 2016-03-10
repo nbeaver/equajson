@@ -33,18 +33,22 @@
         "one-line": "∇⨯E = − ∂B/∂t",
         "terms": [
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "curl",
                 "symbol": "∇⨯",
-                "special-function": true,
                 "urls": [
                     "https://en.wikipedia.org/wiki/Curl_%28mathematics%29"
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "electric field vector",
                 "symbol": "E",
                 "urls": [
@@ -52,8 +56,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "magnetic field vector",
                 "symbol": "B",
                 "urls": [
@@ -61,8 +67,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "time",
                 "symbol": "t"
             }

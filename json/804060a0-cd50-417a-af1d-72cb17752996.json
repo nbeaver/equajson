@@ -33,35 +33,43 @@
         "one-line": "Ω = (q + N − 1)!/(q!(N ― 1)!)",
         "terms": [
             {
-                "always-an-integer": true,
-                "always-positive": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "always-positive": true,
+                    "fixed-constant": false
+                },
                 "label": "multiplicity of microstates",
                 "symbol": "Ω"
             },
             {
-                "always-an-integer": true,
-                "always-positive": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "always-positive": true,
+                    "fixed-constant": false
+                },
                 "label": "number of energy quanta",
                 "symbol": "q"
             },
             {
-                "always-an-integer": true,
-                "always-positive": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "always-positive": true,
+                    "fixed-constant": false
+                },
                 "label": "number of oscillators",
                 "symbol": "N"
             },
             {
-                "always-an-integer": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "factorial function",
-                "special-function": true,
                 "symbol": "!"
             }
         ]

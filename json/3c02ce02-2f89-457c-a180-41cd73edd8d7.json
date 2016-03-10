@@ -31,20 +31,26 @@
         "one-line": "P = A ε σ T⁴",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "power radiated",
                 "symbol": "P"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "surface area of radiating body",
                 "symbol": "A"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "emissivity",
                 "symbol": "ε",
                 "urls": [
@@ -52,15 +58,17 @@
                 ]
             },
             {
-                "always-dimensionless": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "example-values": [
                     {
                         "comment": "SI units",
                         "units": "W m⁻² K⁻⁴",
-                        "value": 5.670367e-5
+                        "value": 5.670367e-05
                     }
                 ],
-                "fixed-constant": true,
                 "label": "Stefan-Boltzmann constant",
                 "symbol": "σ",
                 "urls": [
@@ -68,8 +76,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "temperature of radiating body",
                 "symbol": "T"
             }

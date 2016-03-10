@@ -44,56 +44,72 @@
         ],
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "periodic function",
                 "symbol": "f"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "independent variable",
                 "symbol": "x"
             },
             {
-                "always-an-integer": true,
-                "always-positive": true,
-                "bound-variable": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "always-positive": true,
+                    "bound-variable": true,
+                    "fixed-constant": false
+                },
                 "label": "index of summation",
                 "symbol": "n"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "constant coefficient for f",
                 "symbol": "a₀"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "even coefficients for f",
                 "symbol": "aₙ"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "odd coefficients for f",
                 "symbol": "bₙ"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "cosine function",
-                "special-function": true,
                 "symbol": "cos"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "sine function",
-                "special-function": true,
                 "symbol": "sine"
             }
         ]

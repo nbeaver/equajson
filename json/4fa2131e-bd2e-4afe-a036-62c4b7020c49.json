@@ -33,7 +33,10 @@
         "one-line": "τ = (K λ)/(βcosθ)",
         "terms": [
             {
-                "always-dimensionless": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "example-values": [
                     {
                         "comment": "(1 1 1) peak of FCC silver nanoparticles",
@@ -48,25 +51,29 @@
                         "value": 14.0
                     }
                 ],
-                "fixed-constant": false,
                 "label": "apparent mean size of crystallites",
                 "symbol": "τ"
             },
             {
-                "always-dimensionless": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "example-values": [
                     {
                         "comment": "Reasonable first approximation for most crystallite shapes and space groups.",
                         "doi": "10.1107/S0021889878012844",
-                        "value": 0.90
+                        "value": 0.9
                     }
                 ],
-                "fixed-constant": false,
                 "label": "shape factor (Scherrer constant)",
                 "symbol": "K"
             },
             {
-                "always-dimensionless": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "example-values": [
                     {
                         "comment": "Kα₁ fluorescence peak of Cu.",
@@ -75,12 +82,14 @@
                         "value": 0.1541
                     }
                 ],
-                "fixed-constant": false,
                 "label": "X-ray wavelength",
                 "symbol": "λ"
             },
             {
-                "always-dimensionless": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "example-values": [
                     {
                         "comment": "(1 1 1) peak of FCC silver nanoparticles",
@@ -95,19 +104,23 @@
                         "value": 0.0106
                     }
                 ],
-                "fixed-constant": false,
                 "label": "broadening at full-width half-maximum of peak intensity (radians)",
                 "symbol": "β"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "cosine function",
-                "special-function": true,
                 "symbol": "cos"
             },
             {
-                "always-dimensionless": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "example-values": [
                     {
                         "comment": "(1 1 1) peak of FCC silver nanoparticles",
@@ -122,7 +135,6 @@
                         "value": 22.07
                     }
                 ],
-                "fixed-constant": false,
                 "label": "Bragg angle of peak",
                 "symbol": "θ"
             }

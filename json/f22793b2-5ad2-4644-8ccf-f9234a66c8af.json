@@ -33,36 +33,46 @@
         "one-line": "logₘ x = (logₙ x)/(logₙ m)",
         "terms": [
             {
-                "always-an-integer": false,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "logarithm of x in base m",
                 "symbol": "logₘ"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "argument",
                 "symbol": "x"
             },
             {
-                "always-an-integer": false,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "old base",
                 "symbol": "m"
             },
             {
-                "always-an-integer": false,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "logarithm of x in base n",
                 "symbol": "logₙ"
             },
             {
-                "always-an-integer": false,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "new base",
                 "symbol": "n"
             }

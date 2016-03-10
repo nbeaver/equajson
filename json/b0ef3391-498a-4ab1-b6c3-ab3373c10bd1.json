@@ -32,28 +32,36 @@
         ],
         "terms": [
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "periodic function",
                 "symbol": "f"
             },
             {
-                "bound-variable": false,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "bound-variable": false,
+                    "fixed-constant": false
+                },
                 "label": "index of summation",
                 "symbol": "x"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "natural exponential function",
-                "special-function": true,
                 "symbol": "exp"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": true
+                },
                 "label": "√-1",
                 "symbol": "i",
                 "urls": [
@@ -61,22 +69,28 @@
                 ]
             },
             {
-                "bound-variable": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "bound-variable": true,
+                    "fixed-constant": false
+                },
                 "label": "index of summation",
                 "symbol": "n"
             },
             {
-                "bound-variable": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "bound-variable": true,
+                    "fixed-constant": false
+                },
                 "label": "variable of integration",
                 "symbol": "u"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": true
+                },
                 "label": "3.14159…",
                 "symbol": "π",
                 "urls": [

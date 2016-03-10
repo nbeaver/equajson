@@ -38,32 +38,42 @@
         "one-line": "k = √(2mₑ(E - E₀)/ℏ²)",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "wavenumber",
                 "symbol": "k"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "electron mass",
                 "symbol": "mₑ"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "energy of X-ray",
                 "symbol": "E"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "energy of absorption edge",
                 "symbol": "E₀"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "reduced Planck constant",
                 "symbol": "ℏ"
             }

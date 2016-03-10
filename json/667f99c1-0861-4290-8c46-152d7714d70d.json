@@ -33,8 +33,10 @@
         "one-line": "ℰ = − ∂Φ/∂t",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "electromotive force",
                 "symbol": "ℰ",
                 "urls": [
@@ -42,8 +44,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "magnetic flux",
                 "symbol": "Φ",
                 "urls": [
@@ -51,8 +55,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "time",
                 "symbol": "t"
             }

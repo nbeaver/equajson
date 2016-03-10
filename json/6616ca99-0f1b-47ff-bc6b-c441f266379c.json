@@ -49,8 +49,10 @@
         "one-line": "∇²ƒ = (1/r) (∂/∂r)(r ∂ƒ/∂r) + (1/r²sinθ)(∂/∂θ)(sinθ ∂ƒ/∂θ) + (1/r²sin²θ)(∂²ƒ/∂φ²)",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "Laplacian",
                 "symbol": "∇²",
                 "urls": [
@@ -58,20 +60,26 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "function in spherical coordinates",
                 "symbol": "ƒ"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "radius",
                 "symbol": "r"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "partial derivative",
                 "symbol": "∂",
                 "urls": [
@@ -79,15 +87,19 @@
                 ]
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "sine function",
-                "special-function": true,
                 "symbol": "sin"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "zenith angle, spans π radian",
                 "symbol": "θ",
                 "urls": [
@@ -96,8 +108,10 @@
                 ]
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "azimuthal angle, spans 2π radian",
                 "symbol": "φ",
                 "urls": [

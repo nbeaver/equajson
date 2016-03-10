@@ -33,35 +33,45 @@
         "one-line": "Ω = N!/(N↑! N↓!)",
         "terms": [
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "multiplicity",
                 "symbol": "Ω"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "number of dipoles",
                 "symbol": "N"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "number of dipoles pointing up",
                 "symbol": "N↑"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "number of dipoles pointing down",
                 "symbol": "N↓"
             },
             {
-                "always-an-integer": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "factorial function",
-                "special-function": true,
                 "symbol": "!"
             }
         ]

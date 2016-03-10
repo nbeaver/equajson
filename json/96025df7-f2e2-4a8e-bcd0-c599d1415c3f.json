@@ -37,30 +37,38 @@
         "one-line": "∇²φ = − ρ/ε₀",
         "terms": [
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "Laplacian",
-                "special-function": true,
                 "symbol": "∇²",
                 "urls": [
                     "https://en.wikipedia.org/wiki/Laplace_operator"
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "electric potential",
                 "symbol": "φ"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "charge density",
                 "symbol": "ρ"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "vacuum permittivity",
                 "symbol": "ε₀"
             }

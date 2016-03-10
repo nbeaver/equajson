@@ -46,8 +46,10 @@
         "one-line": "T²/a³ = 4π²/( G(M + m) )",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "duration of orbital period",
                 "symbol": "T",
                 "urls": [
@@ -55,8 +57,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "semi-major axis distance",
                 "symbol": "a",
                 "urls": [
@@ -64,8 +68,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "gravitational constant",
                 "symbol": "G",
                 "urls": [
@@ -73,20 +79,26 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "central mass or mass of other body in binary system",
                 "symbol": "M"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "orbiting mass",
                 "symbol": "m"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": true
+                },
                 "label": "3.14159…",
                 "symbol": "π",
                 "urls": [

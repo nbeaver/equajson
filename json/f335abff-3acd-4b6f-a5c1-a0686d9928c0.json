@@ -33,22 +33,26 @@
         "one-line": "σ = (2π⁵k³)/(15c²h³)",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "Stefan-Boltzmann constant",
                 "symbol": "σ"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": true
+                },
                 "label": "3.14159…",
                 "symbol": "π"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
-                "label": "Boltzmann constant",
-                "symbol": "k",
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "example-values": [
                     {
                         "comment": "SI units",
@@ -56,13 +60,17 @@
                         "value": 1.38064852e-23
                     }
                 ],
+                "label": "Boltzmann constant",
+                "symbol": "k",
                 "urls": [
                     "https://en.wikipedia.org/wiki/Boltzmann_constant"
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "speed of light in vacuum",
                 "symbol": "c",
                 "urls": [
@@ -70,8 +78,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "Planck's constant",
                 "symbol": "h",
                 "urls": [

@@ -30,16 +30,20 @@
         "one-line": "(1+x)ⁿ ≈ 1 + nx",
         "terms": [
             {
-                "always-an-integer": false,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "small real number (|x| ≪ 1)",
                 "symbol": "x"
             },
             {
-                "always-an-integer": false,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "exponent",
                 "symbol": "n"
             }

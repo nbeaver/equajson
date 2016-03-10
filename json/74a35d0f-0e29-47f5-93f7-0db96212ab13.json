@@ -37,20 +37,26 @@
         "one-line": "λ′− λ = (h/mₑc)(1 − cos θ)",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "wavelength of photon after scattering",
                 "symbol": "λ′"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "wavelength of photon before scattering",
                 "symbol": "λ"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "Planck constant",
                 "symbol": "h",
                 "urls": [
@@ -58,8 +64,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "ress mast of electron",
                 "symbol": "mₑ",
                 "urls": [
@@ -67,8 +75,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "speed of light in a vacuum",
                 "symbol": "c",
                 "urls": [
@@ -76,15 +86,19 @@
                 ]
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "cosine function",
-                "special-function": true,
                 "symbol": "cos"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "angle of scattered photon relative to initial direction",
                 "symbol": "θ"
             }

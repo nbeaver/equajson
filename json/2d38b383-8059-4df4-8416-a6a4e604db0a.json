@@ -67,9 +67,9 @@
             {
                 "classification": {
                     "always-an-integer": true,
+                    "always-dimensionless": true,
                     "always-positive": true,
                     "bound-variable": false,
-                    "always-dimensionless": true,
                     "fixed-constant": false
                 },
                 "label": "integer in 1, 2, 3, …",
@@ -77,8 +77,8 @@
             },
             {
                 "classification": {
-                    "bound-variable": true,
                     "always-dimensionless": false,
+                    "bound-variable": true,
                     "fixed-constant": false
                 },
                 "label": "variable of integration (over a period of sine)",

@@ -42,8 +42,10 @@
         "one-line": "ψ = exp(i(kx − ωt)",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "wavefunction",
                 "symbol": "ψ",
                 "urls": [
@@ -51,15 +53,19 @@
                 ]
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "natural exponential function (e^x)",
-                "special-function": true,
                 "symbol": "exp"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": true
+                },
                 "label": "√-1",
                 "symbol": "i",
                 "urls": [
@@ -67,8 +73,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "wavenumber",
                 "symbol": "k",
                 "urls": [
@@ -76,14 +84,18 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "position on x-axis",
                 "symbol": "x"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "angular frequency",
                 "symbol": "ω",
                 "urls": [
@@ -91,8 +103,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "time",
                 "symbol": "t"
             }

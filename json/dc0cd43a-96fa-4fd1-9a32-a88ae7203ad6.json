@@ -43,25 +43,31 @@
         "one-line": "n choose k = n! / (k! (n-k)!)",
         "terms": [
             {
-                "always-an-integer": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "number of elements in set",
                 "symbol": "n"
             },
             {
-                "always-an-integer": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "number of elements chosen",
                 "symbol": "k"
             },
             {
-                "always-an-integer": true,
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-an-integer": true,
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "factorial function",
-                "special-function": true,
                 "symbol": "!"
             }
         ]
