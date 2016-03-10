@@ -33,32 +33,42 @@
         "one-line": "F = 1/2 ρ v² C A",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "drag force",
                 "symbol": "F"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "density of fluid",
                 "symbol": "ρ"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "velocity of body in fluid",
                 "symbol": "v"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "drag coefficient",
                 "symbol": "C"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "area of profile in direction of motion",
                 "symbol": "A"
             }

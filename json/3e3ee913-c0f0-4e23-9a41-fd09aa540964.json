@@ -33,14 +33,18 @@
         "one-line": "",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "spectral radiance per unit wavelength",
                 "symbol": "B"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "Planck's constant",
                 "symbol": "h",
                 "urls": [
@@ -48,8 +52,10 @@
                 ]
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "speed of light in vacuum",
                 "symbol": "c",
                 "urls": [
@@ -57,20 +63,27 @@
                 ]
             },
             {
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "natural exponential function (e^x)",
-                "special-function": true,
                 "symbol": "exp"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "wavelength of emitted radiation",
                 "symbol": "λ"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "temperature of radiating body",
                 "symbol": "T"
             }

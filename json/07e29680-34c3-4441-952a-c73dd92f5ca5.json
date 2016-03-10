@@ -33,15 +33,19 @@
         "one-line": "cos(x) ≈ 1 − x²/2",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "cosine function",
-                "special-function": true,
                 "symbol": "cos"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "angle",
                 "symbol": "x"
             }

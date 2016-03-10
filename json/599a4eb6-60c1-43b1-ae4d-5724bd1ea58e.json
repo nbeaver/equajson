@@ -33,28 +33,36 @@
         "one-line": "l = 2 R sin(θ/2)",
         "terms": [
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "length of chord",
                 "symbol": "l"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "radius of circle",
                 "symbol": "R"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false
+                },
                 "label": "angle spanned by chord",
                 "symbol": "θ"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": true,
+                    "fixed-constant": false,
+                    "special-function": true
+                },
                 "label": "sine function",
-                "special-function": true,
                 "symbol": "sin"
             }
         ]

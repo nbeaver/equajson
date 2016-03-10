@@ -31,20 +31,26 @@
         "one-line": "f(x) ≈ f(a) + f'(a)(x-a)",
         "terms": [
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "independent variable",
                 "symbol": "x"
             },
             {
-                "always-dimensionless": true,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "point of tangency",
                 "symbol": "a"
             },
             {
-                "always-dimensionless": false,
-                "fixed-constant": false,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
                 "label": "derivative of f at a.",
                 "symbol": "f'(a)"
             }
