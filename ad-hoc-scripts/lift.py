@@ -16,12 +16,10 @@ for arg in sys.argv[1:]:
         "special-function"
     ]
     for term in equajson["unicode-pretty-print"]["terms"]:
-        print(term)
         if any(x in field_list for x in term.keys()):
             term["classification"] = {}
             del_list = []
             for field in term.keys():
-                print(field)
                 if field in field_list:
                     term["classification"][field] = term[field]
                     del_list.append(field)
