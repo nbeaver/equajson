@@ -2,7 +2,7 @@
 schema.json
 ===========
 
--   [ ] Example values in SI units.
+-   [x] Example values in arbitrary units.
 
 equajson.py
 ===========
