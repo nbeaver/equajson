@@ -7,7 +7,7 @@ Examples of searching equations.
 --------------------------------
 
 
-The normal distribution::
+The `normal distribution <json/f38e8d29-a38f-4290-a403-3563242ddabc.json>`_::
 
     $ python equajson.py normal
     Normal distribution
@@ -23,7 +23,7 @@ The normal distribution::
     π = 3.14159…
     --------------------------------------------------------------------------------
 
-Schödinger equation::
+`Schrödinger equation <json/b7fc55c1-b398-47af-868d-0aa812c68b4c.json>`_::
 
     $ equajson.py schro
     Schrödinger equation
@@ -40,7 +40,7 @@ Schödinger equation::
     V = potential energy function
     --------------------------------------------------------------------------------
 
-Laplacian::
+`Laplacian <json/6616ca99-0f1b-47ff-bc6b-c441f266379c.json>`_::
 
     $ python equajson.py lapla
     Laplacian in spherical coordinates
