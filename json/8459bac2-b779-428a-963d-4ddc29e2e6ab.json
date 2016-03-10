@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "<FIXME>"
+                "markup": "$ \\frac{\\partial L}{\\partial r_k} - \\frac{\\mathrm{d}}{\\mathrm{d}t} \\frac{\\partial L}{\\partial \\dot{r}_{k}} = 0 $"
             }
         ]
     },
