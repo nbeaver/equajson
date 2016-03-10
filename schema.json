@@ -229,6 +229,10 @@
                                 "description": "Short description of the quantity, suitable for an 'where x is the ...' type statement.",
                                 "type": "string"
                             },
+                            "special-function": {
+                                "description": "True if the function is a known function with a fixed definition.",
+                                "type": "boolean"
+                            },
                             "symbol": {
                                 "description": "The symbol for the quantity.",
                                 "type": "string"
