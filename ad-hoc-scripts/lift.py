@@ -29,5 +29,5 @@ for arg in sys.argv[1:]:
     except KeyError:
         pass
 
-    with open(sys.argv[1], 'w') as f:
+    with open(arg, 'w') as f:
         json.dump(equajson, f, indent=4, separators=(',', ': '), ensure_ascii=False, sort_keys=True)
