@@ -1,0 +1,54 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Specific capacity",
+        "verbose": "Theoretical specific capacity of an electrode materials for lithium ion (Li-ion) cells."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "C_g = \\frac{n F}{M}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-03-11",
+            "url": "<FIXME>"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "     n F",
+            "Cₑ = ―――",
+            "      M "
+        ],
+        "one-line": "Cₑ = n F / M",
+        "terms": [
+            {
+                "label": "electrochemical capacity",
+                "symbol": "Cₑ"
+            },
+            {
+                "label": "lithium ions per molecule",
+                "symbol": "n"
+            },
+            {
+                "label": "Faraday's constant",
+                "symbol": "F"
+            },
+            {
+                "label": "molecular mass",
+                "symbol": "M"
+            }
+        ]
+    },
+    "uuid": "da3f5183-2cc5-4c52-93cc-1aa69b62aea6"
+}
