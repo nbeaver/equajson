@@ -1,0 +1,74 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Compton scattering wavelength",
+        "verbose": "Compton scattering wavelength for a single electron."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ \\lambda_C = \\frac{\\hbar}{m_e c} $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-03-14",
+            "url": "https://en.wikipedia.org/wiki/Compton_wavelength"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "     ħ ",
+            "λ = ―――",
+            "    m c"
+        ],
+        "one-line": "λ = ħ / (m c)",
+        "terms": [
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "Compton scattering wavelength",
+                "symbol": "λ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Compton_wavelength"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "reduced Planck constant",
+                "symbol": "ħ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Planck_constant"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "electron mass",
+                "symbol": "m",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Electron_rest_mass"
+                ]
+            },
+            {
+                "dimensionless": false,
+                "fixed-constant": true,
+                "label": "speed of light",
+                "symbol": "c",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Speed_of_light"
+                ]
+            }
+        ]
+    },
+    "uuid": "9f17f24a-3cad-4ba8-8b11-aca339898cd0"
+}
