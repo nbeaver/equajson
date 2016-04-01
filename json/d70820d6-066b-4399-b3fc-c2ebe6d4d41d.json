@@ -33,6 +33,7 @@
             {
                 "classification": {
                     "always-dimensionless": false,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "first vector",
@@ -41,6 +42,7 @@
             {
                 "classification": {
                     "always-dimensionless": false,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "second vector",
@@ -49,6 +51,7 @@
             {
                 "classification": {
                     "always-dimensionless": false,
+                    "always-scalar": true,
                     "fixed-constant": false
                 },
                 "label": "norm of a",
@@ -57,6 +60,7 @@
             {
                 "classification": {
                     "always-dimensionless": false,
+                    "always-scalar": true,
                     "fixed-constant": false
                 },
                 "label": "norm of b",
@@ -65,6 +69,7 @@
             {
                 "classification": {
                     "always-dimensionless": true,
+                    "always-scalar": true,
                     "fixed-constant": false,
                     "special-function": true
                 },
@@ -74,6 +79,7 @@
             {
                 "classification": {
                     "always-dimensionless": true,
+                    "always-scalar": true,
                     "fixed-constant": false
                 },
                 "label": "angle between a and b",
