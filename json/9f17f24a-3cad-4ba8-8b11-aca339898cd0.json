@@ -33,8 +33,10 @@
         "one-line": "λ = ħ / (m c)",
         "terms": [
             {
-                "dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "Compton scattering wavelength",
                 "symbol": "λ",
                 "urls": [
@@ -42,8 +44,10 @@
                 ]
             },
             {
-                "dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "reduced Planck constant",
                 "symbol": "ħ",
                 "urls": [
@@ -51,8 +55,10 @@
                 ]
             },
             {
-                "dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "electron mass",
                 "symbol": "m",
                 "urls": [
@@ -60,8 +66,10 @@
                 ]
             },
             {
-                "dimensionless": false,
-                "fixed-constant": true,
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": true
+                },
                 "label": "speed of light",
                 "symbol": "c",
                 "urls": [
