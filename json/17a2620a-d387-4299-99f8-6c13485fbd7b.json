@@ -1,0 +1,63 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Vector triple product",
+        "verbose": "Vector triple product expansion, also known as the BAC-CAB rule."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ \\vec{A} \\times \\left( \\vec{B} \\times \\vec{C}\\right) = \\vec{B} \\left(\\vec{A} \\cdot \\vec{C} \\right) - \\vec{C} \\left(\\vec{A} \\cdot \\vec{B} \\right) $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-04-01",
+            "url": "https://en.wikipedia.org/wiki/Triple_product#Vector_triple_product"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "𝗔 ⨯ (𝗕⨯𝗖) = 𝗕 (𝗔⨯𝗖) - 𝗖 (𝗔⨯𝗕)"
+        ],
+        "one-line": "𝗔 ⨯ (𝗕⨯𝗖) = 𝗕 (𝗔⨯𝗖) - 𝗖 (𝗔⨯𝗕)",
+        "terms": [
+            {
+                "classification": {
+                    "always-dimensionless": false,
+                    "always-scalar": false,
+                    "fixed-constant": false
+                },
+                "label": "1st vector",
+                "symbol": "𝗔"
+            },
+            {
+                "classification": {
+                    "always-dimensionless": false,
+                    "always-scalar": false,
+                    "fixed-constant": false
+                },
+                "label": "2nd vector",
+                "symbol": "𝗕"
+            },
+            {
+                "classification": {
+                    "always-dimensionless": false,
+                    "always-scalar": false,
+                    "fixed-constant": false
+                },
+                "label": "3rd vector",
+                "symbol": "𝗖"
+            }
+        ]
+    },
+    "uuid": "17a2620a-d387-4299-99f8-6c13485fbd7b"
+}
