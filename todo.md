@@ -4,6 +4,7 @@ schema.json
 
 -   [x] Example values in arbitrary units.
 -   [x] Field for "always-scalar"
+-   [ ] Should the LaTeX be for embedding with MathJax or standalone documents?
 
 equajson.py
 ===========
