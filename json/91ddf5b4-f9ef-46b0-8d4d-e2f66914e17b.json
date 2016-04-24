@@ -1,0 +1,77 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "reduced mass",
+        "verbose": "The reduced mass of two bodies, double-use expression form."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\mu = \\frac{m_1 m_2}{m_1 + m_2}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-04-23",
+            "url": "https://en.wikipedia.org/wiki/Reduced_mass"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "     m₁  m₂",
+            "μ = ―――――――",
+            "    m₁ + m₂"
+        ],
+        "one-line": "μ = (m₁ m₂)/(m₁ + m₂)",
+        "terms": [
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-positive": true,
+                    "always-scalar": true,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "reduced mass",
+                "symbol": "μ"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-positive": true,
+                    "always-scalar": true,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "mass of body #1",
+                "symbol": "m₁"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-positive": true,
+                    "always-scalar": true,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "mass of body #2",
+                "symbol": "m₂"
+            }
+        ]
+    },
+    "uuid": "91ddf5b4-f9ef-46b0-8d4d-e2f66914e17b"
+}
