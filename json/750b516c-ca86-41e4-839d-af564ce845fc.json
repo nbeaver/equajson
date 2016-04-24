@@ -1,0 +1,76 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Vector quaduple product",
+        "verbose": "Vector quaduple product"
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "$ (\\mathbf{A} \\times \\mathbf{B}) \\cdot (\\mathbf{C} \\times \\mathbf{D}) = (\\mathbf{A} \\cdot \\mathbf{C}) (\\mathbf{B} \\cdot \\mathbf{D}) - (\\mathbf{A} \\cdot \\mathbf{D}) (\\mathbf{B} \\cdot \\mathbf{C}) $"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-04-19",
+            "url": "http://mathworld.wolfram.com/VectorQuadrupleProduct.html"
+        },
+        {
+            "date-known-good": "2016-04-19",
+            "url": "https://books.google.com/books?id=j6QKAAAAYAAJ&pg=PA76&lpg=PA76&dq=%22product+according+to+the+familiar+usage+in%22&source=bl&ots=JlwmYiIxG4&sig=FIDr8syqTDR_ADis2nQoOcM-jDY&hl=en&sa=X&ved=0ahUKEwjk0ZfV7aXMAhXDsIMKHZO5BawQ6AEIIzAB#v=snippet&q=%22This%20may%20be%20written%20in%20determinantal%20form.%20%22&f=false"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "(𝗔 ⨯ 𝗕) ⨯ (𝗖 ⨯ 𝗗) = 𝗔·𝗖 𝗕·𝗗 − 𝗔·𝗗 𝗕·𝗖"
+        ],
+        "one-line": "(𝗔 ⨯ 𝗕) ⨯ (𝗖 ⨯ 𝗗) = 𝗔·𝗖 𝗕·𝗗 − 𝗔·𝗗 𝗕·𝗖",
+        "terms": [
+            {
+                "classification": {
+                    "always-dimensionless": false,
+                    "always-scalar": false,
+                    "fixed-constant": false
+                },
+                "label": "1st vector",
+                "symbol": "𝗔"
+            },
+            {
+                "classification": {
+                    "always-dimensionless": false,
+                    "always-scalar": false,
+                    "fixed-constant": false
+                },
+                "label": "2nd vector",
+                "symbol": "𝗕"
+            },
+            {
+                "classification": {
+                    "always-dimensionless": false,
+                    "always-scalar": false,
+                    "fixed-constant": false
+                },
+                "label": "3rd vector",
+                "symbol": "𝗖"
+            },
+            {
+                "classification": {
+                    "always-dimensionless": false,
+                    "always-scalar": false,
+                    "fixed-constant": false
+                },
+                "label": "4th vector",
+                "symbol": "𝗗"
+            }
+        ]
+    },
+    "uuid": "750b516c-ca86-41e4-839d-af564ce845fc"
+}
