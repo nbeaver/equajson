@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ P(A|B) = \\frac{P(B | A) \\, P(A)}{P(B)} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[ P(A \\mid B) = \\frac{P(B \\mid A) \\, P(A)}{P(B)}  \\]\n\\end{document}"
             }
         ]
     },
@@ -28,7 +28,7 @@
         "multiline": [
             "         P(B|A) P(A)",
             "P(A|B) = ―――――――――――",
-            "            P(B)    "
+            "           Σ P(B)   "
         ],
         "one-line": "P(A|B) = (P(B|A) P(A)) / (P(B))",
         "terms": [
@@ -45,7 +45,7 @@
                     "always-dimensionless": true,
                     "fixed-constant": false
                 },
-                "label": "conditional probability of B given A is true",
+                "label": "conditional probability of B given A is true (accuracy rate of B)",
                 "symbol": "P(B|A)"
             },
             {
@@ -53,7 +53,7 @@
                     "always-dimensionless": true,
                     "fixed-constant": false
                 },
-                "label": "prior probability that A is true",
+                "label": "prior probability that A is true regardless of B",
                 "symbol": "P(A)"
             },
             {
@@ -61,8 +61,8 @@
                     "always-dimensionless": true,
                     "fixed-constant": false
                 },
-                "label": "probability B is true",
-                "symbol": "P(B)"
+                "label": "marginal probability that B is true regardless of A (sum of false positives and true positives)",
+                "symbol": "Σ P(B)"
             }
         ]
     },
