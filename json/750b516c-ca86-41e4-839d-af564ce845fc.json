@@ -8,8 +8,8 @@
         "year": 2016
     },
     "description": {
-        "terse": "Vector quaduple product",
-        "verbose": "Vector quaduple product"
+        "terse": "Vector quadruple product",
+        "verbose": "Vector quadruple product"
     },
     "markup-languages": {
         "LaTeX": [
