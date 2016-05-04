@@ -14,17 +14,18 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ { n \\choose k} = \\frac{n!}{k! \\, (n-k)!} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[ { n \\choose k } = \\frac{n!}{k! \\, (n-k)!} \\]\n\\end{document}"
             },
             {
-                "dependencies": [
-                    {
-                        "invocation": "\\usepackage{amsmath}",
-                        "name": "amsmath",
-                        "url": "http://ctan.org/pkg/amsmath"
-                    }
-                ],
-                "markup": "$ \\binom{n}{k} = \\frac{n!}{k! \\, (n-k)!} $"
+                "markup": "\\documentclass{article}\n\\usepackage{amsmath}\n\\begin{document}\n\\[ \\binom{n}{k} = \\frac{n!}{k! \\, (n-k)!} \\]\n\\end{document}"
+            }
+        ],
+        "MathJax": [
+            {
+                "markup": "{ n \\choose k } = \\frac{n!}{k! \\, (n-k)!}"
+            },
+            {
+                "markup": "\\binom{n}{k} = \\frac{n!}{k! \\, (n-k)!}"
             }
         ]
     },
