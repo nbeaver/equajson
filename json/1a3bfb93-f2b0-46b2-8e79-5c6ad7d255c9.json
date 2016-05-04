@@ -1,0 +1,76 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "conditional probability",
+        "verbose": "The Kolmogorov defintion of conditional probability."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nP(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}\n\\]\n\\end{document}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-05-04",
+            "url": "https://en.wikipedia.org/wiki/Conditional_probability"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "          P(A ∩ B)",
+            "P(A|B) = ‒‒‒‒‒‒‒‒‒",
+            "            P(B)  "
+        ],
+        "terms": [
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": true,
+                    "always-positive": true,
+                    "always-scalar": true,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "conditional probability of A given B",
+                "symbol": "P(A|B)"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": true,
+                    "always-positive": true,
+                    "always-scalar": true,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "probability of A and B",
+                "symbol": "P(A|B)"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": true,
+                    "always-positive": true,
+                    "always-scalar": true,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "probability of B regardless of A",
+                "symbol": "P(B)"
+            }
+        ]
+    },
+    "uuid": "1a3bfb93-f2b0-46b2-8e79-5c6ad7d255c9"
+}
