@@ -38,7 +38,6 @@
             "E Ψ(r) = ⎜‒ ‒‒‒ ∇² + V(r)⎟ Ψ(r)",
             "         ⎝  2μ           ⎠     "
         ],
-        "one-line": "E Ψ(r) = (‒ (ℏ²/2μ) ∇² + V(r)) Ψ(r)",
         "terms": [
             {
                 "classification": {

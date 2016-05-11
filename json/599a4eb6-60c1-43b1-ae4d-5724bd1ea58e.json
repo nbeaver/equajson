@@ -30,7 +30,6 @@
             "l = 2 R sin⎜―⎟",
             "           ⎝2⎠"
         ],
-        "one-line": "l = 2 R sin(θ/2)",
         "terms": [
             {
                 "classification": {

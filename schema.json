@@ -166,10 +166,6 @@
                     "minItems": 1,
                     "type": "array"
                 },
-                "one-line": {
-                    "description": "Textual representation of the equation on a single line. May contain many nested parentheses.",
-                    "type": "string"
-                },
                 "terms": {
                     "description": "Descriptions and properties of the constants, variables, functions, and other components of the equation. Must be an array to preserve order.",
                     "items": {

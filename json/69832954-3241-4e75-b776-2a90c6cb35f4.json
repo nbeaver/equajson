@@ -39,7 +39,6 @@
         "multiline": [
             "ψ = exp(i(kx − ωt)"
         ],
-        "one-line": "ψ = exp(i(kx − ωt)",
         "terms": [
             {
                 "classification": {

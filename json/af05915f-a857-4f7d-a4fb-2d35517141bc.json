@@ -33,7 +33,6 @@
             "P(n) = ――――――――――",
             "           n!    "
         ],
-        "one-line": "P(n) = (Nⁿ exp(-N))/(n!)",
         "terms": [
             {
                 "classification": {

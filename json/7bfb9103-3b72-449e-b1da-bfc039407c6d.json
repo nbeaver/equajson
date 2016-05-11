@@ -30,7 +30,6 @@
             "∇⨯E = − ――",
             "        ∂t"
         ],
-        "one-line": "∇⨯E = − ∂B/∂t",
         "terms": [
             {
                 "classification": {

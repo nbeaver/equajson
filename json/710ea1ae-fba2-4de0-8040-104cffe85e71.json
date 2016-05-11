@@ -30,7 +30,6 @@
             "f(x) = Σ  ――――――― (x - a)ⁿ",
             "      ⁿ⁼⁰    n!           "
         ],
-        "one-line": "f(x) = Σ_{n=0}^∞ f⁽ⁿ⁾(a)/n! (x-a)ⁿ",
         "terms": [
             {
                 "classification": {

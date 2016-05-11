@@ -28,7 +28,6 @@
         "multiline": [
             "f(x) ≈ f(a) + f'(a)(x-a)"
         ],
-        "one-line": "f(x) ≈ f(a) + f'(a)(x-a)",
         "terms": [
             {
                 "classification": {

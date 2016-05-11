@@ -30,7 +30,6 @@
             "―― = − ―――― ΔT",
             "dt     m cₚ   "
         ],
-        "one-line": "dT/dt = −(h A)/(m cₚ) ΔT",
         "terms": [
             {
                 "classification": {

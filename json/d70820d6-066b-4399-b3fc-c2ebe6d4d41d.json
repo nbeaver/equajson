@@ -28,7 +28,6 @@
         "multiline": [
             "a·b = ‖a‖ ‖b‖ cos(θ)"
         ],
-        "one-line": "a·b = ‖a‖ ‖b‖ cos(θ)",
         "terms": [
             {
                 "classification": {

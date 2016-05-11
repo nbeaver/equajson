@@ -33,7 +33,6 @@
         "multiline": [
             "n! ≈ nⁿ e⁻ⁿ √(2πn)"
         ],
-        "one-line": "n! ≈ nⁿ e⁻ⁿ √(2πn)",
         "terms": [
             {
                 "classification": {

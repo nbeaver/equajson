@@ -30,7 +30,6 @@
             "――― − ―― ――― = 0",
             "∂rₖ   dt ∂ṙₖ    "
         ],
-        "one-line": "∂L/∂rₖ − d/dt ∂L/∂ṙₖ = 0",
         "terms": [
             {
                 "classification": {

@@ -30,7 +30,6 @@
             "logₘ x = ――――――",
             "         logₙ m"
         ],
-        "one-line": "logₘ x = (logₙ x)/(logₙ m)",
         "terms": [
             {
                 "classification": {

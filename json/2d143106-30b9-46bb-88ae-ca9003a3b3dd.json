@@ -28,7 +28,6 @@
         "multiline": [
             "F = q(E + v ⨯ B)"
         ],
-        "one-line": "F = q(E + v ⨯ B)",
         "terms": [
             {
                 "classification": {

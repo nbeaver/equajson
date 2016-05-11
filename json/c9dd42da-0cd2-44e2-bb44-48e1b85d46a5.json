@@ -36,7 +36,6 @@
             "             ⌡                 ",
             "             −∞                "
         ],
-        "one-line": "(f * g)(x) = −∞∫+∞ f(u) g(x − u) du",
         "terms": [
             {
                 "classification": {

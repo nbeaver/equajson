@@ -32,7 +32,6 @@
             "    ⌡ ⎝    ⎝dx⎠ ⎠   ",
             "     a              "
         ],
-        "one-line": "s = a∫b √( 1 + (dy/dx)² ) dx",
         "terms": [
             {
                 "classification": {

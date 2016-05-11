@@ -30,7 +30,6 @@
             "cos(x) ≈ 1 − ‒‒‒",
             "              2 "
         ],
-        "one-line": "cos(x) ≈ 1 − x²/2",
         "terms": [
             {
                 "classification": {

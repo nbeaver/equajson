@@ -31,7 +31,6 @@
             "_____   _   _",
             "A ∩ B ≡ A ∪ B"
         ],
-        "one-line": "(A ∪ B)ᶜ ≡ Aᶜ ∩ Bᶜ, (A ∩ B)ᶜ ≡ Aᶜ ∪ Bᶜ",
         "terms": [
             {
                 "classification": {

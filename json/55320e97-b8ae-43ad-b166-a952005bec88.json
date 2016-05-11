@@ -27,7 +27,6 @@
         "multiline": [
             "(1+x)ⁿ ≈ 1 + nx"
         ],
-        "one-line": "(1+x)ⁿ ≈ 1 + nx",
         "terms": [
             {
                 "classification": {

@@ -35,7 +35,6 @@
             "V = ――― (R₁² + R₁ R₂ + R₂²)",
             "     3                     "
         ],
-        "one-line": "V = (πh/3)(R₁² + R₁ R₂ + R₂²)",
         "terms": [
             {
                 "classification": {

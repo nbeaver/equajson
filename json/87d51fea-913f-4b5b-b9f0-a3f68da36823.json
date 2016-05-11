@@ -41,7 +41,6 @@
             "         √π  ⌡            ",
             "              0           "
         ],
-        "one-line": "erf(x) = (2/√π) 0∫x exp(−t²) dt",
         "terms": [
             {
                 "classification": {

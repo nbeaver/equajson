@@ -30,7 +30,6 @@
             "B(r) = ―― ⎮  ―――――――――――― ",
             "       4π ⌡C    |r-l|³    "
         ],
-        "one-line": "B(r) = μ₀/4π ∫C (I dl ⨯ (r-l))/(|r-l|³)",
         "terms": [
             {
                 "classification": {

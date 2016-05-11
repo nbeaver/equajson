@@ -41,7 +41,6 @@
             "⎜ ⎟ = ――――――――",
             "⎝k⎠   k!(n-k)!"
         ],
-        "one-line": "n choose k = n! / (k! (n-k)!)",
         "terms": [
             {
                 "classification": {

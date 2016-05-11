@@ -35,7 +35,6 @@
             "k = ⎜――――――――――――⎟ ",
             "    ⎝     ℏ²     ⎠ "
         ],
-        "one-line": "k = √(2mₑ(E - E₀)/ℏ²)",
         "terms": [
             {
                 "classification": {

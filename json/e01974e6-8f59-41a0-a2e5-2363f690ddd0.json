@@ -44,7 +44,6 @@
             "        ⌡ cosh u   ",
             "         0         "
         ],
-        "one-line": "gd x = 0∫x (1/cosh(u)) du",
         "terms": [
             {
                 "classification": {
