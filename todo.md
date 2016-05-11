@@ -14,7 +14,8 @@ equajson.py
 json
 ====
 
-- Stirling's approximation
-- XAFS equation
-- definition of e
-- trigonometric identities
+-   [x] Stirling's approximation
+-   [x] XAFS equation
+-   [ ] definition of e
+-   [ ] trigonometric identities
+-   [ ] [Klein-Nishina formula](https://en.wikipedia.org/wiki/Klein%E2%80%93Nishina_formula)
