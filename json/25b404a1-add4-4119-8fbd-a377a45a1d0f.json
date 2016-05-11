@@ -42,7 +42,7 @@
                 ]
             },
             {
-                "markup": "\r{A}",
+                "markup": "\\r{A}",
                 "urls": [
                     "http://tex.stackexchange.com/questions/24255/angstrom-not-working"
                 ]
@@ -70,7 +70,7 @@
     "unicode-pretty-print": {
         "multiline": [
             "Å"
-        ],
+        ]
     },
     "uuid": "25b404a1-add4-4119-8fbd-a377a45a1d0f"
 }
