@@ -15,11 +15,14 @@ equajson = json.load(open(filepath))
 try:
     latex_documents = equajson["markup-languages"]["LaTeX"]
 except KeyError:
-    raise
-    sys.exit(1)
+    # If there isn't any LaTeX markup, there is nothing to validate.
+    sys.exit(0)
 
 for document in latex_documents:
-    latex = document["markup"]
+    try:
+        latex = document["markup"]
+    except KeyError:
+        sys.stdout.write("Missing LaTeX markup in file `{}'".format(filepath))
     fp = tempfile.NamedTemporaryFile(mode='w')
     fp.file.write(latex)
     fp.file.flush()
