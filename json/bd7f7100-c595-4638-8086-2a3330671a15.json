@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\mu = \\frac{1}{\\frac{1}{m_1}+\\frac{1}{m_2}}"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\mu = \\frac{1}{\\frac{1}{m_1}+\\frac{1}{m_2}}\n\\]\n\\end{document}"
             }
         ]
     },

@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\chi(k) = \\frac{m}{4\\pi h^2 k} \\sum_j \\frac{N_j}{R_j^2} t_j(2k) e^{-2R_j/\\lambda} \\sin[2 k R_j + 2 \\delta_j (k)] e^{-2k^2 \\sigma_j^2}"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\chi(k) = \\frac{m}{4\\pi h^2 k} \\sum_j \\frac{N_j}{R_j^2} t_j(2k) e^{-2R_j/\\lambda} \\sin[2 k R_j + 2 \\delta_j (k)] e^{-2k^2 \\sigma_j^2}\n\\]\n\\end{document}"
             }
         ]
     },

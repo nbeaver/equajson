@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\tau = \\frac{K \\lambda}{\\beta \\cos \\theta} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\tau = \\frac{K \\lambda}{\\beta \\cos \\theta}\n\\]\n\\end{document}"
             }
         ]
     },

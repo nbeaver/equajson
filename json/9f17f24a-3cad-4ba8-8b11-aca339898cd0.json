@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\lambda_C = \\frac{\\hbar}{m_e c} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\lambda_C = \\frac{\\hbar}{m_e c}\n\\]\n\\end{document}"
             }
         ]
     },

@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\mathrm{gd}(x) = \\int_0^x \\frac{\\mathrm{d} u}{ \\cosh u} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\mathrm{gd}(x) = \\int_0^x \\frac{\\mathrm{d} u}{ \\cosh u}\n\\]\n\\end{document}"
             }
         ]
     },

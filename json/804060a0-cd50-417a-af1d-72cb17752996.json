@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\Omega = \\frac{(q + N - 1)!}{q! \\, (N-1)!} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\Omega = \\frac{(q + N - 1)!}{q! \\, (N-1)!}\n\\]\n\\end{document}"
             }
         ]
     },

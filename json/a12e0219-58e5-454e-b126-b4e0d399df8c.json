@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ s = \\int_b^a \\! \\sqrt{1 + \\left(\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)^2} \\, \\mathrm{d}x $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\ns = \\int_b^a \\! \\sqrt{1 + \\left(\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right)^2} \\, \\mathrm{d}x\n\\]\n\\end{document}"
             }
         ]
     },

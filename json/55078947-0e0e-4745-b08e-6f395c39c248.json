@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$V = \\frac{\\pi h}{3} (R_1^2 + R_1 R_2 + R_2^2)$"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nV = \\frac{\\pi h}{3} (R_1^2 + R_1 R_2 + R_2^2)\n\\]\n\\end{document}"
             }
         ]
     },

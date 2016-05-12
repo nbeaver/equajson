@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\nabla \\times \\mathbf{E} = - \\frac{\\partial \\mathbf{B}}{\\partial t} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\nabla \\times \\mathbf{E} = - \\frac{\\partial \\mathbf{B}}{\\partial t}\n\\]\n\\end{document}"
             }
         ]
     },
@@ -33,8 +33,8 @@
         "terms": [
             {
                 "classification": {
-                    "always-scalar": false,
                     "always-dimensionless": true,
+                    "always-scalar": false,
                     "fixed-constant": false,
                     "special-function": true
                 },
@@ -46,8 +46,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": false,
                     "always-dimensionless": false,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "electric field vector",
@@ -58,8 +58,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": false,
                     "always-dimensionless": false,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "magnetic field vector",
@@ -70,8 +70,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": true,
                     "always-dimensionless": false,
+                    "always-scalar": true,
                     "fixed-constant": false
                 },
                 "label": "time",

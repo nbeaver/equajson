@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\mathrm{erf} (x) = \\frac{2}{\\sqrt{\\pi}} \\int_0^x \\! e^{-t^2} \\, \\mathrm{d} t $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\mathrm{erf} (x) = \\frac{2}{\\sqrt{\\pi}} \\int_0^x \\! e^{-t^2} \\, \\mathrm{d} t\n\\]\n\\end{document}"
             }
         ]
     },

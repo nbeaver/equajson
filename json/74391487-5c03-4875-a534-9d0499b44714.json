@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\sqrt{\\frac{2m_e (E-E_0)}{\\hbar^2}}"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\sqrt{\\frac{2m_e (E-E_0)}{\\hbar^2}}\n\\]\n\\end{document}"
             }
         ]
     },

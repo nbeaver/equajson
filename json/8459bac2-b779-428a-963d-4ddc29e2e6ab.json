@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\frac{\\partial L}{\\partial r_k} - \\frac{\\mathrm{d}}{\\mathrm{d}t} \\frac{\\partial L}{\\partial \\dot{r}_{k}} = 0 $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\frac{\\partial L}{\\partial r_k} - \\frac{\\mathrm{d}}{\\mathrm{d}t} \\frac{\\partial L}{\\partial \\dot{r}_{k}} = 0\n\\]\n\\end{document}"
             }
         ]
     },

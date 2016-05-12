@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ P = A \\varepsilon \\sigma T^4 $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nP = A \\varepsilon \\sigma T^4\n\\]\n\\end{document}"
             }
         ]
     },

@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ k = \\frac{\\sqrt{2mE}}{\\hbar} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nk = \\frac{\\sqrt{2mE}}{\\hbar}\n\\]\n\\end{document}"
             }
         ]
     },

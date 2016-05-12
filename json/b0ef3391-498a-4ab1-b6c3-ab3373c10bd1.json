@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ f(x) = \\sum_{n = -\\infty}^{n=+\\infty} e^{i n x} \\left( \\frac{1}{2\\pi} \\int_{-\\pi}^{\\pi} \\!  f(u) e^{-i n u} \\, \\mathrm{d} u \\right) $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nf(x) = \\sum_{n = -\\infty}^{n=+\\infty} e^{i n x} \\left( \\frac{1}{2\\pi} \\int_{-\\pi}^{\\pi} \\!  f(u) e^{-i n u} \\, \\mathrm{d} u \\right)\n\\]\n\\end{document}"
             }
         ]
     },

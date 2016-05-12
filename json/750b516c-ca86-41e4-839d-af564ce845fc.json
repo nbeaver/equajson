@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ (\\mathbf{A} \\times \\mathbf{B}) \\cdot (\\mathbf{C} \\times \\mathbf{D}) = (\\mathbf{A} \\cdot \\mathbf{C}) (\\mathbf{B} \\cdot \\mathbf{D}) - (\\mathbf{A} \\cdot \\mathbf{D}) (\\mathbf{B} \\cdot \\mathbf{C}) $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n(\\mathbf{A} \\times \\mathbf{B}) \\cdot (\\mathbf{C} \\times \\mathbf{D}) = (\\mathbf{A} \\cdot \\mathbf{C}) (\\mathbf{B} \\cdot \\mathbf{D}) - (\\mathbf{A} \\cdot \\mathbf{D}) (\\mathbf{B} \\cdot \\mathbf{C})\n\\]\n\\end{document}"
             }
         ]
     },

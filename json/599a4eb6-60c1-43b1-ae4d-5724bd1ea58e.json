@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ l = 2 R \\sin \\frac{\\theta}{2} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nl = 2 R \\sin \\frac{\\theta}{2}\n\\]\n\\end{document}"
             }
         ]
     },

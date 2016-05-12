@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$A = \\frac{1}{4} n l^2 \\cot{\\frac{\\pi}{n}}$"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nA = \\frac{1}{4} n l^2 \\cot{\\frac{\\pi}{n}}\n\\]\n\\end{document}"
             }
         ]
     },

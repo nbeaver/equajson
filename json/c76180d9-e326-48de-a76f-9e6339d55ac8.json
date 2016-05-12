@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\overline{A \\cup B} = \\overline{A} \\cap \\overline{B}; \\overline{A \\cap B} = \\overline{A} \\cup \\overline{B} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\overline{A \\cup B} = \\overline{A} \\cap \\overline{B}; \\overline{A \\cap B} = \\overline{A} \\cup \\overline{B}\n\\]\n\\end{document}"
             }
         ]
     },

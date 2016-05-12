@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\sigma = \\frac{2\\pi^5k^4}{15c^2h^3}"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\sigma = \\frac{2\\pi^5k^4}{15c^2h^3}\n\\]\n\\end{document}"
             }
         ]
     },

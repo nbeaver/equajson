@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ n! \\approx n^n e^{-n} \\sqrt{2 \\pi n} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nn! \\approx n^n e^{-n} \\sqrt{2 \\pi n}\n\\]\n\\end{document}"
             }
         ],
         "MathML": [

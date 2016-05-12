@@ -22,7 +22,7 @@
         ],
         "LaTeX": [
             {
-                "markup": "$ x = \\frac{ -b \\pm \\sqrt{b^2 - 4ac} }{2a} $",
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nx = \\frac{ -b \\pm \\sqrt{b^2 - 4ac} }{2a}\n\\]\n\\end{document}",
                 "urls": [
                     "https://en.wikipedia.org/wiki/MathML#Example_and_comparison_to_other_formats"
                 ]

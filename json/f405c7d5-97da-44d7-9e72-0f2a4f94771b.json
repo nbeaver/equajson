@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\vec{B}(\\vec{r}) = \\frac{\\mu_0}{4\\pi} \\int_C \\frac{ I d \\vec{l} \\times |\\vec{r} - \\vec{l}|} { | \\vec{r} - \\vec{l}|^3} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\vec{B}(\\vec{r}) = \\frac{\\mu_0}{4\\pi} \\int_C \\frac{ I d \\vec{l} \\times |\\vec{r} - \\vec{l}|} { | \\vec{r} - \\vec{l}|^3}\n\\]\n\\end{document}"
             }
         ]
     },
@@ -33,8 +33,8 @@
         "terms": [
             {
                 "classification": {
-                    "always-scalar": false,
                     "always-dimensionless": false,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "magnetic field",
@@ -42,8 +42,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": false,
                     "always-dimensionless": false,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "point where field is calculated",
@@ -51,8 +51,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": true,
                     "always-dimensionless": false,
+                    "always-scalar": true,
                     "fixed-constant": true
                 },
                 "label": "vacuum permeability",
@@ -82,8 +82,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": true,
                     "always-dimensionless": false,
+                    "always-scalar": true,
                     "fixed-constant": false
                 },
                 "label": "electrical current",
@@ -99,8 +99,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": false,
                     "always-dimensionless": true,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "point on path where current is flowing",

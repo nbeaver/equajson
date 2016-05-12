@@ -34,7 +34,7 @@
         ],
         "LaTeX": [
             {
-                "markup": "\\AA",
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\AA\n\\end{document}",
                 "urls": [
                     "http://tex.stackexchange.com/questions/24255/angstrom-not-working",
                     "http://tex.stackexchange.com/questions/8952/how-can-i-get-capital-angstrom-symbol-to-appear-in-bibliography-using-bib-file",
@@ -42,7 +42,7 @@
                 ]
             },
             {
-                "markup": "\\r{A}",
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\r{A}\n\\end{document}",
                 "urls": [
                     "http://tex.stackexchange.com/questions/24255/angstrom-not-working"
                 ]

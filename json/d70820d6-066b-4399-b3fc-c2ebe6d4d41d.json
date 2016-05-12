@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\vec{a} \\cdot \\vec{b} = \\| \\vec{a} \\| \\| \\vec{b} \\| \\cos ( \\theta ) $ "
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\vec{a} \\cdot \\vec{b} = \\| \\vec{a} \\| \\| \\vec{b} \\| \\cos ( \\theta )\n\\]\n\\end{document}"
             }
         ]
     },

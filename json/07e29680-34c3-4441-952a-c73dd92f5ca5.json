@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\cos x \\approx 1 - \\frac{x^2}{2}"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\cos x \\approx 1 - \\frac{x^2}{2}\n\\]\n\\end{document}"
             }
         ]
     },

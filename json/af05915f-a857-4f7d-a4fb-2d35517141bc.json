@@ -14,10 +14,10 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$P(n) = \\frac{N^n exp(-N) }{n!}$"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nP(n) = \\frac{N^n exp(-N) }{n!}\n\\]\n\\end{document}"
             },
             {
-                "markup": "$P(n) = \\frac{N^n e^{-N} }{n!}$"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nP(n) = \\frac{N^n e^{-N} }{n!}\n\\]\n\\end{document}"
             }
         ]
     },

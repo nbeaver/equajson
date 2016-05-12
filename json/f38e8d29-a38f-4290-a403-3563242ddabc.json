@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ P(x) = \\frac{1}{\\sigma\\sqrt{2\\pi} } e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}} $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nP(x) = \\frac{1}{\\sigma\\sqrt{2\\pi} } e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}\n\\]\n\\end{document}"
             }
         ]
     },

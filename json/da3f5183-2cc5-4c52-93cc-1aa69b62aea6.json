@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "C_g = \\frac{n F}{M}"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nC_g = \\frac{n F}{M}\n\\]\n\\end{document}"
             }
         ]
     },

@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ f(x) = \\frac{1}{2} a_0 + \\sum_{n=1}^{\\infty} a_n \\cos(n x) + \\sum_{n=1}^{\\infty} b_n \\sin(n x) $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nf(x) = \\frac{1}{2} a_0 + \\sum_{n=1}^{\\infty} a_n \\cos(n x) + \\sum_{n=1}^{\\infty} b_n \\sin(n x)\n\\]\n\\end{document}"
             }
         ]
     },

@@ -12,9 +12,9 @@
         "verbose": "Poisson's equation for electrostatic potential."
     },
     "markup-languages": {
-        "LaTX": [
+        "LaTeX": [
             {
-                "markup": "$ \\nabla^2 \\varphi = - \\frac{\\rho}{\\varepsilon_0} $"
+                "markup": "\\nabla^2 \\varphi = - \\frac{\\rho}{\\varepsilon_0}"
             }
         ]
     },

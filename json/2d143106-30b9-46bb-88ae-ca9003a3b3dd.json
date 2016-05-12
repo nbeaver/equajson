@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})\n\\]\n\\end{document}"
             }
         ]
     },
@@ -31,8 +31,8 @@
         "terms": [
             {
                 "classification": {
-                    "always-scalar": false,
                     "always-dimensionless": false,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "force on q",
@@ -40,8 +40,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": true,
                     "always-dimensionless": false,
+                    "always-scalar": true,
                     "fixed-constant": false
                 },
                 "label": "charge of particle",
@@ -49,8 +49,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": false,
                     "always-dimensionless": false,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "electric field on q",
@@ -58,8 +58,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": false,
                     "always-dimensionless": false,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "velocity of q",
@@ -75,8 +75,8 @@
             },
             {
                 "classification": {
-                    "always-scalar": false,
                     "always-dimensionless": false,
+                    "always-scalar": false,
                     "fixed-constant": false
                 },
                 "label": "magntic field on q",

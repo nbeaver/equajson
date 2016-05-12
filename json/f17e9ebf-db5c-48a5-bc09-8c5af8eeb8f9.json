@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\frac{\\mathrm{d}T}{\\mathrm{d}t} = - \\frac{h A}{m c_p} \\Delta T $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\frac{\\mathrm{d}T}{\\mathrm{d}t} = - \\frac{h A}{m c_p} \\Delta T\n\\]\n\\end{document}"
             }
         ]
     },

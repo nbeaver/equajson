@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$(1+x)^n \\approx 1 + n x$"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n(1+x)^n \\approx 1 + n x\n\\]\n\\end{document}"
             }
         ]
     },

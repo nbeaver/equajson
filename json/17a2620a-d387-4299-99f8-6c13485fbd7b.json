@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ \\vec{A} \\times \\left( \\vec{B} \\times \\vec{C}\\right) = \\vec{B} \\left(\\vec{A} \\cdot \\vec{C} \\right) - \\vec{C} \\left(\\vec{A} \\cdot \\vec{B} \\right) $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\vec{A} \\times \\left( \\vec{B} \\times \\vec{C}\\right) = \\vec{B} \\left(\\vec{A} \\cdot \\vec{C} \\right) - \\vec{C} \\left(\\vec{A} \\cdot \\vec{B} \\right)\n\\]\n\\end{document}"
             }
         ]
     },

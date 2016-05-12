@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$E \\Psi(r) = \\left( -\\frac{\\hbar^2}{2\\mu} \\nabla^2 + V(r) \\right) \\Psi(r)$"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nE \\Psi(r) = \\left( -\\frac{\\hbar^2}{2\\mu} \\nabla^2 + V(r) \\right) \\Psi(r)\n\\]\n\\end{document}"
             }
         ]
     },

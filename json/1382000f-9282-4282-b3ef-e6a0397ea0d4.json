@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "F = \\frac{1}{2} \\rho v^2 C A"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nF = \\frac{1}{2} \\rho v^2 C A\n\\]\n\\end{document}"
             }
         ]
     },

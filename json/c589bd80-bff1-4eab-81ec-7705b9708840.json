@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "$ 2 d \\sin \\theta = n \\lambda $"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n2 d \\sin \\theta = n \\lambda\n\\]\n\\end{document}"
             }
         ]
     },

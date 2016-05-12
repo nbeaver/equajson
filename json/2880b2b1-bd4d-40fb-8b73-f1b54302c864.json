@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\Omega = \\frac{N!}{N_\\uparrow! \\, N_\\downarrow!}"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\Omega = \\frac{N!}{N_\\uparrow! \\, N_\\downarrow!}\n\\]\n\\end{document}"
             }
         ]
     },
