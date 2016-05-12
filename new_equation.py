@@ -65,7 +65,6 @@ equajson = \
             "<FIXME>",
             "<FIXME>",
         ],
-        "one-line": "<FIXME>",
         "terms": [
             {
                 "classification": {
