@@ -17,6 +17,11 @@ def pretty_print(equation):
             label = param_dict["label"]
             print(symbol,'=',label)
 
+def print_markup(equation, markup_language):
+    for representation in equation["markup-languages"][markup_language]:
+        markup = representation['markup']
+        print(markup)
+
 
 def main(query):
     here = sys.path[0]
@@ -35,6 +40,7 @@ def main(query):
             description = equation["description"]["verbose"]
             if query.lower() in description.lower():
                 pretty_print(equation)
+                #print_markup(equation, 'LaTeX')
                 print(filepath)
                 print('-'*80)
         # TODO: exit with error if no results are found.
