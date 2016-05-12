@@ -14,7 +14,7 @@
     "markup-languages": {
         "LaTeX": [
             {
-                "markup": "\\nabla^2 \\varphi = - \\frac{\\rho}{\\varepsilon_0}"
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\nabla^2 \\varphi = - \\frac{\\rho}{\\varepsilon_0}\n\\]\n\\end{document}"
             }
         ]
     },
