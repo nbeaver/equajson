@@ -93,16 +93,20 @@ Dependencies
 
 - Searching only:
 
-  - python
+  - ``python`` (2 or 3)
 
 - Documentation:
 
-  - docutils
-  - markdown
+  - ``docutils``
+  - ``markdown``
 
 - JSON validation
 
-  - python-jsonschema
+  - ``python-jsonschema``
+
+- LaTeX validation
+
+  - ``pdflatex``
 
 ----------------
 Related projects
