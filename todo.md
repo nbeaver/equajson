@@ -5,6 +5,10 @@ schema.json
 -   [x] Example values in arbitrary units.
 -   [x] Field for "always-scalar"
 -   [ ] Separate fields for MathJax and standalone LaTeX documents.
+-   [ ] Field for "always-random-variable"?
+-   [ ] Field for "always-discrete-variable"?
+-   [ ] Field for "always-continuous-variable"?
+-   [ ] Limit markup to recognized formats to prevent accidental misspellings.
 
 equajson.py
 ===========
