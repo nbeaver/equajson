@@ -68,13 +68,13 @@ equajson = \
         "terms": [
             {
                 "classification": {
-                    "always-an-integer": "<FIXME>",
-                    "always-dimensionless": "<FIXME>",
-                    "always-positive": "<FIXME>",
-                    "always-scalar": "<FIXME>",
-                    "bound-variable": "<FIXME>",
-                    "fixed-constant": "<FIXME>",
-                    "special-function": "<FIXME>",
+                    "always-an-integer": False,
+                    "always-dimensionless": False,
+                    "always-positive": False,
+                    "always-scalar": False,
+                    "bound-variable": False,
+                    "fixed-constant": False,
+                    "special-function": False,
                 },
                 "label": "<FIXME>",
                 "symbol": "<FIXME>",
@@ -83,9 +83,11 @@ equajson = \
                 ]
             },
             {
+                "classification": {
+                    "always-dimensionless": False,
+                    "fixed-constant": False,
+                },
                 "label": "<FIXME>",
-                "dimensionless": "<FIXME>",
-                "fixed-constant": "<FIXME>",
                 "symbol": "<FIXME>",
                 "urls": [
                     "<FIXME>",
