@@ -174,26 +174,26 @@
                         "properties": {
                             "classification": {
                                 "additionalProperties": false,
-                                "description": "Mathematical classification and properties of this term.",
+                                "description": "Mathematical classification and properties of the quantity represented by this symbol.",
                                 "properties": {
                                     "always-an-integer": {
-                                        "description": "True if the quantity must be an integer or subset thereof such as a natural number.",
+                                        "description": "True if the symbol represents a quantity must be an integer or subset thereof such as a natural number.",
                                         "type": "boolean"
                                     },
                                     "always-dimensionless": {
-                                        "description": "True if the quantity is always dimensionless, such as radians or degrees.",
+                                        "description": "True if the symbol represents a quantity is always dimensionless, such as radians or degrees.",
                                         "type": "boolean"
                                     },
                                     "always-positive": {
-                                        "description": "True if the quantity is always positive.",
+                                        "description": "True if the symbol represents a quantity that is always positive.",
                                         "type": "boolean"
                                     },
                                     "always-scalar": {
-                                        "description": "True if the quantity is always a scalar in this equation, i.e. not a vector, tensor, or other multi-value quantity.",
+                                        "description": "True if the symbol represents a scalar in this expression, i.e. not a vector, tensor, or other multi-value quantity.",
                                         "type": "boolean"
                                     },
                                     "bound-variable": {
-                                        "description": "True if the quantity is a bound variable, such as an index in an infinite series or a variable of integration in a definite integral.",
+                                        "description": "True if the symbol represents a bound variable, such as an index in an infinite series or a variable of integration in a definite integral.",
                                         "type": "boolean"
                                     },
                                     "fixed-constant": {
@@ -205,7 +205,7 @@
                                         "type": "boolean"
                                     },
                                     "special-function": {
-                                        "description": "True if the function is a known function with a fixed definition.",
+                                        "description": "True if the symbol represents a known function with a fixed definition.",
                                         "type": "boolean"
                                     }
                                 },
