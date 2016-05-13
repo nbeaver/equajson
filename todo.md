@@ -8,6 +8,7 @@ schema.json
 -   [ ] Field for "always-random-variable"?
 -   [ ] Field for "always-discrete-variable"?
 -   [ ] Field for "always-continuous-variable"?
+-   [x] Field for "linear-operator"
 -   [ ] Limit markup to recognized formats to prevent accidental misspellings.
 
 equajson.py
