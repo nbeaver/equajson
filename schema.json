@@ -197,7 +197,11 @@
                                         "type": "boolean"
                                     },
                                     "fixed-constant": {
-                                        "description": "True if the quantity has a fixed numeric value, such as π, √2, or the speed of light.",
+                                        "description": "True if the symbol represents a fixed numeric value, such as π, √2, or the speed of light.",
+                                        "type": "boolean"
+                                    },
+                                    "linear-operator": {
+                                        "description": "True if the symbol represents a linear operator for two vector spaces.",
                                         "type": "boolean"
                                     },
                                     "special-function": {
