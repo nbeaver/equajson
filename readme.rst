@@ -97,7 +97,7 @@ Dependencies
 
 - Documentation:
 
-  - ``docutils``
+  - ``python-docutils``
   - ``markdown``
 
 - JSON validation
