@@ -18,3 +18,4 @@ for arg in sys.argv[1:]:
 
     with open(arg, 'w') as f:
         json.dump(equajson, f, indent=4, separators=(',', ': '), ensure_ascii=False, sort_keys=True)
+        f.write('\n') # add trailing newline
