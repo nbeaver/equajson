@@ -27,8 +27,8 @@
     "unicode-pretty-print": {
         "multiline": [
             "       n=+∞          ⎛ 1   π                   ⎞",
-            "f(x) =  Σ exp(i n x) ⎜――  ∫ f(u) exp(-i n u) du⎟",
-            "       n=−∞          ⎝2π  -π                   ⎠"
+            "f(x) =  Σ exp(i n x) ⎜――  ∫ f(u) exp(−i n u) du⎟",
+            "       n=−∞          ⎝2π  −π                   ⎠"
         ],
         "terms": [
             {

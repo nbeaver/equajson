@@ -31,7 +31,7 @@
     ],
     "unicode-pretty-print": {
         "multiline": [
-            "    ⎛2 mₑ(E - E₀)⎞½",
+            "    ⎛2 mₑ(E − E₀)⎞½",
             "k = ⎜――――――――――――⎟ ",
             "    ⎝     ℏ²     ⎠ "
         ],

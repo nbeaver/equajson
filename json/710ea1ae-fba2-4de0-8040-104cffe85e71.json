@@ -27,7 +27,7 @@
     "unicode-pretty-print": {
         "multiline": [
             "       ∞  f⁽ⁿ⁾(a)         ",
-            "f(x) = Σ  ――――――― (x - a)ⁿ",
+            "f(x) = Σ  ――――――― (x − a)ⁿ",
             "      ⁿ⁼⁰    n!           "
         ],
         "terms": [

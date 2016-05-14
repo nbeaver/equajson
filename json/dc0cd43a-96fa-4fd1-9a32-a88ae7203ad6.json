@@ -37,9 +37,9 @@
     ],
     "unicode-pretty-print": {
         "multiline": [
-            "⎛n⎞      n!   ",
-            "⎜ ⎟ = ――――――――",
-            "⎝k⎠   k!(n-k)!"
+            "⎛n⎞        n!    ",
+            "⎜ ⎟ = ―――――――――――",
+            "⎝k⎠   k! (n − k)!"
         ],
         "terms": [
             {

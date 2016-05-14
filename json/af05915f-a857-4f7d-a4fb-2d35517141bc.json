@@ -29,7 +29,7 @@
     ],
     "unicode-pretty-print": {
         "multiline": [
-            "       Nⁿ exp(-N)",
+            "       Nⁿ exp(−N)",
             "P(n) = ――――――――――",
             "           n!    "
         ],

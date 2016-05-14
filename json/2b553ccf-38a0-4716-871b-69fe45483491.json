@@ -27,7 +27,7 @@
     "unicode-pretty-print": {
         "multiline": [
             "     ₁  ₙ           ",
-            "σ² = ―  Σ  (xᵢ - μ)²",
+            "σ² = ―  Σ  (xᵢ − μ)²",
             "     ⁿ ⁱ⁼¹          "
         ],
         "terms": [

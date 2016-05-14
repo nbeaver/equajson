@@ -36,7 +36,7 @@
         "multiline": [
             "     1   π               ",
             "aₙ = ―  ∫ f(u) cos(nu) du",
-            "     π  -π               "
+            "     π  −π               "
         ],
         "terms": [
             {

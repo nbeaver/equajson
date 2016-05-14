@@ -36,7 +36,7 @@
         "multiline": [
             "     1   π               ",
             "bₙ = ―  ∫ f(u) sin(nu) du",
-            "     π  -π               "
+            "     π  −π               "
         ],
         "terms": [
             {
