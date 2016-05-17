@@ -36,6 +36,7 @@
                     "always-dimensionless": true,
                     "always-scalar": false,
                     "fixed-constant": false,
+                    "linear-operator": true,
                     "special-function": true
                 },
                 "label": "curl",
