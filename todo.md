@@ -24,3 +24,6 @@ json
 -   [ ] definition of e
 -   [ ] trigonometric identities
 -   [ ] [Klein-Nishina formula](https://en.wikipedia.org/wiki/Klein%E2%80%93Nishina_formula)
+-   [ ] chain rule
+-   [ ] integration by parts
+-   [ ] Fermi's Golden Rule
