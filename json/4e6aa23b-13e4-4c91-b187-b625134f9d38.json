@@ -1,0 +1,115 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "Cauchy's integral formula",
+        "verbose": "Cauchy's integral formula for analytic functions on closed contours."
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nf(a)\n=\n\\frac{1}{2\\pi i}\n\\oint_{\\gamma}\n\\frac{f(z)}{z - a}\n\\mathrm{d}z\n\\]\n\\end{document}"
+            }
+        ]
+    },
+    "relevant-urls": [
+        {
+            "date-known-good": "2016-05-15",
+            "url": "https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula"
+        }
+    ],
+    "unicode-pretty-print": {
+        "multiline": [
+            "        1     ƒ(z)dz",
+            "ƒ(a) = ――― ∮ᵧ ――――――",
+            "       2πi     z − a"
+        ],
+        "terms": [
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-positive": false,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "function that is analytic (holomorphic) on and in γ",
+                "symbol": "ƒ"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-positive": false,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "point within γ",
+                "symbol": "a"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": true,
+                    "always-positive": true,
+                    "bound-variable": false,
+                    "fixed-constant": true
+                },
+                "label": "3.14159…",
+                "symbol": "π",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Pi"
+                ]
+            },
+            {
+                "classification": {
+                    "always-positive": false,
+                    "always-dimensionless": true,
+                    "fixed-constant": true
+                },
+                "label": "√-1",
+                "symbol": "i",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Imaginary_unit"
+                ]
+            },
+            {
+                "classification": {
+                    "always-dimensionless": false,
+                    "fixed-constant": false
+                },
+                "label": "contour integral over γ",
+                "symbol": "∮ᵧ"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-positive": false,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "closed contour",
+                "symbol": "γ"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-positive": false,
+                    "bound-variable": true,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "variable of contour integration",
+                "symbol": "z"
+            }
+        ]
+    },
+    "uuid": "4e6aa23b-13e4-4c91-b187-b625134f9d38"
+}
