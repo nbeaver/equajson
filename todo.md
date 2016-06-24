@@ -27,3 +27,7 @@ json
 -   [ ] chain rule
 -   [ ] integration by parts
 -   [ ] Fermi's Golden Rule
+-   [ ] [angular resolution](https://en.wikipedia.org/wiki/Angular_resolution)
+-   [ ] Nyquist criterion N = 2ΔkΔR/π (independent points)
+-   [ ] special relativity: E²-p²c² = m²c⁴
+-   [ ] space-time interval: τ² = c²Δt² - Δx²
