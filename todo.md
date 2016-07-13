@@ -31,3 +31,4 @@ json
 -   [ ] Nyquist criterion N = 2ΔkΔR/π (independent points)
 -   [ ] special relativity: E²-p²c² = m²c⁴
 -   [ ] space-time interval: τ² = c²Δt² - Δx²
+-   [ ] Bouguer's Law/Beer-Lambert Law: Iₜ = I₀ exp(-μₘ ρ x)
