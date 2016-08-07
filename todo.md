@@ -32,3 +32,4 @@ json
 -   [ ] special relativity: E²-p²c² = m²c⁴
 -   [ ] space-time interval: τ² = c²Δt² - Δx²
 -   [ ] Bouguer's Law/Beer-Lambert Law: Iₜ = I₀ exp(-μₘ ρ x)
+-   [ ] XRD equation for scattering vector: Q = 4 pi sin(θ) / λ
