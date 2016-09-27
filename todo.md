@@ -35,3 +35,4 @@ json
 -   [ ] XRD equation for scattering vector: Q = 4 pi sin(θ) / λ
 -   [ ] Thomson scattering length (classical electron radius) r₀ = e²/(4 π ε₀ m c²)
 -   [ ] [capstan equation](https://en.wikipedia.org/wiki/Capstan_equation)
+-   [ ] [Arrhenius equation](https://en.wikipedia.org/wiki/Arrhenius_equation)
