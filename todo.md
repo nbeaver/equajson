@@ -36,3 +36,4 @@ json
 -   [ ] Thomson scattering length (classical electron radius) r₀ = e²/(4 π ε₀ m c²)
 -   [ ] [capstan equation](https://en.wikipedia.org/wiki/Capstan_equation)
 -   [ ] [Arrhenius equation](https://en.wikipedia.org/wiki/Arrhenius_equation)
+-   [ ] [birthday problem](https://en.wikipedia.org/wiki/Birthday_problem)
