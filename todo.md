@@ -37,3 +37,4 @@ json
 - [ ] [capstan equation](https://en.wikipedia.org/wiki/Capstan_equation)
 - [ ] [Arrhenius equation](https://en.wikipedia.org/wiki/Arrhenius_equation)
 - [ ] [birthday problem](https://en.wikipedia.org/wiki/Birthday_problem)
+- [ ] [Fick's Laws](https://en.wikipedia.org/wiki/Fick's_laws_of_diffusion)
