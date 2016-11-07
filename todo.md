@@ -38,3 +38,4 @@ json
 - [ ] [Arrhenius equation](https://en.wikipedia.org/wiki/Arrhenius_equation)
 - [ ] [birthday problem](https://en.wikipedia.org/wiki/Birthday_problem)
 - [ ] [Fick's Laws](https://en.wikipedia.org/wiki/Fick's_laws_of_diffusion)
+- [ ] [Debye length](https://en.wikipedia.org/wiki/Debye_length) L = (ε ε₀ k T / q² c ) doi:10.1007/BF02373577
