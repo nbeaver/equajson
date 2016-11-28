@@ -1,0 +1,63 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2016
+    },
+    "description": {
+        "terse": "energy of photoelectron",
+        "verbose": "energy of photoelectron"
+    },
+    "unicode-pretty-print": {
+        "multiline": [
+            "    (ℏk)²",
+            "E = ―――― ",
+            "     2m  "
+        ],
+        "terms": [
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-positive": true
+                },
+                "label": "energy",
+                "symbol": "E"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-positive": true,
+                    "fixed-constant": true
+                },
+                "label": "reduced Planck's constant",
+                "symbol": "ℏ"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-positive": true,
+                    "fixed-constant": false
+                },
+                "label": "wavenumber",
+                "symbol": "k"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-positive": true,
+                    "fixed-constant": false
+                },
+                "label": "mass",
+                "symbol": "m"
+            }
+        ]
+    },
+    "uuid": "45329c0b-de68-4ba4-aaef-4a959fa01ab3"
+}
