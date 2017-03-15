@@ -10,6 +10,9 @@ schema.json
 - [ ] Field for "always-continuous-variable"?
 - [x] Field for "linear-operator"
 - [ ] Limit markup to recognized formats to prevent accidental misspellings.
+- [ ] Field for author URLs (e.g. personal website, ORCID)
+- [ ] Use [CC0](https://creativecommons.org/publicdomain/zero/1.0/) instead of MIT license.
+- [ ] SI dimensionality
 
 equajson.py
 ===========
