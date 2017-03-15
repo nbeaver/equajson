@@ -1,0 +1,104 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "CC0 (public domain)",
+        "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "year": 2017
+    },
+    "description": {
+        "terse": "absorption coefficient",
+        "verbose": "X-ray absorption coefficient for a single element"
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\n\\mu = \\frac{\\rho N}{M} \\sigma\n\\]\n\\end{document}\n"
+            }
+        ]
+    },
+    "unicode-pretty-print": {
+        "multiline": [
+            "   ⎛ρ N⎞ ",
+            "μ =⎜―――⎟σ",
+            "   ⎝ M ⎠ "
+        ],
+        "terms": [
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-scalar": true,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "absorption coefficient",
+                "symbol": "μ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Attenuation_coefficient"
+                ]
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-scalar": true,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "density",
+                "symbol": "ρ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Density"
+                ]
+            },
+            {
+                "classification": {
+                    "always-dimensionless": true,
+                    "always-scalar": true,
+                    "fixed-constant": true,
+                    "special-function": false
+                },
+                "label": "Avogadro's number",
+                "symbol": "N",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Avogadro_constant"
+                ]
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-scalar": true,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "molar mass",
+                "symbol": "M",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Density"
+                ]
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-scalar": true,
+                    "bound-variable": false,
+                    "fixed-constant": false,
+                    "special-function": false
+                },
+                "label": "absorption cross-section per atom",
+                "symbol": "σ",
+                "urls": [
+                    "https://en.wikipedia.org/wiki/Density"
+                ]
+            }
+        ]
+    },
+    "uuid": "bd309aed-4f87-4b84-8c13-f23c35bbd7d1"
+}

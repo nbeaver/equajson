@@ -9,13 +9,20 @@
     },
     "description": {
         "terse": "energy of photoelectron",
-        "verbose": "energy of photoelectron"
+        "verbose": "kinetic energy of photoelectron"
+    },
+    "markup-languages": {
+        "LaTeX": [
+            {
+                "markup": "\\documentclass{article}\n\\begin{document}\n\\[\nE(k) - E_0 = \\frac{(\\hbar k)^2}{2 m}\n\\]\n\\end{document}\n"
+            }
+        ]
     },
     "unicode-pretty-print": {
         "multiline": [
-            "    (ℏk)²",
-            "E = ―――― ",
-            "     2m  "
+            "            (ℏk)²",
+            "E(k) - E₀ = ―――― ",
+            "             2m  "
         ],
         "terms": [
             {
@@ -24,8 +31,17 @@
                     "always-dimensionless": false,
                     "always-positive": true
                 },
-                "label": "energy",
-                "symbol": "E"
+                "label": "total energy",
+                "symbol": "E(k)"
+            },
+            {
+                "classification": {
+                    "always-an-integer": false,
+                    "always-dimensionless": false,
+                    "always-positive": true
+                },
+                "label": "edge energy",
+                "symbol": "E₀"
             },
             {
                 "classification": {
@@ -54,7 +70,7 @@
                     "always-positive": true,
                     "fixed-constant": false
                 },
-                "label": "mass",
+                "label": "mass of electron",
                 "symbol": "m"
             }
         ]
