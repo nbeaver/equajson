@@ -1,10 +1,7 @@
 JSON=$(wildcard *.json)
 TIMESTAMP=$(patsubst %.json, timestamps/%.timestamp,$(JSON))
 
-all: timestamps $(TIMESTAMP)
-
-timestamps:
-	mkdir timestamps
+timestamps : $(TIMESTAMP)
 
 timestamps/%.timestamp : %.json
 	python ../validate_equajson.py $< ../schema.json
