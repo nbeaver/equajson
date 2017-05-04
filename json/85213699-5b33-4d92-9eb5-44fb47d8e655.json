@@ -1,0 +1,40 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2017
+    },
+    "description": {
+        "terse": "EXAFS",
+        "verbose": "EXAFS equation"
+    },
+    "unicode-pretty-print": {
+        "multiline": [
+            "       μ(E) − μ₀(E)",
+            "χ(E) = ――――――――――――",
+            "         Δμ₀(E₀)   "
+        ],
+        "terms": [
+            {
+                "label": "EXAFS fine structure function",
+                "symbol": "χ(E)"
+            },
+            {
+                "label": "measured absorption coefficient",
+                "symbol": "μ(E)"
+            },
+            {
+                "label": "embedded atom absorption",
+                "symbol": "μ₀(E)"
+            },
+            {
+                "label": "edge step",
+                "symbol": "Δμ₀(E₀)"
+            }
+        ]
+    },
+    "uuid": "85213699-5b33-4d92-9eb5-44fb47d8e655"
+}
