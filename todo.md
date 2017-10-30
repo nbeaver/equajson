@@ -44,3 +44,4 @@ json
 - [ ] [Debye length](https://en.wikipedia.org/wiki/Debye_length) L = (ε ε₀ k T / q² c ) doi:10.1007/BF02373577
 - [ ] [distance from point to a line](https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line) |ax+by+c|/sqrt(a²+b²)
 - [ ] Uncertainty of q(x, ... z) is δq = sqrt((∂q/∂x δx)² + . . . + (∂q/∂z δz)²)
+- [ ] [Kelly criterion](https://en.wikipedia.org/wiki/Kelly_criterion) f = (p(b+1)-1)/b
