@@ -46,3 +46,4 @@ json
 - [ ] Uncertainty of q(x, ... z) is δq = sqrt((∂q/∂x δx)² + . . . + (∂q/∂z δz)²)
 - [ ] [Kelly criterion](https://en.wikipedia.org/wiki/Kelly_criterion) f = (p(b+1)-1)/b
 - [ ] [Joukowsky equation](https://en.wikipedia.org/wiki/Water_hammer) ∂P/∂t = ρ a ∂v/∂t
+- [ ] [Euler's polyhedron formula](https://en.wikipedia.org/wiki/Euler_characteristic)
