@@ -48,3 +48,4 @@ json
 - [ ] [Joukowsky equation](https://en.wikipedia.org/wiki/Water_hammer) ∂P/∂t = ρ a ∂v/∂t
 - [ ] [Euler's polyhedron formula](https://en.wikipedia.org/wiki/Euler_characteristic)
 - [ ] [Moseley's Law](https://en.wikipedia.org/wiki/Moseley%27s_law) [2](http://pd.chem.ucl.ac.uk/pdnn/inst1/anode.htm)
+- [ ] [Horizon distance](https://en.wikipedia.org/wiki/Horizon)
