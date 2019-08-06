@@ -122,3 +122,4 @@ Related projects
 - `Wolfram Functions <http://functions.wolfram.com/About/>`_
 
 .. Advantages over wikipedia: control over parametrization, offline availability, variety of markup languages
+.. Related names: formulary
