@@ -49,3 +49,7 @@ json
 - [ ] [Euler's polyhedron formula](https://en.wikipedia.org/wiki/Euler_characteristic)
 - [ ] [Moseley's Law](https://en.wikipedia.org/wiki/Moseley%27s_law) [2](http://pd.chem.ucl.ac.uk/pdnn/inst1/anode.htm)
 - [ ] [Horizon distance](https://en.wikipedia.org/wiki/Horizon)
+- [ ] [Jacobi identity](https://en.wikipedia.org/wiki/Jacobi_identity) for operator commutators
+- [ ] Commutator identities
+  - <http://mathworld.wolfram.com/Commutator.html>
+  - Merzbacher 3rd edition, p.38, 3.50
