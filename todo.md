@@ -53,3 +53,6 @@ json
 - [ ] Commutator identities
   - <http://mathworld.wolfram.com/Commutator.html>
   - Merzbacher 3rd edition, p.38, 3.50
+- [ ] Series expansion for x/(1-a x)
+- [ ] Series expansion for 1/(1-a x)
+- [ ] Series expansion for ln(1+ a x)
