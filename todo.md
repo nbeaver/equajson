@@ -57,3 +57,5 @@ json
 - [ ] Series expansion for x/(1-a x)
 - [ ] Series expansion for 1/(1-a x)
 - [ ] Series expansion for ln(1+ a x)
+- [ ] Moment of inertia I = ∫r² dm
+- [ ] Moment of inertia I = ∫r² ρ dV
