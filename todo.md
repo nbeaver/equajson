@@ -13,6 +13,7 @@ schema.json
 - [ ] Field for author URLs (e.g. personal website, ORCID)
 - [ ] Use [CC0](https://creativecommons.org/publicdomain/zero/1.0/) instead of MIT license.
 - [ ] SI dimensionality
+- [ ] Use mimetype to identify different markups
 
 equajson.py
 ===========
