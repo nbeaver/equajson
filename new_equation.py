@@ -26,7 +26,7 @@ def get_username():
         import getpass
         return getpass.getuser()
 
-if __name__ == '__main__':
+def main():
     if len(sys.argv) > 1:
         sys.stderr.write("Usage: python "+sys.argv[0]+" 'command-invocation'"+'\n')
         sys.exit(1)
@@ -105,3 +105,6 @@ if __name__ == '__main__':
     with open(new_filepath, 'w') as new_file:
         json.dump(equajson, new_file, indent=4, separators=(',', ': '), sort_keys=True)
         print('Created new equation:\n{}'.format(new_filepath))
+
+if __name__ == '__main__':
+    main()
