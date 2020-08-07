@@ -6,6 +6,8 @@ import os
 import sys
 import json
 import uuid
+import argparse
+import logging
 
 def get_year():
     now = datetime.datetime.now()
@@ -27,9 +29,28 @@ def get_username():
         return getpass.getuser()
 
 def main():
-    if len(sys.argv) > 1:
-        sys.stderr.write("Usage: python "+sys.argv[0]+" 'command-invocation'"+'\n')
-        sys.exit(1)
+    parser = argparse.ArgumentParser(
+        description='Create new equajson file.')
+    parser.add_argument(
+        '-v',
+        '--verbose',
+        help='More verbose logging',
+        dest="loglevel",
+        default=logging.WARNING,
+        action="store_const",
+        const=logging.INFO,
+    )
+    parser.add_argument(
+        '-d',
+        '--debug',
+        help='Enable debugging logs',
+        action="store_const",
+        dest="loglevel",
+        const=logging.DEBUG,
+    )
+    # TODO: pass argument for equation.
+    args = parser.parse_args()
+    logging.basicConfig(level=args.loglevel)
 
     new_uuid = str(uuid.uuid4())
 
