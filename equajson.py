@@ -3,6 +3,8 @@ from __future__ import print_function
 import os
 import sys
 import json
+import argparse
+import logging
 
 def pretty_print(equation):
     print(equation["description"]["terse"])
@@ -23,7 +25,30 @@ def print_markup(equation, markup_language):
         print(markup)
 
 
-def main(query):
+def main():
+    parser = argparse.ArgumentParser(
+        description='Search for equations.')
+    parser.add_argument(
+        '-v',
+        '--verbose',
+        help='More verbose logging',
+        dest="loglevel",
+        default=logging.WARNING,
+        action="store_const",
+        const=logging.INFO,
+    )
+    parser.add_argument(
+        '-d',
+        '--debug',
+        help='Enable debugging logs',
+        action="store_const",
+        dest="loglevel",
+        const=logging.DEBUG,
+    )
+    parser.add_argument(
+        'query', help='Search string to match.')
+    args = parser.parse_args()
+    logging.basicConfig(level=args.loglevel)
     here = sys.path[0]
     json_dir = os.path.join(here, 'json')
 
@@ -38,17 +63,12 @@ def main(query):
                 sys.stderr.write("Invalid JSON for file: `{}'\n".format(json_file.name))
                 continue # try the next file
             description = equation["description"]["verbose"]
-            if query.lower() in description.lower():
+            if args.query.lower() in description.lower():
                 pretty_print(equation)
                 #print_markup(equation, 'LaTeX')
                 print(filepath)
                 print('-'*80)
         # TODO: exit with error if no results are found.
 
-
 if __name__ == '__main__':
-    num_args = len(sys.argv) - 1
-    if num_args != 1:
-        sys.stderr.write("Usage: python "+sys.argv[0]+" 'search string'"+'\n')
-        sys.exit(1)
-    main(sys.argv[1])
+    main()
