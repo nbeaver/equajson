@@ -94,6 +94,7 @@ def main():
 
     equajson_filepaths = glob.glob(args.topdir + "/*.json")
     uuids = NoDuplicates()
+    descriptions = NoDuplicates()
     for equajson_filepath in equajson_filepaths:
         with open(equajson_filepath) as json_fp:
             try:
@@ -103,6 +104,7 @@ def main():
                 raise
             validate_json(equajson, equajson_schema)
             uuids.add(equajson["uuid"])
+            descriptions.add(equajson["description"]["verbose"])
 
 if __name__ == '__main__':
     main()
