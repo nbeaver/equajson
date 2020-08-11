@@ -1,0 +1,20 @@
+{
+    "copying": {
+        "authors": [
+            "Nathaniel Morck Foley-Beaver"
+        ],
+        "license-name": "MIT (Expat) License",
+        "license-url": "http://opensource.org/licenses/MIT",
+        "year": 2020
+    },
+    "description": {
+        "terse": "Lagrangian for a system of particles",
+        "verbose": "The Lagrangian for a non-relativistic, closed system of particles."
+    },
+    "unicode-pretty-print": {
+        "multiline": [
+            "L = T - U = Σ ½ mٰₐ vₐ² - U(r₁,r₂,...)"
+        ]
+    },
+    "uuid": "99ac88c9-91f3-42fc-a5b1-c96a99612a97"
+}
