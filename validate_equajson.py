@@ -5,6 +5,19 @@ import sys
 import os
 import argparse
 
+def validate_single_file(json_fp, schema):
+    try:
+        equajson = json.load(json_fp)
+    except:
+        sys.stderr.write("Invalid JSON in file: `"+json_fp.name+"'"+'\n')
+        raise
+    try:
+        jsonschema.validate(equajson, schema)
+    except jsonschema.exceptions.ValidationError:
+        sys.stderr.write(json_fp.name+'\n')
+        raise
+    basename_no_extension = os.path.splitext(os.path.basename(json_fp.name))[0]
+
 def main():
     parser = argparse.ArgumentParser(description='validate equajson files')
     parser.add_argument(
@@ -30,17 +43,7 @@ def main():
                 raise
 
     with open(equajson_path) as json_file:
-            try:
-                equajson = json.load(json_file)
-            except:
-                sys.stderr.write("Invalid JSON in file: `"+json_file.name+"'"+'\n')
-                raise
-            try:
-                jsonschema.validate(equajson, equajson_schema)
-            except jsonschema.exceptions.ValidationError:
-                sys.stderr.write(json_file.name+'\n')
-                raise
-            basename_no_extension = os.path.splitext(os.path.basename(json_file.name))[0]
+        validate_single_file(json_file, equajson_schema)
 
 if __name__ == '__main__':
     main()
