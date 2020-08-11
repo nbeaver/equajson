@@ -5,3 +5,6 @@ readme.html : readme.rst
 
 todo.html : todo.md
 	markdown todo.md > todo.html
+
+validate:
+	./validate_equajson.py -s schema.json json/
