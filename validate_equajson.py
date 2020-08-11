@@ -25,12 +25,18 @@ class NoDuplicates:
             self.set.add(elem)
 
 
-def validate_json(equajson, schema):
+def get_validated_json(json_fp, schema):
+    try:
+        equajson = json.load(json_fp)
+    except:
+        logging.error("Invalid JSON in file: {}".format(json_fp.name))
+        raise
     try:
         jsonschema.validate(equajson, schema)
     except jsonschema.exceptions.ValidationError:
         logging.error("in file: {}".format(json_fp.name))
         raise
+    return equajson
 
 def readable_directory(path):
     if not os.path.isdir(path):
@@ -98,12 +104,7 @@ def main():
     for i, equajson_filepath in enumerate(equajson_filepaths):
         logging.info("validating file {}".format(equajson_filepath))
         with open(equajson_filepath) as json_fp:
-            try:
-                equajson = json.load(json_fp)
-            except:
-                logging.error("Invalid JSON in file: {}".format(json_fp.name))
-                raise
-            validate_json(equajson, equajson_schema)
+            equajson = get_validated_json(json_fp, equajson_schema)
             uuids.add(equajson["uuid"])
             descriptions.add(equajson["description"]["verbose"])
     logging.info("validated {} JSON files".format(i+1))
