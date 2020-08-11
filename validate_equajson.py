@@ -3,6 +3,7 @@ import json
 import jsonschema
 import sys
 import os
+import argparse
 
 def main(equajson_path, schema_path):
 
@@ -35,8 +36,16 @@ def main(equajson_path, schema_path):
 filepath = None
 
 if __name__ == '__main__':
-    num_args = len(sys.argv) - 1
-    if num_args != 2:
-        sys.stderr.write("Usage: python "+sys.argv[0]+" equajson.json schema.json"+'\n')
-        sys.exit(1)
-    main(sys.argv[1], sys.argv[2])
+    parser = argparse.ArgumentParser(description='validate equajson files')
+    parser.add_argument(
+        '-s',
+        '--schema',
+        help='path to schema file',
+        required=True
+    )
+    parser.add_argument(
+        'json_file',
+        help='path to json file to validate'
+    )
+    args = parser.parse_args()
+    main(args.json_file, args.schema)
