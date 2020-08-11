@@ -95,7 +95,8 @@ def main():
     equajson_filepaths = glob.glob(args.topdir + "/*.json")
     uuids = NoDuplicates()
     descriptions = NoDuplicates()
-    for equajson_filepath in equajson_filepaths:
+    for i, equajson_filepath in enumerate(equajson_filepaths):
+        logging.info("validating file {}".format(equajson_filepath))
         with open(equajson_filepath) as json_fp:
             try:
                 equajson = json.load(json_fp)
@@ -105,6 +106,7 @@ def main():
             validate_json(equajson, equajson_schema)
             uuids.add(equajson["uuid"])
             descriptions.add(equajson["description"]["verbose"])
+    logging.info("validated {} JSON files".format(i+1))
 
 if __name__ == '__main__':
     main()
