@@ -7,19 +7,30 @@ import argparse
 import logging
 import glob
 
-def validate_single_file(json_fp, schema):
-    try:
-        equajson = json.load(json_fp)
-    except:
-        logging.error("Invalid JSON in file: {}".format(json_fp.name))
-        raise
+class NoDuplicates:
+    """A set that throws an error if a duplicate item is added."""
+
+    def __init__(self, iterable=[]):
+        self.set = set()
+        for elem in iterable:
+            if elem in self.set:
+                raise RuntimeError("Duplicate element: " + repr(elem))
+            else:
+                self.set.add(elem)
+
+    def add(self, elem):
+        if elem in self.set:
+            raise RuntimeError("Duplicate element: " + repr(elem))
+        else:
+            self.set.add(elem)
+
+
+def validate_json(equajson, schema):
     try:
         jsonschema.validate(equajson, schema)
     except jsonschema.exceptions.ValidationError:
         logging.error("in file: {}".format(json_fp.name))
         raise
-    basename_no_extension = os.path.splitext(os.path.basename(json_fp.name))[0]
-
 
 def readable_directory(path):
     if not os.path.isdir(path):
@@ -82,9 +93,16 @@ def main():
                 raise
 
     equajson_filepaths = glob.glob(args.topdir + "/*.json")
+    uuids = NoDuplicates()
     for equajson_filepath in equajson_filepaths:
-        with open(equajson_filepath) as json_file:
-            validate_single_file(json_file, equajson_schema)
+        with open(equajson_filepath) as json_fp:
+            try:
+                equajson = json.load(json_fp)
+            except:
+                logging.error("Invalid JSON in file: {}".format(json_fp.name))
+                raise
+            validate_json(equajson, equajson_schema)
+            uuids.add(equajson["uuid"])
 
 if __name__ == '__main__':
     main()
