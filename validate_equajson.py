@@ -5,6 +5,7 @@ import sys
 import os
 import argparse
 import logging
+import glob
 
 def validate_single_file(json_fp, schema):
     try:
@@ -19,17 +20,38 @@ def validate_single_file(json_fp, schema):
         raise
     basename_no_extension = os.path.splitext(os.path.basename(json_fp.name))[0]
 
+
+def readable_directory(path):
+    if not os.path.isdir(path):
+        raise argparse.ArgumentTypeError(
+            'not an existing directory: {}'.format(path))
+    if not os.access(path, os.R_OK):
+        raise argparse.ArgumentTypeError(
+            'not a readable directory: {}'.format(path))
+    return path
+
+def readable_file(path):
+    if not os.path.isfile(path):
+        raise argparse.ArgumentTypeError(
+            'not an existing file: {}'.format(path))
+    if not os.access(path, os.R_OK):
+        raise argparse.ArgumentTypeError(
+            'not a readable file: {}'.format(path))
+    return path
+
 def main():
     parser = argparse.ArgumentParser(description='validate equajson files')
     parser.add_argument(
         '-s',
         '--schema',
+        type=readable_file,
         help='path to schema file',
         required=True
     )
     parser.add_argument(
-        'json_file',
-        help='path to json file to validate'
+        'topdir',
+        type=readable_directory,
+        help='directory of json files to validate'
     )
     parser.add_argument(
         '-v',
@@ -51,9 +73,7 @@ def main():
     args = parser.parse_args()
     logging.basicConfig(level=args.loglevel)
 
-    equajson_path = args.json_file
     schema_path = args.schema
-
     with open(schema_path) as schema_file:
             try:
                 equajson_schema = json.load(schema_file)
@@ -61,8 +81,10 @@ def main():
                 logging.error("in file: {}".format(schema_path))
                 raise
 
-    with open(equajson_path) as json_file:
-        validate_single_file(json_file, equajson_schema)
+    equajson_filepaths = glob.glob(args.topdir + "/*.json")
+    for equajson_filepath in equajson_filepaths:
+        with open(equajson_filepath) as json_file:
+            validate_single_file(json_file, equajson_schema)
 
 if __name__ == '__main__':
     main()
