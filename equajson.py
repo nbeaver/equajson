@@ -60,7 +60,7 @@ def main():
             try:
                 equation = json.load(json_file)
             except ValueError:
-                sys.stderr.write("Invalid JSON for file: `{}'\n".format(json_file.name))
+                logging.warning("Invalid JSON for file: `{}'\n".format(json_file.name))
                 continue # try the next file
             description = equation["description"]["verbose"]
             if args.query.lower() in description.lower():
