@@ -62,3 +62,4 @@ json
 - [ ] Magnetic dipole moment of current loop μ = I A, A = area of loop
 - [ ] Magnetic dipole moment of circular current loop m = I (π a²), a = radius of loop (Jackson 5.42, p. 183)
 - [ ] Magnetic dipole moment of general current density m = ½ ∫r'×J(r')dV (Wangsness 19-20 p. 300, Jackson 9.34 p.413, Jackson 5.54 p.186)
+- [ ] Curve length L = ∫ ds = ∫ √(1 + y'(x)²) dx
