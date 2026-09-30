@@ -1,3 +1,6 @@
+general
+-------
+- [ ] Add a basic HTML/Javascript implementation like one-liners.js
 
 schema.json
 ===========
